@@ -49,6 +49,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+examples/
 
 # test/debug file
 hello.py
