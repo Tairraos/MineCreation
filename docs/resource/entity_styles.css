@@ -1,0 +1,339 @@
+.sprite-entity {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 8px;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.bg-allay {
+    background: url("entity_sprites.png") -144px -640px;
+}
+.bg-blaze {
+    background: url("entity_sprites.png") -48px -464px;
+}
+.bg-cave_spider {
+    background: url("entity_sprites.png") -96px -480px;
+}
+.bg-creeper {
+    background: url("entity_sprites.png") -16px -16px;
+}
+.bg-drowned {
+    background: url("entity_sprites.png") -0px -176px;
+}
+.bg-elder_guardian {
+    background: url("entity_sprites.png") -160px -480px;
+}
+.bg-ender_dragon {
+    background: url("entity_sprites.png") -64px -32px;
+}
+.bg-enderman {
+    background: url("entity_sprites.png") -128px -16px;
+}
+.bg-endermite {
+    background: url("entity_sprites.png") -16px -112px;
+}
+.bg-evoker {
+    background: url("entity_sprites.png") -80px -176px;
+}
+.bg-ghast {
+    background: url("entity_sprites.png") -64px -432px;
+}
+.bg-giant {
+    background: url("entity_sprites.png") -32px -448px;
+}
+.bg-guardian {
+    background: url("entity_sprites.png") -0px -496px;
+}
+.bg-hoglin {
+    background: url("entity_sprites.png") -0px -400px;
+}
+.bg-husk {
+    background: url("entity_sprites.png") -32px -592px;
+}
+.bg-ravager {
+    background: url("entity_sprites.png") -64px -176px;
+}
+.bg-illusioner {
+    background: url("entity_sprites.png") -16px -496px;
+}
+.bg-magma_cube {
+    background: url("entity_sprites.png") -80px -432px;
+}
+.bg-phantom {
+    background: url("entity_sprites.png") -64px -160px;
+}
+.bg-piglin {
+    background: url("entity_sprites.png") -112px -384px;
+}
+.bg-piglin_brute {
+    background: url("entity_sprites.png") -80px -576px;
+}
+.bg-pillager {
+    background: url("entity_sprites.png") -80px -176px;
+}
+.bg-pufferfish {
+    background: url("entity_sprites.png") -128px -160px;
+}
+.bg-ravager {
+    background: url("entity_sprites.png") -64px -176px;
+}
+.bg-shulker {
+    background: url("entity_sprites.png") -80px -32px;
+}
+.bg-silverfish {
+    background: url("entity_sprites.png") -144px -16px;
+}
+.bg-skeleton {
+    background: url("entity_sprites.png") -160px -432px;
+}
+.bg-slime {
+    background: url("entity_sprites.png") -48px -448px;
+}
+.bg-spider {
+    background: url("entity_sprites.png") -64px -448px;
+}
+.bg-stray {
+    background: url("entity_sprites.png") -80px -496px;
+}
+.bg-vex {
+    background: url("entity_sprites.png") -112px -496px;
+}
+.bg-vindicator {
+    background: url("entity_sprites.png") -128px -496px;
+}
+.bg-warden {
+    background: url("entity_sprites.png") -64px -592px;
+}
+.bg-witch {
+    background: url("entity_sprites.png") -0px -464px;
+}
+.bg-wither {
+    background: url("entity_sprites.png") -96px -464px;
+}
+.bg-wither_skeleton {
+    background: url("entity_sprites.png") -16px -464px;
+}
+.bg-zombie {
+    background: url("entity_sprites.png") -32px -448px;
+}
+.bg-zombie_villager {
+    background: url("entity_sprites.png") -160px -288px;
+}
+.bg-zombified_piglin {
+    background: url("entity_sprites.png") -160px -496px;
+}
+.bg-zoglin {
+    background: url("entity_sprites.png") -64px -512px;
+}
+.bg-axolotl {
+    background: url("entity_sprites.png") -80px -592px;
+}
+.bg-bat {
+    background: url("entity_sprites.png") -128px -464px;
+}
+.bg-cat {
+    background: url("entity_sprites.png") -96px -448px;
+}
+.bg-chicken {
+    background: url("entity_sprites.png") -32px -432px;
+}
+.bg-cod {
+    background: url("entity_sprites.png") -80px -160px;
+}
+.bg-cow {
+    background: url("entity_sprites.png") -48px -432px;
+}
+.bg-dolphin {
+    background: url("entity_sprites.png") -32px -176px;
+}
+.bg-donkey {
+    background: url("entity_sprites.png") -160px -464px;
+}
+.bg-frog {
+    background: url("entity_sprites.png") -48px -640px;
+}
+.bg-glow_squid {
+    background: url("entity_sprites.png") -32px -560px;
+}
+.bg-goat {
+    background: url("entity_sprites.png") -96px -592px;
+}
+.bg-horse {
+    background: url("entity_sprites.png") -144px -464px;
+}
+.bg-iron_golem {
+    background: url("entity_sprites.png") -112px -448px;
+}
+.bg-llama {
+    background: url("entity_sprites.png") -64px -480px;
+}
+.bg-mooshroom {
+    background: url("entity_sprites.png") -128px -432px;
+}
+.bg-mule {
+    background: url("entity_sprites.png") -80px -480px;
+}
+.bg-ocelot {
+    background: url("entity_sprites.png") -128px -448px;
+}
+.bg-panda {
+    background: url("entity_sprites.png") -48px -176px;
+}
+.bg-parrot {
+    background: url("entity_sprites.png") -0px -144px;
+}
+.bg-pig {
+    background: url("entity_sprites.png") -96px -432px;
+}
+.bg-polar_bear {
+    background: url("entity_sprites.png") -0px -128px;
+}
+.bg-rabbit {
+    background: url("entity_sprites.png") -48px -480px;
+}
+.bg-salmon {
+    background: url("entity_sprites.png") -112px -160px;
+}
+.bg-sheep {
+    background: url("entity_sprites.png") -144px -432px;
+}
+.bg-skeleton_horse {
+    background: url("entity_sprites.png") -176px -464px;
+}
+.bg-snow_golem {
+    background: url("entity_sprites.png") -144px -448px;
+}
+.bg-squid {
+    background: url("entity_sprites.png") -176px -432px;
+}
+.bg-tadpole {
+    background: url("entity_sprites.png") -0px -688px;
+}
+.bg-tropical_fish {
+    background: url("entity_sprites.png") -144px -160px;
+}
+.bg-turtle {
+    background: url("entity_sprites.png") -32px -160px;
+}
+.bg-villager {
+    background: url("entity_sprites.png") -160px -208px;
+}
+.bg-wolf {
+    background: url("entity_sprites.png") -16px -448px;
+}
+.bg-zombie_horse {
+    background: url("entity_sprites.png") -0px -480px;
+}
+.bg-leash_knot {
+    background: url("entity_sprites.png") -144px -112px;
+}
+.bg-painting {
+    background: url("entity_sprites.png") -64px -80px;
+}
+.bg-item_frame {
+    background: url("entity_sprites.png") -112px -112px;
+}
+.bg-armor_stand {
+    background: url("entity_sprites.png") -144px -128px;
+}
+.bg-evoker_fangs {
+    background: url("entity_sprites.png") -128px -128px;
+}
+.bg-end_crystal {
+    background: url("entity_sprites.png") -48px -64px;
+}
+.bg-egg {
+    background: url("entity_sprites.png") -96px -48px;
+}
+.bg-arrow {
+    background: url("entity_sprites.png") -64px -48px;
+}
+.bg-spectral_arrow {
+    background: url("entity_sprites.png") -96px -112px;
+}
+.bg-trident {
+    background: url("entity_sprites.png") -48px -160px;
+}
+.bg-snowball {
+    background: url("entity_sprites.png") -80px -48px;
+}
+.bg-fireball {
+    background: url("entity_sprites.png") -112px -48px;
+}
+.bg-small_fireball {
+    background: url("entity_sprites.png") -112px -48px;
+}
+.bg-ender_pearl {
+    background: url("entity_sprites.png") -144px -48px;
+}
+.bg-eye_of_ender {
+    background: url("entity_sprites.png") -160px -48px;
+}
+.bg-potion {
+    background: url("entity_sprites.png") -160px -112px;
+}
+.bg-experience_bottle {
+    background: url("stuff_sprites.png") -112px -512px;
+}
+.bg-wither_skull {
+    background: url("entity_sprites.png") -32px -464px;
+}
+.bg-firework_rocket {
+    background: url("stuff_sprites.png") -208px -512px;
+}
+.bg-shulker_bullet {
+    background: url("entity_sprites.png") -96px -96px;
+}
+.bg-dragon_fireball {
+    background: url("entity_sprites.png") -112px -96px;
+}
+.bg-llama_spit {
+    background: url("entity_sprites.png") -160px -128px;
+}
+.bg-boat {
+    background: url("entity_sprites.png") -32px -352px;
+}
+.bg-chest_boat {
+    background: url("entity_sprites.png") -160px -656px;
+}
+.bg-minecart {
+    background: url("entity_sprites.png") -144px -32px;
+}
+.bg-chest_minecart {
+    background: url("entity_sprites.png") -160px -32px;
+}
+.bg-furnace_minecart {
+    background: url("entity_sprites.png") -176px -32px;
+}
+.bg-tnt_minecart {
+    background: url("entity_sprites.png") -128px -80px;
+}
+.bg-hopper_minecart {
+    background: url("entity_sprites.png") -144px -80px;
+}
+.bg-command_block_minecart {
+    background: url("entity_sprites.png") -80px -96px;
+}
+.bg-spawner_minecart {
+    background: url("entity_sprites.png") -160px -80px;
+}
+.bg-tnt {
+    background: url("entity_sprites.png") -0px -64px;
+}
+.bg-falling_block {
+    background: url("entity_sprites.png") -16px -64px;
+}
+.bg-falling_block {
+    background: url("entity_sprites.png") -32px -64px;
+}
+.bg-falling_block {
+    background: url("entity_sprites.png") -160px -96px;
+}
+.bg-falling_block {
+    background: url("entity_sprites.png") -176px -96px;
+}
+.bg-experience_orb {
+    background: url("entity_sprites.png") -144px -592px;
+}

@@ -1,0 +1,212 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="数据及图片来源：https://wiki.biligame.com/mc">
+    <link rel="stylesheet" href="./resource/base.css">
+    <link rel="stylesheet" href="./resource/block_styles.css">
+    <link rel="stylesheet" href="./resource/stuff_styles.css" />
+    <title>常用获取命令</title>
+</head>
+<body>
+    <div class="options">
+        <div><label for="optfilter">快速过滤</label> ：<input id="optfilter" name="optfilter" type="text"></div>
+        <div><label for="optid">复制类型</label> ：<input type="radio" id="optid" name="opttype" value="optid"><label for="optid">id</label><input type="radio" id="optcmd" name="opttype" value="optcmd" checked><label for="optcmd">command</label></div>
+        <div><label for="optjump">快速跳转</label> ：<select id="optjump" name="optjump"><option value=''>快速跳转</option></select></div>
+    </div>
+
+    <div class="title"><a name="游戏规则"></a></div>
+    <div class="rule"><span class="rule-text">死亡后保留物品栏</span><span class="rule-cmd">keepInventory</span><span class="rule-value">true</span><span class="rule-value">false</span></div>
+    <div class="rule"><span class="rule-text">旁观模式生成区块</span><span class="rule-cmd">spectatorsGenerateChunks</span><span class="rule-value">true</span><span class="rule-value">false</span></div>
+    <div class="rule"><span class="rule-text">入睡玩家百分比</span><span class="rule-cmd">playersSleepingPercentage</span><span class="rule-value">100</span><span class="rule-value">50</span></div>
+    <div class="rule"><span class="rule-text">是否进行昼夜更替</span><span class="rule-cmd">doDaylightCycle</span><span class="rule-value">true</span><span class="rule-value">false</span></div>
+    <div class="rule"><span class="rule-text">允许天气变化</span><span class="rule-cmd">doWeatherCycle</span><span class="rule-value">true</span><span class="rule-value">false</span></div>
+    <div class="rule"><span class="rule-text">植物生长速度</span><span class="rule-cmd">randomTickSpeed</span><span class="rule-value">3</span><span class="rule-value">6</span><span class="rule-value">9</span></div>
+    <div class="rule"><span class="rule-text">承受窒息伤害</span><span class="rule-cmd">drowningDamage</span><span class="rule-value">true</span><span class="rule-value">false</span></div>
+    <div class="rule"><span class="rule-text">承受跌落伤害</span><span class="rule-cmd">fallDamage</span><span class="rule-value">true</span><span class="rule-value">false</span></div>
+    <div class="rule"><span class="rule-text">承受火焰伤害</span><span class="rule-cmd">fireDamage</span><span class="rule-value">true</span><span class="rule-value">false</span></div>
+    <div class="rule"><span class="rule-text">承受冰冻伤害</span><span class="rule-cmd">freezeDamage</span><span class="rule-value">true</span><span class="rule-value">false</span></div>
+    <div class="rule"><span class="rule-text">允许生成监守者</span><span class="rule-cmd">doWardenSpawning</span><span class="rule-value">true</span><span class="rule-value">false</span></div>
+
+    <div class="title"><a name="高级附魔"></a></div>
+    <div class="enchant"><span class="sprite-stuff bg-diamond_helmet"></span><span class="enchant-text" data-enchant='give @a diamond_helmet{Unbreakable:1b,Enchantments:[{id:"projectile_protection",lvl:4s},{id:"thorns",lvl:3s},{id:"respiration",lvl:3s},{id:"aqua_affinity",lvl:1s}]}'>获得钻石头盔: 不会损坏, 弹射物保护(4), 荆棘(3), 水下呼吸(3), 水下速掘(1)</span></div>
+    <div class="enchant"><span class="sprite-stuff bg-turtle_helmet"></span><span class="enchant-text" data-enchant='give @a turtle_helmet{Unbreakable:1b,Enchantments:[{id:"projectile_protection",lvl:4s},{id:"thorns",lvl:3s},{id:"respiration",lvl:3s},{id:"aqua_affinity",lvl:1s}]}'>获得海龟壳: 不会损坏, 弹射物保护(4), 荆棘(3), 水下呼吸(3), 水下速掘(1)</span></div>
+    <div class="enchant"><span class="sprite-stuff bg-diamond_chestplate"></span><span class="enchant-text" data-enchant='give @a diamond_chestplate{Unbreakable:1b,Enchantments:[{id:"protection",lvl:4s},{id:"thorns",lvl:3s}]}'>获得钻石胸甲: 不会损坏, 保护(4), 荆棘(3)</span></div>
+    <div class="enchant"><span class="sprite-stuff bg-golden_chestplate"></span><span class="enchant-text" data-enchant='give @a golden_chestplate{Unbreakable:1b,Enchantments:[{id:"protection",lvl:4s},{id:"thorns",lvl:3s}]}'>获得金胸甲: 不会损坏, 保护(4), 荆棘(3)</span></div>
+    <div class="enchant"><span class="sprite-stuff bg-diamond_leggings"></span><span class="enchant-text" data-enchant='give @a diamond_leggings{Unbreakable:1b,Enchantments:[{id:"blast_protection",lvl:4s},{id:"thorns",lvl:3s},{id:"swift_sneak",lvl:3s}]}'>获得钻石护腿: 不会损坏, 爆炸保护(4), 荆棘(3), 迅捷潜行(3)</span></div>
+    <div class="enchant"><span class="sprite-stuff bg-diamond_leggings"></span><span class="enchant-text" data-enchant='give @a diamond_boots{Unbreakable:1b,Enchantments:[{id:"fire_protection",lvl:4s},{id:"thorns",lvl:3s},{id:"feather_falling",lvl:4s},{id:"frost_walker",lvl:2s},{id:"soul_speed",lvl:3s}]}'>获得钻石靴: 不会损坏, 火焰保护(4), 荆棘(3), 摔落保护(4), 冰霜行者(2), 灵魂疾行(3)</span></div>
+    <div class="enchant"><span class="sprite-stuff bg-shield"></span><span class="enchant-text" data-enchant='give @a shield{Unbreakable:1b,Enchantments:[{id:"mending",lvl:1s}]}'>获得普通盾: 不会损坏</span></div>
+    <div class="enchant"><span class="sprite-stuff bg-diamond_sword"></span><span class="enchant-text" data-enchant='give @a diamond_sword{Unbreakable:1b,Enchantments:[{id:"sharpness",lvl:5s},{id:"fire_aspect",lvl:2s},{id:"knockback",lvl:2s},{id:"looting",lvl:3s},{id:"sweeping",lvl:3s}]}'>获得钻石剑: 不会损坏, 锋利 (5), 火焰附加(2), 击退(2), 抢夺(3), 横扫之刃(3)</span></div>
+    <div class="enchant"><span class="sprite-stuff bg-trident"></span><span class="enchant-text" data-enchant='give @a trident{Unbreakable:1b,Enchantments:[{id:"loyalty",lvl:3s},{id:"channeling",lvl:1s},{id:"impaling",lvl:5s}]}'>获得三叉戟: 不会损坏, 忠诚(3), 引雷(1), 穿刺(5)</span></div>
+    <div class="enchant"><span class="sprite-stuff bg-bow"></span><span class="enchant-text" data-enchant='give @a bow{Unbreakable:1b,Enchantments:[{id:"power",lvl:5s},{id:"punch",lvl:2s},{id:"flame",lvl:1s},{id:"infinity",lvl:1s}]}'>获得普通弓: 不会损坏, 力量(5), 冲击(2), 火矢(1), 无限(1)</span></div>
+    <div class="enchant"><span class="sprite-stuff bg-crossbow"></span><span class="enchant-text" data-enchant='give @a crossbow{Unbreakable:1b,Enchantments:[{id:"quick_charge",lvl:3s},{id:"multishot",lvl:1s}]}'>获得普通弩: 不会损坏, 快速装填(3), 多重射击(1)</span></div>
+    <div class="enchant"><span class="sprite-stuff bg-diamond_pickaxe"></span><span class="enchant-text" data-enchant='give @a diamond_pickaxe{Unbreakable:1b,Enchantments:[{id:"fortune",lvl:3s},{id:"efficiency",lvl:5s}]}'>获得钻石镐: 不会损坏, 时运(3), 效率(5)</span></div>
+    <div class="enchant"><span class="sprite-stuff bg-diamond_shovel"></span><span class="enchant-text" data-enchant='give @a diamond_shovel{Unbreakable:1b,Enchantments:[{id:"fortune",lvl:3s},{id:"efficiency",lvl:5s}]}'>获得钻石锹: 不会损坏, 时运(3), 效率(5)</span></div>
+    <div class="enchant"><span class="sprite-stuff bg-diamond_axe"></span><span class="enchant-text" data-enchant='give @a diamond_axe{Unbreakable:1b,Enchantments:[{id:"fortune",lvl:3s},{id:"efficiency",lvl:5s},{id:"sharpness",lvl:5s}]}'>获得钻石斧: 不会损坏, 时运(3), 效率(5), 锋利(5)</span></div>
+    <div class="enchant"><span class="sprite-stuff bg-diamond_hoe"></span><span class="enchant-text" data-enchant='give @a diamond_hoe{Unbreakable:1b,Enchantments:[{id:"fortune",lvl:3s},{id:"efficiency",lvl:5s}]}'>获得钻石锄: 不会损坏, 时运(3), 效率(5)</span></div>
+
+    <div class="title"><a name="建材"></a></div>
+    <div class="item"><span class="sprite-block cobblestone" title="Cobblestone"></span><span class="name">圆石</span><span class="code"><code>cobblestone</code></span></div>
+    <div class="item"><span class="sprite-block prismarine" title="Prismarine"></span><span class="name">海晶石</span><span class="code"><code>prismarine</code></span></div>
+    <div class="item"><span class="sprite-block obsidian" title="Obsidian"></span><span class="name">黑曜石</span><span class="code"><code>obsidian</code></span></div>
+    <div class="item"><span class="sprite-block white_concrete" title="White Concrete"></span><span class="name">白色混凝土</span><span class="code"><code>white_concrete</code></span></div>
+    <div class="item"><span class="sprite-block grass_block" title="Grass Block"></span><span class="name">草方块</span><span class="code"><code>grass_block</code></span></div>
+    <div class="item"><span class="sprite-block gravel" title="Gravel"></span><span class="name">沙砾</span><span class="code"><code>gravel</code></span></div>
+    <div class="item"><span class="sprite-block sand" title="Sand"></span><span class="name">沙子</span><span class="code"><code>sand</code></span></div>
+    <div class="item"><span class="sprite-block glass" title="Glass"></span><span class="name">玻璃</span><span class="code"><code>glass</code></span></div>
+
+    <div class="title"><a name="耗材"></a></div>
+    <div class="item"><span class="sprite-block iron_block" title="Block of Iron"></span><span class="name">铁块</span><span class="code"><code>iron_block</code></span></div>
+    <div class="item"><span class="sprite-block copper_block" title="Copper Block"></span><span class="name">铜块</span><span class="code"><code>copper_block</code></span></div>
+    <div class="item"><span class="sprite-block gold_block" title="Block of Gold"></span><span class="name">金块</span><span class="code"><code>gold_block</code></span></div>
+    <div class="item"><span class="sprite-block coal_block" title="Block of Coal"></span><span class="name">煤炭块</span><span class="code"><code>coal_block</code></span></div>
+    <div class="item"><span class="sprite-block diamond_block" title="Block of Diamond"></span><span class="name">钻石块</span><span class="code"><code>diamond_block</code></span></div>
+    <div class="item"><span class="sprite-block emerald_block" title="Block of Emerald"></span><span class="name">绿宝石块</span><span class="code"><code>emerald_block</code></span></div>
+    <div class="item"><span class="sprite-block hay_block" title="Hay Bale"></span><span class="name">干草块</span><span class="code"><code>hay_block</code></span></div>
+    <div class="item"><span class="sprite-block lapis_block" title="Block of Lapis Lazuli"></span><span class="name">青金石块</span><span class="code"><code>lapis_block</code></span></div>
+    <div class="item"><span class="sprite-block netherite_block" title="Block of Netherite"></span><span class="name">下界合金块</span><span class="code"><code>netherite_block</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-blaze_rod"></span><span class="name">烈焰棒</span><span class="code"><code>blaze_rod</code></span></div>
+    <div class="item"><span class="sprite-block bone_block" title="Bone Block"></span><span class="name">骨块</span><span class="code"><code>bone_block</code></span></div>
+    <div class="item"><span class="sprite-block slime_block" title="Slime Block"></span><span class="name">黏液块</span><span class="code"><code>slime_block</code></span></div>
+    <div class="item"><span class="sprite-block redstone_block" title="Block of Redstone"></span><span class="name">红石块</span><span class="code"><code>redstone_block</code></span></div>
+    <div class="item"><span class="sprite-block glowstone" title="Glowstone"></span><span class="name">荧石</span><span class="code"><code>glowstone</code></span></div>
+
+    <div class="title"><a name="酿造"></a></div>
+    <div class="item"><span class="sprite-block brewing_stand" title="Brewing Stand"></span><span class="name">酿造台</span><span class="code"><code>brewing_stand</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-glass_bottle"></span><span class="name">玻璃瓶</span><span class="code"><code>glass_bottle</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-nether_wart"></span><span class="name">下界疣</span><span class="code"><code>nether_wart</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-redstone"></span><span class="name">红石</span><span class="code"><code>redstone</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-glowstone_dust"></span><span class="name">荧石粉</span><span class="code"><code>glowstone_dust</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-fermented_spider_eye"></span><span class="name">发酵蛛眼</span><span class="code"><code>fermented_spider_eye</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-sugar"></span><span class="name">糖</span><span class="code"><code>sugar</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-rabbit_foot"></span><span class="name">兔子脚</span><span class="code"><code>rabbit_foot</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-glistering_melon_slice"></span><span class="name">闪烁的西瓜片</span><span class="code"><code>glistering_melon_slice</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-spider_eye"></span><span class="name">蜘蛛眼</span><span class="code"><code>spider_eye</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-pufferfish"></span><span class="name">河豚</span><span class="code"><code>pufferfish</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-magma_cream"></span><span class="name">岩浆膏</span><span class="code"><code>magma_cream</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-golden_carrot"></span><span class="name">金胡萝卜</span><span class="code"><code>golden_carrot</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-blaze_powder"></span><span class="name">烈焰粉</span><span class="code"><code>blaze_powder</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-ghast_tear"></span><span class="name">恶魂之泪</span><span class="code"><code>ghast_tear</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-turtle_helmet"></span><span class="name">海龟壳</span><span class="code"><code>turtle_helmet</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-phantom_membrane"></span><span class="name">幻翼膜</span><span class="code"><code>phantom_membrane</code></span></div>
+
+    <div class="title"><a name="附魔"></a></div>
+    <div class="item"><span class="sprite-block enchanting_table" title="Enchanting Table"></span><span class="name">附魔台</span><span class="code"><code>enchanting_table</code></span></div>
+    <div class="item"><span class="sprite-block bookshelf" title="Bookshelf"></span><span class="name">书架</span><span class="code"><code>bookshelf</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-book"></span><span class="name">书</span><span class="code"><code>book</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-lapis_lazuli"></span><span class="name">青金石</span><span class="code"><code>lapis_lazuli</code></span></div>
+
+    <div class="title"><a name="道具"></a></div>
+    <div class="item"><span class="sprite-stuff bg-compass"></span><span class="name">指南针</span><span class="code"><code>compass</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-clock"></span><span class="name">时钟</span><span class="code"><code>clock</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-flint_and_steel"></span><span class="name">打火石</span><span class="code"><code>flint_and_steel</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-lead"></span><span class="name">拴绳</span><span class="code"><code>lead</code></span></div>
+    <div class="item"><span class="sprite-entity bg-armor_stand"></span><span class="name">盔甲架</span><span class="code"><code>armor_stand</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-milk_bucket"></span><span class="name">奶桶</span><span class="code"><code>milk_bucket</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-heart_of_the_sea"></span><span class="name">海洋之心</span><span class="code"><code>heart_of_the_sea</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-nautilus_shell"></span><span class="name">鹦鹉螺壳</span><span class="code"><code>nautilus_shell</code></span></div>
+    <div class="item"><span class="sprite-block respawn_anchor" title="Respawn Anchor"></span><span class="name">重生锚</span><span class="code"><code>respawn_anchor</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-saddle"></span><span class="name">鞍</span><span class="code"><code>saddle</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-ender_eye"></span><span class="name">末影之眼</span><span class="code"><code>ender_eye</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-ender_pearl"></span><span class="name">末影珍珠</span><span class="code"><code>ender_pearl</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-golden_carrot"></span><span class="name">金胡萝卜</span><span class="code"><code>golden_carrot</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-golden_apple"></span><span class="name">金苹果</span><span class="code"><code>golden_apple</code></span></div>
+
+    <div class="title"><a name="照明"></a></div>
+    <div class="item"><span class="sprite-block torch" title="Torch"></span><span class="name">火把</span><span class="code"><code>torch</code></span></div>
+    <div class="item"><span class="sprite-block lantern" title="Lantern"></span><span class="name">灯笼</span><span class="code"><code>lantern</code></span></div>
+    <div class="item"><span class="sprite-block jack_o_lantern" title="Jack o'Lantern"></span><span class="name">南瓜灯</span><span class="code"><code>jack_o_lantern</code></span></div>
+    <div class="item"><span class="sprite-block sea_lantern" title="Sea Lantern"></span><span class="name">海晶灯</span><span class="code"><code>sea_lantern</code></span></div>
+    <div class="item"><span class="sprite-block sea_pickle" title="Sea Pickle"></span><span class="name">海泡菜</span><span class="code"><code>sea_pickle</code></span></div>
+
+    <div class="title"><a name="木制品"></a></div>
+    <div class="item"><span class="sprite-block birch_log" title="Birch Log"></span><span class="name">白桦原木</span><span class="code"><code>birch_log</code></span></div>
+    <div class="item"><span class="sprite-block birch_door" title="Birch Door"></span><span class="name">白桦木门</span><span class="code"><code>birch_door</code></span></div>
+    <div class="item"><span class="sprite-block birch_fence" title="Birch Fence"></span><span class="name">白桦木栅栏</span><span class="code"><code>birch_fence</code></span></div>
+    <div class="item"><span class="sprite-block birch_fence_gate" title="Birch Fence Gate"></span><span class="name">白桦木栅栏门</span><span class="code"><code>birch_fence_gate</code></span></div>
+    <div class="item"><span class="sprite-block birch_stairs" title="Birch Stairs"></span><span class="name">白桦木楼梯</span><span class="code"><code>birch_stairs</code></span></div>
+    <div class="item"><span class="sprite-block birch_slab" title="Birch Slab"></span><span class="name">白桦木台阶</span><span class="code"><code>birch_slab</code></span></div>
+    <div class="item"><span class="sprite-block birch_planks" title="Birch Planks"></span><span class="name">白桦木板</span><span class="code"><code>birch_planks</code></span></div>
+    <div class="item"><span class="sprite-block birch_sign" title="Birch Standing Sign"></span><span class="name">白桦木告示牌</span><span class="code"><code>birch_sign</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-birch_chest_boat"></span><span class="name">白桦木运输船</span><span class="code"><code>birch_chest_boat</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-birch_boat"></span><span class="name">白桦木船</span><span class="code"><code>birch_boat</code></span></div>
+
+    <div class="title"><a name="植物及种子"></a></div>
+    <div class="item"><span class="sprite-stuff bg-sugar_cane"></span><span class="name">甘蔗</span><span class="code"><code>sugar_cane</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-carrot"></span><span class="name">胡萝卜</span><span class="code"><code>carrot</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-potato"></span><span class="name">马铃薯</span><span class="code"><code>potato</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-wheat_seeds"></span><span class="name">小麦种子</span><span class="code"><code>wheat_seeds</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-beetroot_seeds"></span><span class="name">甜菜种子</span><span class="code"><code>beetroot_seeds</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-pumpkin_seeds"></span><span class="name">南瓜种子</span><span class="code"><code>pumpkin_seeds</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-melon_seeds"></span><span class="name">西瓜种子</span><span class="code"><code>melon_seeds</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-cocoa_beans"></span><span class="name">可可豆</span><span class="code"><code>cocoa_beans</code></span></div>
+    <div class="item"><span class="sprite-block bamboo" title="Big Leaves Bamboo"></span><span class="name">竹子</span><span class="code"><code>bamboo</code></span></div>
+    <div class="item"><span class="sprite-block seagrass" title="Seagrass"></span><span class="name">海草</span><span class="code"><code>seagrass</code></span></div>
+
+    <div class="title"><a name="友好生物"></a></div>
+    <div class="item"><span class="sprite-stuff bg-chicken_spawn_egg"></span><span class="name">鸡 刷怪蛋</span><span class="code"><code>chicken_spawn_egg</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-cow_spawn_egg"></span><span class="name">牛 刷怪蛋</span><span class="code"><code>cow_spawn_egg</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-horse_spawn_egg"></span><span class="name">马 刷怪蛋</span><span class="code"><code>horse_spawn_egg</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-pig_spawn_egg"></span><span class="name">猪 刷怪蛋</span><span class="code"><code>pig_spawn_egg</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-rabbit_spawn_egg"></span><span class="name">兔子 刷怪蛋</span><span class="code"><code>rabbit_spawn_egg</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-sheep_spawn_egg"></span><span class="name">绵羊 刷怪蛋</span><span class="code"><code>sheep_spawn_egg</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-turtle_spawn_egg"></span><span class="name">海龟 刷怪蛋</span><span class="code"><code>turtle_spawn_egg</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-cod_spawn_egg"></span><span class="name">鳕鱼 刷怪蛋</span><span class="code"><code>cod_spawn_egg</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-pufferfish_spawn_egg"></span><span class="name">河豚 刷怪蛋</span><span class="code"><code>pufferfish_spawn_egg</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-salmon_spawn_egg"></span><span class="name">鲑鱼 刷怪蛋</span><span class="code"><code>salmon_spawn_egg</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-squid_spawn_egg"></span><span class="name">鱿鱼 刷怪蛋</span><span class="code"><code>squid_spawn_egg</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-tropical_fish_spawn_egg"></span><span class="name">热带鱼 刷怪蛋</span><span class="code"><code>tropical_fish_spawn_egg</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-wolf_spawn_egg"></span><span class="name">狼 刷怪蛋</span><span class="code"><code>wolf_spawn_egg</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-cat_spawn_egg"></span><span class="name">猫 刷怪蛋</span><span class="code"><code>cat_spawn_egg</code></span></div>
+ 
+    <div class="title"><a name="武器防具"></a></div>
+    <div class="item"><span class="sprite-stuff bg-bow"></span><span class="name">弓</span><span class="code"><code>bow</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-crossbow"></span><span class="name">弩</span><span class="code"><code>crossbow</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-trident"></span><span class="name">三叉戟</span><span class="code"><code>trident</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-diamond_sword"></span><span class="name">钻石剑</span><span class="code"><code>diamond_sword</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-diamond_shovel"></span><span class="name">钻石锹</span><span class="code"><code>diamond_shovel</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-diamond_pickaxe"></span><span class="name">钻石镐</span><span class="code"><code>diamond_pickaxe</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-diamond_axe"></span><span class="name">钻石斧</span><span class="code"><code>diamond_axe</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-diamond_hoe"></span><span class="name">钻石锄</span><span class="code"><code>diamond_hoe</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-arrow"></span><span class="name">箭</span><span class="code"><code>arrow</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-tipped_arrow"></span><span class="name">药箭</span><span class="code"><code>tipped_arrow</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-spectral_arrow"></span><span class="name">光灵箭</span><span class="code"><code>spectral_arrow</code></span></div>
+
+    <div class="title"><a name="防具"></a></div>
+    <div class="item"><span class="sprite-stuff bg-totem_of_undying"></span><span class="name">不死图腾</span><span class="code"><code>totem_of_undying</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-shield"></span><span class="name">盾牌</span><span class="code"><code>shield</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-elytra"></span><span class="name">鞘翅</span><span class="code"><code>elytra</code></span></div>
+
+    <div class="item"><span class="sprite-stuff bg-diamond_helmet"></span><span class="name">钻石头盔</span><span class="code"><code>diamond_helmet</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-diamond_chestplate"></span><span class="name">钻石胸甲</span><span class="code"><code>diamond_chestplate</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-diamond_leggings"></span><span class="name">钻石护腿</span><span class="code"><code>diamond_leggings</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-diamond_boots"></span><span class="name">钻石靴子</span><span class="code"><code>diamond_boots</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-golden_helmet"></span><span class="name">金头盔</span><span class="code"><code>golden_helmet</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-golden_chestplate"></span><span class="name">金胸甲</span><span class="code"><code>golden_chestplate</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-golden_leggings"></span><span class="name">金护腿</span><span class="code"><code>golden_leggings</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-golden_boots"></span><span class="name">金靴子</span><span class="code"><code>golden_boots</code></span></div>
+    <div class="item"><span class="sprite-stuff bg-turtle_helmet"></span><span class="name">海龟壳</span><span class="code"><code>turtle_helmet</code></span></div>
+
+    <div class="title"><a name="存储"></a></div>
+    <div class="item"><span class="sprite-block chest" title="Chest"></span><span class="name">箱子</span><span class="code"><code>chest</code></span></div>
+    <div class="item"><span class="sprite-block ender_chest" title="Ender Chest"></span><span class="name">末影箱</span><span class="code"><code>ender_chest</code></span></div>
+    <div class="item"><span class="sprite-block shulker_box" title="Shulker Box"></span><span class="name">潜影盒</span><span class="code"><code>shulker_box</code></span></div>
+    <div class="item"><span class="sprite-block white_shulker_box" title="White Shulker Box"></span><span class="name">白色潜影盒</span><span class="code"><code>white_shulker_box</code></span></div>
+
+    <div class="title"><a name="职业"></a></div>
+    <div class="item"><span class="sprite-block composter" title="Composter"></span><span class="name">堆肥桶: 农民</span><span class="code"><code>composter</code></span></div>
+    <div class="item"><span class="sprite-block cartography_table" title="Cartography Table"></span><span class="name">制图台: 制图师</span><span class="code"><code>cartography_table</code></span></div>
+    <div class="item"><span class="sprite-block fletching_table" title="Fletching Table"></span><span class="name">制箭台: 制箭师</span><span class="code"><code>fletching_table</code></span></div>
+    <div class="item"><span class="sprite-block lectern" title="Lectern"></span><span class="name">讲台: 图书管理员</span><span class="code"><code>lectern</code></span></div>
+    <div class="item"><span class="sprite-block smoker" title="Smoker"></span><span class="name">烟熏炉: 屠夫</span><span class="code"><code>smoker</code></span></div>
+    <div class="item"><span class="sprite-block smithing_table" title="Smithing Table"></span><span class="name">锻造台: 工具匠</span><span class="code"><code>smithing_table</code></span></div>
+    <div class="item"><span class="sprite-block grindstone" title="Grindstone"></span><span class="name">砂轮: 武器匠</span><span class="code"><code>grindstone</code></span></div>
+    <div class="item"><span class="sprite-block barrel" title="Barrel"></span><span class="name">木桶: 渔夫</span><span class="code"><code>barrel</code></span></div>
+    <div class="item"><span class="sprite-block brewing_stand" title="Brewing Stand"></span><span class="name">酿造台: 牧师</span><span class="code"><code>brewing_stand</code></span></div>
+    <div class="item"><span class="sprite-block loom" title="Loom"></span><span class="name">织布机: 牧羊人</span><span class="code"><code>loom</code></span></div>
+    <div class="item"><span class="sprite-block cauldron" title="Cauldron"></span><span class="name">炼药锅: 皮匠</span><span class="code"><code>cauldron</code></span></div>
+    <div class="item"><span class="sprite-block blast_furnace" title="Blast Furnace"></span><span class="name">高炉: 盔甲匠</span><span class="code"><code>blast_furnace</code></span></div>
+    <div class="item"><span class="sprite-block stonecutter" title="Stonecutter"></span><span class="name">切石机: 石匠</span><span class="code"><code>stonecutter</code></span></div>
+
+</body>
+<script src="resource/function.js"></script>
+</html>

@@ -1,0 +1,2835 @@
+.sprite-block {
+    background: url("block_sprites.png") no-repeat top left;
+    background-size: 1020px 972px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 8px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.empty {
+    background-position: -984px -884px;
+}
+.kelp_plant {
+    background-position: 0 0;
+    height: 60px;
+}
+.kelp {
+    background-position: -34px 0;
+    height: 60px;
+}
+.twisting_vines {
+    background-position: -68px 0;
+    height: 60px;
+}
+.small_dripleaf {
+    background-position: -102px 0;
+    height: 47px;
+}
+.fire {
+    background-position: 0 -64px;
+    height: 33px;
+}
+.soul_fire {
+    background-position: -34px -64px;
+    height: 33px;
+}
+.acacia_wall_sign {
+    background-position: -68px -64px;
+    height: 32px;
+}
+.birch_wall_sign {
+    background-position: -102px -64px;
+    height: 32px;
+}
+.dark_oak_wall_sign {
+    background-position: -136px 0;
+    height: 32px;
+}
+.jungle_wall_sign {
+    background-position: -136px -36px;
+    height: 32px;
+}
+.spruce_wall_sign {
+    background-position: 0 -101px;
+    height: 32px;
+}
+.acacia_button {
+    background-position: -34px -101px;
+}
+.acacia_door {
+    background-position: -68px -101px;
+}
+.acacia_fence_gate {
+    background-position: -102px -101px;
+}
+.acacia_fence {
+    background-position: -136px -101px;
+}
+.acacia_leaves {
+    background-position: -170px 0;
+}
+.acacia_log {
+    background-position: -170px -34px;
+}
+.acacia_planks {
+    background-position: -170px -68px;
+}
+.acacia_sapling {
+    background-position: -170px -102px;
+}
+.acacia_sign {
+    background-position: 0 -137px;
+}
+.acacia_slab {
+    background-position: -34px -137px;
+}
+.acacia_stairs {
+    background-position: -68px -137px;
+}
+.acacia_wood {
+    background-position: -102px -137px;
+}
+.allium {
+    background-position: -136px -137px;
+}
+.amethyst_block {
+    background-position: -170px -137px;
+}
+.amethyst_cluster {
+    background-position: -204px 0;
+}
+.ancient_debris {
+    background-position: -204px -34px;
+}
+.andesite_slab {
+    background-position: -204px -68px;
+}
+.andesite_stairs {
+    background-position: -204px -102px;
+}
+.andesite_wall {
+    background-position: -204px -136px;
+}
+.andesite {
+    background-position: 0 -171px;
+}
+.anvil {
+    background-position: -34px -171px;
+}
+.attached_melon_stem {
+    background-position: -68px -171px;
+}
+.attached_pumpkin_stem {
+    background-position: -102px -171px;
+}
+.azalea_leaves {
+    background-position: -136px -171px;
+}
+.azalea {
+    background-position: -170px -171px;
+}
+.azure_bluet {
+    background-position: -204px -171px;
+}
+.bamboo_sapling {
+    background-position: -238px 0;
+}
+.bamboo {
+    background-position: -238px -34px;
+}
+.barrel {
+    background-position: -238px -68px;
+}
+.barrier {
+    background-position: -238px -102px;
+}
+.basalt {
+    background-position: -238px -136px;
+}
+.beacon {
+    background-position: -238px -170px;
+}
+.bedrock {
+    background-position: 0 -205px;
+}
+.bee_nest {
+    background-position: -34px -205px;
+}
+.beehive {
+    background-position: -68px -205px;
+}
+.beetroots {
+    background-position: -102px -205px;
+}
+.bell {
+    background-position: -136px -205px;
+}
+.big_dripleaf_stem {
+    background-position: -170px -205px;
+}
+.big_dripleaf {
+    background-position: -204px -205px;
+}
+.birch_button {
+    background-position: -238px -205px;
+}
+.birch_door {
+    background-position: -272px 0;
+}
+.birch_fence_gate {
+    background-position: -272px -34px;
+}
+.birch_fence {
+    background-position: -272px -68px;
+}
+.birch_leaves {
+    background-position: -272px -102px;
+}
+.birch_log {
+    background-position: -272px -136px;
+}
+.birch_planks {
+    background-position: -272px -170px;
+}
+.birch_sapling {
+    background-position: -272px -204px;
+}
+.birch_sign {
+    background-position: 0 -239px;
+}
+.birch_slab {
+    background-position: -34px -239px;
+}
+.birch_stairs {
+    background-position: -68px -239px;
+}
+.birch_wood {
+    background-position: -102px -239px;
+}
+.black_bed {
+    background-position: -136px -239px;
+}
+.black_candle_cake {
+    background-position: -170px -239px;
+}
+.black_candle {
+    background-position: -204px -239px;
+}
+.black_concrete_powder {
+    background-position: -238px -239px;
+}
+.black_concrete {
+    background-position: -272px -239px;
+}
+.black_glazed_terracotta {
+    background-position: -306px 0;
+}
+.black_shulker_box {
+    background-position: -306px -34px;
+}
+.black_stained_glass_pane {
+    background-position: -306px -68px;
+}
+.black_stained_glass {
+    background-position: -306px -102px;
+}
+.black_terracotta {
+    background-position: -306px -136px;
+}
+.black_wool {
+    background-position: -306px -170px;
+}
+.blackstone_slab {
+    background-position: -306px -204px;
+}
+.blackstone_stairs {
+    background-position: -306px -238px;
+}
+.blackstone_wall {
+    background-position: 0 -273px;
+}
+.blackstone {
+    background-position: -34px -273px;
+}
+.blast_furnace {
+    background-position: -68px -273px;
+}
+.blue_bed {
+    background-position: -102px -273px;
+}
+.blue_candle_cake {
+    background-position: -136px -273px;
+}
+.blue_candle {
+    background-position: -170px -273px;
+}
+.blue_concrete_powder {
+    background-position: -204px -273px;
+}
+.blue_concrete {
+    background-position: -238px -273px;
+}
+.blue_glazed_terracotta {
+    background-position: -272px -273px;
+}
+.blue_ice {
+    background-position: -306px -273px;
+}
+.blue_orchid {
+    background-position: -340px 0;
+}
+.blue_shulker_box {
+    background-position: -340px -34px;
+}
+.blue_stained_glass_pane {
+    background-position: -340px -68px;
+}
+.blue_stained_glass {
+    background-position: -340px -102px;
+}
+.blue_terracotta {
+    background-position: -340px -136px;
+}
+.blue_wool {
+    background-position: -340px -170px;
+}
+.bone_block {
+    background-position: -340px -204px;
+}
+.bookshelf {
+    background-position: -340px -238px;
+}
+.brain_coral_block {
+    background-position: -340px -272px;
+}
+.brain_coral {
+    background-position: 0 -307px;
+}
+.brewing_stand {
+    background-position: -34px -307px;
+}
+.brick_slab {
+    background-position: -68px -307px;
+}
+.brick_stairs {
+    background-position: -102px -307px;
+}
+.brick_wall {
+    background-position: -136px -307px;
+}
+.bricks {
+    background-position: -170px -307px;
+}
+.brown_bed {
+    background-position: -204px -307px;
+}
+.brown_candle_cake {
+    background-position: -238px -307px;
+}
+.brown_candle {
+    background-position: -272px -307px;
+}
+.brown_concrete_powder {
+    background-position: -306px -307px;
+}
+.brown_concrete {
+    background-position: -340px -307px;
+}
+.brown_glazed_terracotta {
+    background-position: -374px 0;
+}
+.brown_mushroom_block {
+    background-position: -374px -34px;
+}
+.brown_mushroom {
+    background-position: -374px -68px;
+}
+.brown_shulker_box {
+    background-position: -374px -102px;
+}
+.brown_stained_glass_pane {
+    background-position: -374px -136px;
+}
+.brown_stained_glass {
+    background-position: -374px -170px;
+}
+.brown_terracotta {
+    background-position: -374px -204px;
+}
+.brown_wool {
+    background-position: -374px -238px;
+}
+.bubble_column {
+    background-position: -374px -272px;
+}
+.bubble_coral_block {
+    background-position: -374px -306px;
+}
+.bubble_coral {
+    background-position: 0 -341px;
+}
+.budding_amethyst {
+    background-position: -34px -341px;
+}
+.cactus {
+    background-position: -68px -341px;
+}
+.cake {
+    background-position: -102px -341px;
+}
+.calcite {
+    background-position: -136px -341px;
+}
+.campfire {
+    background-position: -170px -341px;
+}
+.candle_cake {
+    background-position: -204px -341px;
+}
+.candle {
+    background-position: -238px -341px;
+}
+.carrots {
+    background-position: -272px -341px;
+}
+.cartography_table {
+    background-position: -306px -341px;
+}
+.carved_pumpkin {
+    background-position: -340px -341px;
+}
+.cauldron {
+    background-position: -374px -341px;
+}
+.cave_vines_plant {
+    background-position: -408px 0;
+}
+.cave_vines {
+    background-position: -408px -34px;
+}
+.chain_command_block {
+    background-position: -408px -68px;
+}
+.chain {
+    background-position: -408px -102px;
+}
+.chest {
+    background-position: -408px -136px;
+}
+.chipped_anvil {
+    background-position: -408px -170px;
+}
+.chiseled_deepslate {
+    background-position: -408px -204px;
+}
+.chiseled_nether_bricks {
+    background-position: -408px -238px;
+}
+.chiseled_polished_blackstone {
+    background-position: -408px -272px;
+}
+.chiseled_quartz_block {
+    background-position: -408px -306px;
+}
+.chiseled_red_sandstone {
+    background-position: -408px -340px;
+}
+.chiseled_sandstone {
+    background-position: 0 -375px;
+}
+.chiseled_stone_bricks {
+    background-position: -34px -375px;
+}
+.chorus_flower {
+    background-position: -68px -375px;
+}
+.chorus_plant {
+    background-position: -102px -375px;
+}
+.clay {
+    background-position: -136px -375px;
+}
+.coal_block {
+    background-position: -170px -375px;
+}
+.coal_ore {
+    background-position: -204px -375px;
+}
+.coarse_dirt {
+    background-position: -238px -375px;
+}
+.cobbled_deepslate_slab {
+    background-position: -272px -375px;
+}
+.cobbled_deepslate_stairs {
+    background-position: -306px -375px;
+}
+.cobbled_deepslate_wall {
+    background-position: -340px -375px;
+}
+.cobbled_deepslate {
+    background-position: -374px -375px;
+}
+.cobblestone_slab {
+    background-position: -408px -375px;
+}
+.cobblestone_stairs {
+    background-position: -442px 0;
+}
+.cobblestone_wall {
+    background-position: -442px -34px;
+}
+.cobblestone {
+    background-position: -442px -68px;
+}
+.cobweb {
+    background-position: -442px -102px;
+}
+.cocoa {
+    background-position: -442px -136px;
+}
+.command_block {
+    background-position: -442px -170px;
+}
+.composter {
+    background-position: -442px -204px;
+}
+.conduit {
+    background-position: -442px -238px;
+}
+.copper_block {
+    background-position: -442px -272px;
+}
+.copper_ore {
+    background-position: -442px -306px;
+}
+.cornflower {
+    background-position: -442px -340px;
+}
+.cracked_deepslate_bricks {
+    background-position: -442px -374px;
+}
+.cracked_deepslate_tiles {
+    background-position: 0 -409px;
+}
+.cracked_nether_bricks {
+    background-position: -34px -409px;
+}
+.cracked_polished_blackstone_bricks {
+    background-position: -68px -409px;
+}
+.cracked_stone_bricks {
+    background-position: -102px -409px;
+}
+.crafting_table {
+    background-position: -136px -409px;
+}
+.creeper_head {
+    background-position: -170px -409px;
+}
+.creeper_wall_head {
+    background-position: -204px -409px;
+}
+.crimson_button {
+    background-position: -238px -409px;
+}
+.crimson_door {
+    background-position: -272px -409px;
+}
+.crimson_fence_gate {
+    background-position: -306px -409px;
+}
+.crimson_fence {
+    background-position: -340px -409px;
+}
+.crimson_fungus {
+    background-position: -374px -409px;
+}
+.crimson_hyphae {
+    background-position: -408px -409px;
+}
+.crimson_nylium {
+    background-position: -442px -409px;
+}
+.crimson_planks {
+    background-position: -476px 0;
+}
+.crimson_roots {
+    background-position: -476px -34px;
+}
+.crimson_sign {
+    background-position: -476px -68px;
+}
+.crimson_slab {
+    background-position: -476px -102px;
+}
+.crimson_stairs {
+    background-position: -476px -136px;
+}
+.crimson_stem {
+    background-position: -476px -170px;
+}
+.crimson_wall_sign {
+    background-position: -476px -204px;
+}
+.crying_obsidian {
+    background-position: -476px -238px;
+}
+.cut_copper_slab {
+    background-position: -476px -272px;
+}
+.cut_copper_stairs {
+    background-position: -476px -306px;
+}
+.cut_copper {
+    background-position: -476px -340px;
+}
+.cut_red_sandstone_slab {
+    background-position: -476px -374px;
+}
+.cut_red_sandstone {
+    background-position: -476px -408px;
+}
+.cut_sandstone_slab {
+    background-position: 0 -443px;
+}
+.cut_sandstone {
+    background-position: -34px -443px;
+}
+.cyan_bed {
+    background-position: -68px -443px;
+}
+.cyan_candle_cake {
+    background-position: -102px -443px;
+}
+.cyan_candle {
+    background-position: -136px -443px;
+}
+.cyan_concrete_powder {
+    background-position: -170px -443px;
+}
+.cyan_concrete {
+    background-position: -204px -443px;
+}
+.cyan_glazed_terracotta {
+    background-position: -238px -443px;
+}
+.cyan_shulker_box {
+    background-position: -272px -443px;
+}
+.cyan_stained_glass_pane {
+    background-position: -306px -443px;
+}
+.cyan_stained_glass {
+    background-position: -340px -443px;
+}
+.cyan_terracotta {
+    background-position: -374px -443px;
+}
+.cyan_wool {
+    background-position: -408px -443px;
+}
+.damaged_anvil {
+    background-position: -442px -443px;
+}
+.dandelion {
+    background-position: -476px -443px;
+}
+.dark_oak_button {
+    background-position: -510px 0;
+}
+.dark_oak_door {
+    background-position: -510px -34px;
+}
+.dark_oak_fence_gate {
+    background-position: -510px -68px;
+}
+.dark_oak_fence {
+    background-position: -510px -102px;
+}
+.dark_oak_leaves {
+    background-position: -510px -136px;
+}
+.dark_oak_log {
+    background-position: -510px -170px;
+}
+.dark_oak_planks {
+    background-position: -510px -204px;
+}
+.dark_oak_sapling {
+    background-position: -510px -238px;
+}
+.dark_oak_sign {
+    background-position: -510px -272px;
+}
+.dark_oak_slab {
+    background-position: -510px -306px;
+}
+.dark_oak_stairs {
+    background-position: -510px -340px;
+}
+.dark_oak_wood {
+    background-position: -510px -374px;
+}
+.dark_prismarine_slab {
+    background-position: -510px -408px;
+}
+.dark_prismarine_stairs {
+    background-position: -510px -442px;
+}
+.dark_prismarine {
+    background-position: 0 -477px;
+}
+.daylight_detector {
+    background-position: -34px -477px;
+}
+.dead_brain_coral_block {
+    background-position: -68px -477px;
+}
+.dead_brain_coral {
+    background-position: -102px -477px;
+}
+.dead_bubble_coral_block {
+    background-position: -136px -477px;
+}
+.dead_bubble_coral {
+    background-position: -170px -477px;
+}
+.dead_bush {
+    background-position: -204px -477px;
+}
+.dead_fire_coral_block {
+    background-position: -238px -477px;
+}
+.dead_fire_coral {
+    background-position: -272px -477px;
+}
+.dead_horn_coral_block {
+    background-position: -306px -477px;
+}
+.dead_horn_coral {
+    background-position: -340px -477px;
+}
+.dead_tube_coral_block {
+    background-position: -374px -477px;
+}
+.dead_tube_coral {
+    background-position: -408px -477px;
+}
+.deepslate_brick_slab {
+    background-position: -442px -477px;
+}
+.deepslate_brick_stairs {
+    background-position: -476px -477px;
+}
+.deepslate_brick_wall {
+    background-position: -510px -477px;
+}
+.deepslate_bricks {
+    background-position: -544px 0;
+}
+.deepslate_coal_ore {
+    background-position: -544px -34px;
+}
+.deepslate_copper_ore {
+    background-position: -544px -68px;
+}
+.deepslate_diamond_ore {
+    background-position: -544px -102px;
+}
+.deepslate_emerald_ore {
+    background-position: -544px -136px;
+}
+.deepslate_gold_ore {
+    background-position: -544px -170px;
+}
+.deepslate_iron_ore {
+    background-position: -544px -204px;
+}
+.deepslate_lapis_ore {
+    background-position: -544px -238px;
+}
+.deepslate_redstone_ore {
+    background-position: -544px -272px;
+}
+.deepslate {
+    background-position: -544px -306px;
+}
+.diamond_block {
+    background-position: -544px -340px;
+}
+.diamond_ore {
+    background-position: -544px -374px;
+}
+.diorite_slab {
+    background-position: -544px -408px;
+}
+.diorite_stairs {
+    background-position: -544px -442px;
+}
+.diorite_wall {
+    background-position: -544px -476px;
+}
+.diorite {
+    background-position: 0 -511px;
+}
+.dirt_path {
+    background-position: -34px -511px;
+}
+.dirt {
+    background-position: -68px -511px;
+}
+.dispenser {
+    background-position: -102px -511px;
+}
+.dragon_egg {
+    background-position: -136px -511px;
+}
+.dragon_head {
+    background-position: -170px -511px;
+}
+.dragon_wall_head {
+    background-position: -204px -511px;
+}
+.dried_kelp_block {
+    background-position: -238px -511px;
+}
+.dripstone_block {
+    background-position: -272px -511px;
+}
+.dropper {
+    background-position: -306px -511px;
+}
+.emerald_block {
+    background-position: -340px -511px;
+}
+.emerald_ore {
+    background-position: -374px -511px;
+}
+.enchanting_table {
+    background-position: -408px -511px;
+}
+.end_gateway {
+    background-position: -442px -511px;
+}
+.end_portal_frame {
+    background-position: -476px -511px;
+}
+.end_rod {
+    background-position: -510px -511px;
+}
+.end_stone_brick_slab {
+    background-position: -544px -511px;
+}
+.end_stone_brick_stairs {
+    background-position: -578px 0;
+}
+.end_stone_brick_wall {
+    background-position: -578px -34px;
+}
+.end_stone_bricks {
+    background-position: -578px -68px;
+}
+.end_stone {
+    background-position: -578px -102px;
+}
+.ender_chest {
+    background-position: -578px -136px;
+}
+.exposed_copper {
+    background-position: -578px -170px;
+}
+.exposed_cut_copper_slab {
+    background-position: -578px -204px;
+}
+.exposed_cut_copper_stairs {
+    background-position: -578px -238px;
+}
+.exposed_cut_copper {
+    background-position: -578px -272px;
+}
+.farmland {
+    background-position: -578px -306px;
+}
+.fern {
+    background-position: -578px -340px;
+}
+.fire_coral_block {
+    background-position: -578px -374px;
+}
+.fire_coral {
+    background-position: -578px -408px;
+}
+.fletching_table {
+    background-position: -578px -442px;
+}
+.flower_pot {
+    background-position: -578px -476px;
+}
+.flowering_azalea_leaves {
+    background-position: -578px -510px;
+}
+.flowering_azalea {
+    background-position: 0 -545px;
+}
+.frosted_ice {
+    background-position: -34px -545px;
+}
+.furnace {
+    background-position: -68px -545px;
+}
+.gilded_blackstone {
+    background-position: -102px -545px;
+}
+.glass_pane {
+    background-position: -136px -545px;
+}
+.glass {
+    background-position: -170px -545px;
+}
+.glow_lichen {
+    background-position: -204px -545px;
+}
+.glowstone {
+    background-position: -238px -545px;
+}
+.gold_block {
+    background-position: -272px -545px;
+}
+.gold_ore {
+    background-position: -306px -545px;
+}
+.granite_slab {
+    background-position: -340px -545px;
+}
+.granite_stairs {
+    background-position: -374px -545px;
+}
+.granite_wall {
+    background-position: -408px -545px;
+}
+.granite {
+    background-position: -442px -545px;
+}
+.grass_block {
+    background-position: -476px -545px;
+}
+.grass {
+    background-position: -510px -545px;
+}
+.gravel {
+    background-position: -544px -545px;
+}
+.gray_bed {
+    background-position: -578px -545px;
+}
+.gray_candle_cake {
+    background-position: -612px 0;
+}
+.gray_candle {
+    background-position: -612px -34px;
+}
+.gray_concrete_powder {
+    background-position: -612px -68px;
+}
+.gray_concrete {
+    background-position: -612px -102px;
+}
+.gray_glazed_terracotta {
+    background-position: -612px -136px;
+}
+.gray_shulker_box {
+    background-position: -612px -170px;
+}
+.gray_stained_glass_pane {
+    background-position: -612px -204px;
+}
+.gray_stained_glass {
+    background-position: -612px -238px;
+}
+.gray_terracotta {
+    background-position: -612px -272px;
+}
+.gray_wool {
+    background-position: -612px -306px;
+}
+.green_bed {
+    background-position: -612px -340px;
+}
+.green_candle_cake {
+    background-position: -612px -374px;
+}
+.green_candle {
+    background-position: -612px -408px;
+}
+.green_concrete_powder {
+    background-position: -612px -442px;
+}
+.green_concrete {
+    background-position: -612px -476px;
+}
+.green_glazed_terracotta {
+    background-position: -612px -510px;
+}
+.green_shulker_box {
+    background-position: -612px -544px;
+}
+.green_stained_glass_pane {
+    background-position: 0 -579px;
+}
+.green_stained_glass {
+    background-position: -34px -579px;
+}
+.green_terracotta {
+    background-position: -68px -579px;
+}
+.green_wool {
+    background-position: -102px -579px;
+}
+.grindstone {
+    background-position: -136px -579px;
+}
+.hanging_roots {
+    background-position: -170px -579px;
+}
+.hay_block {
+    background-position: -204px -579px;
+}
+.heavy_weighted_pressure_plate {
+    background-position: -238px -579px;
+}
+.honey_block {
+    background-position: -272px -579px;
+}
+.honeycomb_block {
+    background-position: -306px -579px;
+}
+.hopper {
+    background-position: -340px -579px;
+}
+.horn_coral_block {
+    background-position: -374px -579px;
+}
+.horn_coral {
+    background-position: -408px -579px;
+}
+.ice {
+    background-position: -442px -579px;
+}
+.infested_chiseled_stone_bricks {
+    background-position: -476px -579px;
+}
+.infested_cobblestone {
+    background-position: -510px -579px;
+}
+.infested_cracked_stone_bricks {
+    background-position: -544px -579px;
+}
+.infested_deepslate {
+    background-position: -578px -579px;
+}
+.infested_mossy_stone_bricks {
+    background-position: -612px -579px;
+}
+.infested_stone_bricks {
+    background-position: -646px 0;
+}
+.infested_stone {
+    background-position: -646px -34px;
+}
+.iron_bars {
+    background-position: -646px -68px;
+}
+.iron_block {
+    background-position: -646px -102px;
+}
+.iron_door {
+    background-position: -646px -136px;
+}
+.iron_ore {
+    background-position: -646px -170px;
+}
+.jack_o_lantern {
+    background-position: -646px -204px;
+}
+.jigsaw {
+    background-position: -646px -238px;
+}
+.jukebox {
+    background-position: -646px -272px;
+}
+.jungle_button {
+    background-position: -646px -306px;
+}
+.jungle_door {
+    background-position: -646px -340px;
+}
+.jungle_fence_gate {
+    background-position: -646px -374px;
+}
+.jungle_fence {
+    background-position: -646px -408px;
+}
+.jungle_leaves {
+    background-position: -646px -442px;
+}
+.jungle_log {
+    background-position: -646px -476px;
+}
+.jungle_planks {
+    background-position: -646px -510px;
+}
+.jungle_sapling {
+    background-position: -646px -544px;
+}
+.jungle_sign {
+    background-position: -646px -578px;
+}
+.jungle_slab {
+    background-position: 0 -613px;
+}
+.jungle_stairs {
+    background-position: -34px -613px;
+}
+.jungle_wood {
+    background-position: -68px -613px;
+}
+.ladder {
+    background-position: -102px -613px;
+}
+.lantern {
+    background-position: -136px -613px;
+}
+.lapis_block {
+    background-position: -170px -613px;
+}
+.lapis_ore {
+    background-position: -204px -613px;
+}
+.large_amethyst_bud {
+    background-position: -238px -613px;
+}
+.lava_cauldron {
+    background-position: -272px -613px;
+}
+.lava {
+    background-position: -306px -613px;
+}
+.lectern {
+    background-position: -340px -613px;
+}
+.lever {
+    background-position: -374px -613px;
+}
+.light_blue_bed {
+    background-position: -408px -613px;
+}
+.light_blue_candle_cake {
+    background-position: -442px -613px;
+}
+.light_blue_candle {
+    background-position: -476px -613px;
+}
+.light_blue_concrete_powder {
+    background-position: -510px -613px;
+}
+.light_blue_concrete {
+    background-position: -544px -613px;
+}
+.light_blue_glazed_terracotta {
+    background-position: -578px -613px;
+}
+.light_blue_shulker_box {
+    background-position: -612px -613px;
+}
+.light_blue_stained_glass_pane {
+    background-position: -646px -613px;
+}
+.light_blue_stained_glass {
+    background-position: -680px 0;
+}
+.light_blue_terracotta {
+    background-position: -680px -34px;
+}
+.light_blue_wool {
+    background-position: -680px -68px;
+}
+.light_gray_bed {
+    background-position: -680px -102px;
+}
+.light_gray_candle_cake {
+    background-position: -680px -136px;
+}
+.light_gray_candle {
+    background-position: -680px -170px;
+}
+.light_gray_concrete_powder {
+    background-position: -680px -204px;
+}
+.light_gray_concrete {
+    background-position: -680px -238px;
+}
+.light_gray_glazed_terracotta {
+    background-position: -680px -272px;
+}
+.light_gray_shulker_box {
+    background-position: -680px -306px;
+}
+.light_gray_stained_glass_pane {
+    background-position: -680px -340px;
+}
+.light_gray_stained_glass {
+    background-position: -680px -374px;
+}
+.light_gray_terracotta {
+    background-position: -680px -408px;
+}
+.light_gray_wool {
+    background-position: -680px -442px;
+}
+.light {
+    background-position: -680px -476px;
+}
+.lightning_rod {
+    background-position: -680px -510px;
+}
+.lily_of_the_valley {
+    background-position: -680px -544px;
+}
+.lime_bed {
+    background-position: -680px -578px;
+}
+.lime_candle_cake {
+    background-position: -680px -612px;
+}
+.lime_candle {
+    background-position: 0 -647px;
+}
+.lime_concrete_powder {
+    background-position: -34px -647px;
+}
+.lime_concrete {
+    background-position: -68px -647px;
+}
+.lime_glazed_terracotta {
+    background-position: -102px -647px;
+}
+.lime_shulker_box {
+    background-position: -136px -647px;
+}
+.lime_stained_glass_pane {
+    background-position: -170px -647px;
+}
+.lime_stained_glass {
+    background-position: -204px -647px;
+}
+.lime_terracotta {
+    background-position: -238px -647px;
+}
+.lime_wool {
+    background-position: -272px -647px;
+}
+.lodestone {
+    background-position: -306px -647px;
+}
+.loom {
+    background-position: -340px -647px;
+}
+.magenta_bed {
+    background-position: -374px -647px;
+}
+.magenta_candle_cake {
+    background-position: -408px -647px;
+}
+.magenta_candle {
+    background-position: -442px -647px;
+}
+.magenta_concrete_powder {
+    background-position: -476px -647px;
+}
+.magenta_concrete {
+    background-position: -510px -647px;
+}
+.magenta_glazed_terracotta {
+    background-position: -544px -647px;
+}
+.magenta_shulker_box {
+    background-position: -578px -647px;
+}
+.magenta_stained_glass_pane {
+    background-position: -612px -647px;
+}
+.magenta_stained_glass {
+    background-position: -646px -647px;
+}
+.magenta_terracotta {
+    background-position: -680px -647px;
+}
+.magenta_wool {
+    background-position: -714px 0;
+}
+.magma_block {
+    background-position: -714px -34px;
+}
+.medium_amethyst_bud {
+    background-position: -714px -68px;
+}
+.melon_stem {
+    background-position: -714px -102px;
+}
+.melon {
+    background-position: -714px -136px;
+}
+.moss_block {
+    background-position: -714px -170px;
+}
+.moss_carpet {
+    background-position: -714px -204px;
+}
+.mossy_cobblestone_slab {
+    background-position: -714px -238px;
+}
+.mossy_cobblestone_stairs {
+    background-position: -714px -272px;
+}
+.mossy_cobblestone_wall {
+    background-position: -714px -306px;
+}
+.mossy_cobblestone {
+    background-position: -714px -340px;
+}
+.mossy_stone_brick_slab {
+    background-position: -714px -374px;
+}
+.mossy_stone_brick_stairs {
+    background-position: -714px -408px;
+}
+.mossy_stone_brick_wall {
+    background-position: -714px -442px;
+}
+.mossy_stone_bricks {
+    background-position: -714px -476px;
+}
+.mushroom_stem {
+    background-position: -714px -510px;
+}
+.mycelium {
+    background-position: -714px -544px;
+}
+.nether_brick_fence {
+    background-position: -714px -578px;
+}
+.nether_brick_slab {
+    background-position: -714px -612px;
+}
+.nether_brick_stairs {
+    background-position: -714px -646px;
+}
+.nether_brick_wall {
+    background-position: 0 -681px;
+}
+.nether_bricks {
+    background-position: -34px -681px;
+}
+.nether_gold_ore {
+    background-position: -68px -681px;
+}
+.nether_portal {
+    background-position: -102px -681px;
+}
+.nether_quartz_ore {
+    background-position: -136px -681px;
+}
+.nether_sprouts {
+    background-position: -170px -681px;
+}
+.nether_wart_block {
+    background-position: -204px -681px;
+}
+.nether_wart {
+    background-position: -238px -681px;
+}
+.netherite_block {
+    background-position: -272px -681px;
+}
+.netherrack {
+    background-position: -306px -681px;
+}
+.note_block {
+    background-position: -340px -681px;
+}
+.oak_button {
+    background-position: -374px -681px;
+}
+.oak_door {
+    background-position: -408px -681px;
+}
+.oak_fence_gate {
+    background-position: -442px -681px;
+}
+.oak_fence {
+    background-position: -476px -681px;
+}
+.oak_leaves {
+    background-position: -510px -681px;
+}
+.oak_log {
+    background-position: -544px -681px;
+}
+.oak_planks {
+    background-position: -578px -681px;
+}
+.oak_sapling {
+    background-position: -612px -681px;
+}
+.oak_sign {
+    background-position: -646px -681px;
+}
+.oak_slab {
+    background-position: -680px -681px;
+}
+.oak_stairs {
+    background-position: -714px -681px;
+}
+.oak_wall_sign {
+    background-position: -748px 0;
+}
+.oak_wood {
+    background-position: -748px -34px;
+}
+.observer {
+    background-position: -748px -68px;
+}
+.obsidian {
+    background-position: -748px -102px;
+}
+.orange_bed {
+    background-position: -748px -136px;
+}
+.orange_candle_cake {
+    background-position: -748px -170px;
+}
+.orange_candle {
+    background-position: -748px -204px;
+}
+.orange_concrete_powder {
+    background-position: -748px -238px;
+}
+.orange_concrete {
+    background-position: -748px -272px;
+}
+.orange_glazed_terracotta {
+    background-position: -748px -306px;
+}
+.orange_shulker_box {
+    background-position: -748px -340px;
+}
+.orange_stained_glass_pane {
+    background-position: -748px -374px;
+}
+.orange_stained_glass {
+    background-position: -748px -408px;
+}
+.orange_terracotta {
+    background-position: -748px -442px;
+}
+.orange_tulip {
+    background-position: -748px -476px;
+}
+.orange_wool {
+    background-position: -748px -510px;
+}
+.oxeye_daisy {
+    background-position: -748px -544px;
+}
+.oxidized_copper {
+    background-position: -748px -578px;
+}
+.oxidized_cut_copper_slab {
+    background-position: -748px -612px;
+}
+.oxidized_cut_copper_stairs {
+    background-position: -748px -646px;
+}
+.oxidized_cut_copper {
+    background-position: -748px -680px;
+}
+.packed_ice {
+    background-position: 0 -715px;
+}
+.petrified_oak_slab {
+    background-position: -34px -715px;
+}
+.pink_bed {
+    background-position: -68px -715px;
+}
+.pink_candle_cake {
+    background-position: -102px -715px;
+}
+.pink_candle {
+    background-position: -136px -715px;
+}
+.pink_concrete_powder {
+    background-position: -170px -715px;
+}
+.pink_concrete {
+    background-position: -204px -715px;
+}
+.pink_glazed_terracotta {
+    background-position: -238px -715px;
+}
+.pink_shulker_box {
+    background-position: -272px -715px;
+}
+.pink_stained_glass_pane {
+    background-position: -306px -715px;
+}
+.pink_stained_glass {
+    background-position: -340px -715px;
+}
+.pink_terracotta {
+    background-position: -374px -715px;
+}
+.pink_tulip {
+    background-position: -408px -715px;
+}
+.pink_wool {
+    background-position: -442px -715px;
+}
+.piston_head {
+    background-position: -476px -715px;
+}
+.piston {
+    background-position: -510px -715px;
+}
+.player_head {
+    background-position: -544px -715px;
+}
+.player_wall_head {
+    background-position: -578px -715px;
+}
+.podzol {
+    background-position: -612px -715px;
+}
+.pointed_dripstone {
+    background-position: -646px -715px;
+}
+.polished_andesite_slab {
+    background-position: -680px -715px;
+}
+.polished_andesite_stairs {
+    background-position: -714px -715px;
+}
+.polished_andesite {
+    background-position: -748px -715px;
+}
+.polished_basalt {
+    background-position: -782px 0;
+}
+.polished_blackstone_brick_slab {
+    background-position: -782px -34px;
+}
+.polished_blackstone_brick_stairs {
+    background-position: -782px -68px;
+}
+.polished_blackstone_brick_wall {
+    background-position: -782px -102px;
+}
+.polished_blackstone_bricks {
+    background-position: -782px -136px;
+}
+.polished_blackstone_button {
+    background-position: -782px -170px;
+}
+.polished_blackstone_pressure_plate {
+    background-position: -782px -204px;
+}
+.polished_blackstone_slab {
+    background-position: -782px -238px;
+}
+.polished_blackstone_stairs {
+    background-position: -782px -272px;
+}
+.polished_blackstone_wall {
+    background-position: -782px -306px;
+}
+.polished_blackstone {
+    background-position: -782px -340px;
+}
+.polished_deepslate_slab {
+    background-position: -782px -374px;
+}
+.polished_deepslate_stairs {
+    background-position: -782px -408px;
+}
+.polished_deepslate_wall {
+    background-position: -782px -442px;
+}
+.polished_deepslate {
+    background-position: -782px -476px;
+}
+.polished_diorite_slab {
+    background-position: -782px -510px;
+}
+.polished_diorite_stairs {
+    background-position: -782px -544px;
+}
+.polished_diorite {
+    background-position: -782px -578px;
+}
+.polished_granite_slab {
+    background-position: -782px -612px;
+}
+.polished_granite_stairs {
+    background-position: -782px -646px;
+}
+.polished_granite {
+    background-position: -782px -680px;
+}
+.poppy {
+    background-position: -782px -714px;
+}
+.potatoes {
+    background-position: 0 -749px;
+}
+.potted_acacia_sapling {
+    background-position: -34px -749px;
+}
+.potted_allium {
+    background-position: -68px -749px;
+}
+.potted_azalea_bush {
+    background-position: -102px -749px;
+}
+.potted_azure_bluet {
+    background-position: -136px -749px;
+}
+.potted_bamboo {
+    background-position: -170px -749px;
+}
+.potted_birch_sapling {
+    background-position: -204px -749px;
+}
+.potted_blue_orchid {
+    background-position: -238px -749px;
+}
+.potted_brown_mushroom {
+    background-position: -272px -749px;
+}
+.potted_cactus {
+    background-position: -306px -749px;
+}
+.potted_cornflower {
+    background-position: -340px -749px;
+}
+.potted_crimson_fungus {
+    background-position: -374px -749px;
+}
+.potted_crimson_roots {
+    background-position: -408px -749px;
+}
+.potted_dandelion {
+    background-position: -442px -749px;
+}
+.potted_dark_oak_sapling {
+    background-position: -476px -749px;
+}
+.potted_dead_bush {
+    background-position: -510px -749px;
+}
+.potted_fern {
+    background-position: -544px -749px;
+}
+.potted_flowering_azalea_bush {
+    background-position: -578px -749px;
+}
+.potted_jungle_sapling {
+    background-position: -612px -749px;
+}
+.potted_lily_of_the_valley {
+    background-position: -646px -749px;
+}
+.potted_oak_sapling {
+    background-position: -680px -749px;
+}
+.potted_orange_tulip {
+    background-position: -714px -749px;
+}
+.potted_oxeye_daisy {
+    background-position: -748px -749px;
+}
+.potted_pink_tulip {
+    background-position: -782px -749px;
+}
+.potted_poppy {
+    background-position: -816px 0;
+}
+.potted_red_mushroom {
+    background-position: -816px -34px;
+}
+.potted_red_tulip {
+    background-position: -816px -68px;
+}
+.potted_spruce_sapling {
+    background-position: -816px -102px;
+}
+.potted_warped_fungus {
+    background-position: -816px -136px;
+}
+.potted_warped_roots {
+    background-position: -816px -170px;
+}
+.potted_white_tulip {
+    background-position: -816px -204px;
+}
+.potted_wither_rose {
+    background-position: -816px -238px;
+}
+.powder_snow_cauldron {
+    background-position: -816px -272px;
+}
+.powder_snow {
+    background-position: -816px -306px;
+}
+.prismarine_brick_slab {
+    background-position: -816px -340px;
+}
+.prismarine_brick_stairs {
+    background-position: -816px -374px;
+}
+.prismarine_bricks {
+    background-position: -816px -408px;
+}
+.prismarine_slab {
+    background-position: -816px -442px;
+}
+.prismarine_stairs {
+    background-position: -816px -476px;
+}
+.prismarine_wall {
+    background-position: -816px -510px;
+}
+.prismarine {
+    background-position: -816px -544px;
+}
+.pumpkin_stem {
+    background-position: -816px -578px;
+}
+.pumpkin {
+    background-position: -816px -612px;
+}
+.purple_bed {
+    background-position: -816px -646px;
+}
+.purple_candle_cake {
+    background-position: -816px -680px;
+}
+.purple_candle {
+    background-position: -816px -714px;
+}
+.purple_concrete_powder {
+    background-position: -816px -748px;
+}
+.purple_concrete {
+    background-position: 0 -783px;
+}
+.purple_glazed_terracotta {
+    background-position: -34px -783px;
+}
+.purple_shulker_box {
+    background-position: -68px -783px;
+}
+.purple_stained_glass_pane {
+    background-position: -102px -783px;
+}
+.purple_stained_glass {
+    background-position: -136px -783px;
+}
+.purple_terracotta {
+    background-position: -170px -783px;
+}
+.purple_wool {
+    background-position: -204px -783px;
+}
+.purpur_block {
+    background-position: -238px -783px;
+}
+.purpur_pillar {
+    background-position: -272px -783px;
+}
+.purpur_slab {
+    background-position: -306px -783px;
+}
+.purpur_stairs {
+    background-position: -340px -783px;
+}
+.quartz_block {
+    background-position: -374px -783px;
+}
+.quartz_bricks {
+    background-position: -408px -783px;
+}
+.quartz_pillar {
+    background-position: -442px -783px;
+}
+.quartz_slab {
+    background-position: -476px -783px;
+}
+.quartz_stairs {
+    background-position: -510px -783px;
+}
+.raw_copper_block {
+    background-position: -544px -783px;
+}
+.raw_gold_block {
+    background-position: -578px -783px;
+}
+.raw_iron_block {
+    background-position: -612px -783px;
+}
+.red_bed {
+    background-position: -646px -783px;
+}
+.red_candle_cake {
+    background-position: -680px -783px;
+}
+.red_candle {
+    background-position: -714px -783px;
+}
+.red_concrete_powder {
+    background-position: -748px -783px;
+}
+.red_concrete {
+    background-position: -782px -783px;
+}
+.red_glazed_terracotta {
+    background-position: -816px -783px;
+}
+.red_mushroom_block {
+    background-position: -850px 0;
+}
+.red_mushroom {
+    background-position: -850px -34px;
+}
+.red_nether_brick_slab {
+    background-position: -850px -68px;
+}
+.red_nether_brick_stairs {
+    background-position: -850px -102px;
+}
+.red_nether_brick_wall {
+    background-position: -850px -136px;
+}
+.red_nether_bricks {
+    background-position: -850px -170px;
+}
+.red_sand {
+    background-position: -850px -204px;
+}
+.red_sandstone_slab {
+    background-position: -850px -238px;
+}
+.red_sandstone_stairs {
+    background-position: -850px -272px;
+}
+.red_sandstone_wall {
+    background-position: -850px -306px;
+}
+.red_sandstone {
+    background-position: -850px -340px;
+}
+.red_shulker_box {
+    background-position: -850px -374px;
+}
+.red_stained_glass_pane {
+    background-position: -850px -408px;
+}
+.red_stained_glass {
+    background-position: -850px -442px;
+}
+.red_terracotta {
+    background-position: -850px -476px;
+}
+.red_tulip {
+    background-position: -850px -510px;
+}
+.red_wool {
+    background-position: -850px -544px;
+}
+.redstone_block {
+    background-position: -850px -578px;
+}
+.redstone_lamp {
+    background-position: -850px -612px;
+}
+.redstone_ore {
+    background-position: -850px -646px;
+}
+.redstone_torch {
+    background-position: -850px -680px;
+}
+.redstone_wall_torch {
+    background-position: -850px -714px;
+}
+.repeating_command_block {
+    background-position: -850px -748px;
+}
+.respawn_anchor {
+    background-position: -850px -782px;
+}
+.rooted_dirt {
+    background-position: 0 -817px;
+}
+.sand {
+    background-position: -34px -817px;
+}
+.sandstone_slab {
+    background-position: -68px -817px;
+}
+.sandstone_stairs {
+    background-position: -102px -817px;
+}
+.sandstone_wall {
+    background-position: -136px -817px;
+}
+.sandstone {
+    background-position: -170px -817px;
+}
+.scaffolding {
+    background-position: -204px -817px;
+}
+.sculk_sensor {
+    background-position: -238px -817px;
+}
+.sea_lantern {
+    background-position: -272px -817px;
+}
+.sea_pickle {
+    background-position: -306px -817px;
+}
+.seagrass {
+    background-position: -340px -817px;
+}
+.shroomlight {
+    background-position: -374px -817px;
+}
+.shulker_box {
+    background-position: -408px -817px;
+}
+.skeleton_skull {
+    background-position: -442px -817px;
+}
+.skeleton_wall_skull {
+    background-position: -476px -817px;
+}
+.slime_block {
+    background-position: -510px -817px;
+}
+.small_amethyst_bud {
+    background-position: -544px -817px;
+}
+.smithing_table {
+    background-position: -578px -817px;
+}
+.smoker {
+    background-position: -612px -817px;
+}
+.smooth_basalt {
+    background-position: -646px -817px;
+}
+.smooth_quartz_slab {
+    background-position: -680px -817px;
+}
+.smooth_quartz_stairs {
+    background-position: -714px -817px;
+}
+.smooth_quartz {
+    background-position: -748px -817px;
+}
+.smooth_red_sandstone_slab {
+    background-position: -782px -817px;
+}
+.smooth_red_sandstone_stairs {
+    background-position: -816px -817px;
+}
+.smooth_red_sandstone {
+    background-position: -850px -817px;
+}
+.smooth_sandstone_slab {
+    background-position: -884px 0;
+}
+.smooth_sandstone_stairs {
+    background-position: -884px -34px;
+}
+.smooth_sandstone {
+    background-position: -884px -68px;
+}
+.smooth_stone_slab {
+    background-position: -884px -102px;
+}
+.smooth_stone {
+    background-position: -884px -136px;
+}
+.snow_block {
+    background-position: -884px -170px;
+}
+.snow {
+    background-position: -884px -204px;
+}
+.soul_campfire {
+    background-position: -884px -238px;
+}
+.soul_lantern {
+    background-position: -884px -272px;
+}
+.soul_sand {
+    background-position: -884px -306px;
+}
+.soul_soil {
+    background-position: -884px -340px;
+}
+.soul_torch {
+    background-position: -884px -374px;
+}
+.soul_wall_torch {
+    background-position: -884px -408px;
+}
+.spawner {
+    background-position: -884px -442px;
+}
+.sponge {
+    background-position: -884px -476px;
+}
+.spore_blossom {
+    background-position: -884px -510px;
+}
+.spruce_button {
+    background-position: -884px -544px;
+}
+.spruce_door {
+    background-position: -884px -578px;
+}
+.spruce_fence_gate {
+    background-position: -884px -612px;
+}
+.spruce_fence {
+    background-position: -884px -646px;
+}
+.spruce_leaves {
+    background-position: -884px -680px;
+}
+.spruce_log {
+    background-position: -884px -714px;
+}
+.spruce_planks {
+    background-position: -884px -748px;
+}
+.spruce_sapling {
+    background-position: -884px -782px;
+}
+.spruce_sign {
+    background-position: -884px -816px;
+}
+.spruce_slab {
+    background-position: 0 -851px;
+}
+.spruce_stairs {
+    background-position: -34px -851px;
+}
+.spruce_wood {
+    background-position: -68px -851px;
+}
+.sticky_piston {
+    background-position: -102px -851px;
+}
+.stone_brick_slab {
+    background-position: -136px -851px;
+}
+.stone_brick_stairs {
+    background-position: -170px -851px;
+}
+.stone_brick_wall {
+    background-position: -204px -851px;
+}
+.stone_bricks {
+    background-position: -238px -851px;
+}
+.stone_button {
+    background-position: -272px -851px;
+}
+.stone_slab {
+    background-position: -306px -851px;
+}
+.stone_stairs {
+    background-position: -340px -851px;
+}
+.stone {
+    background-position: -374px -851px;
+}
+.stonecutter {
+    background-position: -408px -851px;
+}
+.stripped_acacia_log {
+    background-position: -442px -851px;
+}
+.stripped_acacia_wood {
+    background-position: -476px -851px;
+}
+.stripped_birch_log {
+    background-position: -510px -851px;
+}
+.stripped_birch_wood {
+    background-position: -544px -851px;
+}
+.stripped_crimson_hyphae {
+    background-position: -578px -851px;
+}
+.stripped_crimson_stem {
+    background-position: -612px -851px;
+}
+.stripped_dark_oak_log {
+    background-position: -646px -851px;
+}
+.stripped_dark_oak_wood {
+    background-position: -680px -851px;
+}
+.stripped_jungle_log {
+    background-position: -714px -851px;
+}
+.stripped_jungle_wood {
+    background-position: -748px -851px;
+}
+.stripped_oak_log {
+    background-position: -782px -851px;
+}
+.stripped_oak_wood {
+    background-position: -816px -851px;
+}
+.stripped_spruce_log {
+    background-position: -850px -851px;
+}
+.stripped_spruce_wood {
+    background-position: -884px -851px;
+}
+.stripped_warped_hyphae {
+    background-position: -918px 0;
+}
+.stripped_warped_stem {
+    background-position: -918px -34px;
+}
+.structure_block {
+    background-position: -918px -68px;
+}
+.structure_void {
+    background-position: -918px -102px;
+}
+.sugar_cane {
+    background-position: -918px -136px;
+}
+.sweet_berry_bush {
+    background-position: -918px -170px;
+}
+.tall_seagrass {
+    background-position: -918px -204px;
+}
+.target {
+    background-position: -918px -238px;
+}
+.terracotta {
+    background-position: -918px -272px;
+}
+.tinted_glass {
+    background-position: -918px -306px;
+}
+.tnt {
+    background-position: -918px -340px;
+}
+.torch {
+    background-position: -918px -374px;
+}
+.trapped_chest {
+    background-position: -918px -408px;
+}
+.tripwire_hook {
+    background-position: -918px -442px;
+}
+.tube_coral_block {
+    background-position: -918px -476px;
+}
+.tube_coral {
+    background-position: -918px -510px;
+}
+.tuff {
+    background-position: -918px -544px;
+}
+.turtle_egg {
+    background-position: -918px -578px;
+}
+.twisting_vines_plant {
+    background-position: -918px -612px;
+}
+.vine {
+    background-position: -918px -646px;
+}
+.wall_torch {
+    background-position: -918px -680px;
+}
+.warped_button {
+    background-position: -918px -714px;
+}
+.warped_door {
+    background-position: -918px -748px;
+}
+.warped_fence_gate {
+    background-position: -918px -782px;
+}
+.warped_fence {
+    background-position: -918px -816px;
+}
+.warped_fungus {
+    background-position: -918px -850px;
+}
+.warped_hyphae {
+    background-position: 0 -885px;
+}
+.warped_nylium {
+    background-position: -34px -885px;
+}
+.warped_planks {
+    background-position: -68px -885px;
+}
+.warped_roots {
+    background-position: -102px -885px;
+}
+.warped_sign {
+    background-position: -136px -885px;
+}
+.warped_slab {
+    background-position: -170px -885px;
+}
+.warped_stairs {
+    background-position: -204px -885px;
+}
+.warped_stem {
+    background-position: -238px -885px;
+}
+.warped_wall_sign {
+    background-position: -272px -885px;
+}
+.warped_wart_block {
+    background-position: -306px -885px;
+}
+.water_cauldron {
+    background-position: -340px -885px;
+}
+.water {
+    background-position: -374px -885px;
+}
+.waxed_copper_block {
+    background-position: -408px -885px;
+}
+.waxed_cut_copper_slab {
+    background-position: -442px -885px;
+}
+.waxed_cut_copper_stairs {
+    background-position: -476px -885px;
+}
+.waxed_cut_copper {
+    background-position: -510px -885px;
+}
+.waxed_exposed_copper {
+    background-position: -544px -885px;
+}
+.waxed_exposed_cut_copper_slab {
+    background-position: -578px -885px;
+}
+.waxed_exposed_cut_copper_stairs {
+    background-position: -612px -885px;
+}
+.waxed_exposed_cut_copper {
+    background-position: -646px -885px;
+}
+.waxed_oxidized_copper {
+    background-position: -680px -885px;
+}
+.waxed_oxidized_cut_copper_slab {
+    background-position: -714px -885px;
+}
+.waxed_oxidized_cut_copper_stairs {
+    background-position: -748px -885px;
+}
+.waxed_oxidized_cut_copper {
+    background-position: -782px -885px;
+}
+.waxed_weathered_copper {
+    background-position: -816px -885px;
+}
+.waxed_weathered_cut_copper_slab {
+    background-position: -850px -885px;
+}
+.waxed_weathered_cut_copper_stairs {
+    background-position: -884px -885px;
+}
+.waxed_weathered_cut_copper {
+    background-position: -918px -885px;
+}
+.weathered_copper {
+    background-position: -952px 0;
+}
+.weathered_cut_copper_slab {
+    background-position: -952px -34px;
+}
+.weathered_cut_copper_stairs {
+    background-position: -952px -68px;
+}
+.weathered_cut_copper {
+    background-position: -952px -102px;
+}
+.weeping_vines_plant {
+    background-position: -952px -136px;
+}
+.weeping_vines {
+    background-position: -952px -170px;
+}
+.wet_sponge {
+    background-position: -952px -204px;
+}
+.wheat {
+    background-position: -952px -238px;
+}
+.white_bed {
+    background-position: -952px -272px;
+}
+.white_candle_cake {
+    background-position: -952px -306px;
+}
+.white_candle {
+    background-position: -952px -340px;
+}
+.white_concrete_powder {
+    background-position: -952px -374px;
+}
+.white_concrete {
+    background-position: -952px -408px;
+}
+.white_glazed_terracotta {
+    background-position: -952px -442px;
+}
+.white_shulker_box {
+    background-position: -952px -476px;
+}
+.white_stained_glass_pane {
+    background-position: -952px -510px;
+}
+.white_stained_glass {
+    background-position: -952px -544px;
+}
+.white_terracotta {
+    background-position: -952px -578px;
+}
+.white_tulip {
+    background-position: -952px -612px;
+}
+.white_wool {
+    background-position: -952px -646px;
+}
+.wither_rose {
+    background-position: -952px -680px;
+}
+.wither_skeleton_skull {
+    background-position: -952px -714px;
+}
+.wither_skeleton_wall_skull {
+    background-position: -952px -748px;
+}
+.yellow_bed {
+    background-position: -952px -782px;
+}
+.yellow_candle_cake {
+    background-position: -952px -816px;
+}
+.yellow_candle {
+    background-position: -952px -850px;
+}
+.yellow_concrete_powder {
+    background-position: -952px -884px;
+}
+.yellow_concrete {
+    background-position: 0 -919px;
+}
+.yellow_glazed_terracotta {
+    background-position: -34px -919px;
+}
+.yellow_shulker_box {
+    background-position: -68px -919px;
+}
+.yellow_stained_glass_pane {
+    background-position: -102px -919px;
+}
+.yellow_stained_glass {
+    background-position: -136px -919px;
+}
+.yellow_terracotta {
+    background-position: -170px -919px;
+}
+.yellow_wool {
+    background-position: -204px -919px;
+}
+.zombie_head {
+    background-position: -238px -919px;
+}
+.zombie_wall_head {
+    background-position: -272px -919px;
+}
+.comparator {
+    background-position: -136px -72px;
+    height: 21px;
+}
+.repeater {
+    background-position: -306px -919px;
+    height: 21px;
+}
+.acacia_trapdoor {
+    background-position: -340px -919px;
+    height: 19px;
+}
+.birch_trapdoor {
+    background-position: -374px -919px;
+    height: 19px;
+}
+.crimson_trapdoor {
+    background-position: -408px -919px;
+    height: 19px;
+}
+.dark_oak_trapdoor {
+    background-position: -442px -919px;
+    height: 19px;
+}
+.end_portal {
+    background-position: -476px -919px;
+    height: 19px;
+}
+.iron_trapdoor {
+    background-position: -510px -919px;
+    height: 19px;
+}
+.jungle_trapdoor {
+    background-position: -544px -919px;
+    height: 19px;
+}
+.oak_trapdoor {
+    background-position: -578px -919px;
+    height: 19px;
+}
+.spruce_trapdoor {
+    background-position: -612px -919px;
+    height: 19px;
+}
+.warped_trapdoor {
+    background-position: -646px -919px;
+    height: 19px;
+}
+.acacia_pressure_plate {
+    background-position: -680px -919px;
+    height: 15px;
+}
+.activator_rail {
+    background-position: -714px -919px;
+    height: 15px;
+}
+.birch_pressure_plate {
+    background-position: -748px -919px;
+    height: 15px;
+}
+.black_carpet {
+    background-position: -782px -919px;
+    height: 15px;
+}
+.blue_carpet {
+    background-position: -816px -919px;
+    height: 15px;
+}
+.brain_coral_fan {
+    background-position: -850px -919px;
+    height: 15px;
+}
+.brain_coral_wall_fan {
+    background-position: -884px -919px;
+    height: 15px;
+}
+.brown_carpet {
+    background-position: -918px -919px;
+    height: 15px;
+}
+.bubble_coral_fan {
+    background-position: -952px -919px;
+    height: 15px;
+}
+.bubble_coral_wall_fan {
+    background-position: 0 -953px;
+    height: 15px;
+}
+.crimson_pressure_plate {
+    background-position: -34px -953px;
+    height: 15px;
+}
+.cyan_carpet {
+    background-position: -68px -953px;
+    height: 15px;
+}
+.dark_oak_pressure_plate {
+    background-position: -102px -953px;
+    height: 15px;
+}
+.dead_brain_coral_fan {
+    background-position: -136px -953px;
+    height: 15px;
+}
+.dead_brain_coral_wall_fan {
+    background-position: -170px -953px;
+    height: 15px;
+}
+.dead_bubble_coral_fan {
+    background-position: -204px -953px;
+    height: 15px;
+}
+.dead_bubble_coral_wall_fan {
+    background-position: -238px -953px;
+    height: 15px;
+}
+.dead_fire_coral_fan {
+    background-position: -272px -953px;
+    height: 15px;
+}
+.dead_fire_coral_wall_fan {
+    background-position: -306px -953px;
+    height: 15px;
+}
+.dead_horn_coral_fan {
+    background-position: -340px -953px;
+    height: 15px;
+}
+.dead_horn_coral_wall_fan {
+    background-position: -374px -953px;
+    height: 15px;
+}
+.dead_tube_coral_fan {
+    background-position: -408px -953px;
+    height: 15px;
+}
+.dead_tube_coral_wall_fan {
+    background-position: -442px -953px;
+    height: 15px;
+}
+.detector_rail {
+    background-position: -476px -953px;
+    height: 15px;
+}
+.fire_coral_fan {
+    background-position: -510px -953px;
+    height: 15px;
+}
+.fire_coral_wall_fan {
+    background-position: -544px -953px;
+    height: 15px;
+}
+.gray_carpet {
+    background-position: -578px -953px;
+    height: 15px;
+}
+.green_carpet {
+    background-position: -612px -953px;
+    height: 15px;
+}
+.horn_coral_fan {
+    background-position: -646px -953px;
+    height: 15px;
+}
+.horn_coral_wall_fan {
+    background-position: -680px -953px;
+    height: 15px;
+}
+.jungle_pressure_plate {
+    background-position: -714px -953px;
+    height: 15px;
+}
+.light_blue_carpet {
+    background-position: -748px -953px;
+    height: 15px;
+}
+.light_gray_carpet {
+    background-position: -782px -953px;
+    height: 15px;
+}
+.light_weighted_pressure_plate {
+    background-position: -816px -953px;
+    height: 15px;
+}
+.lily_pad {
+    background-position: -850px -953px;
+    height: 15px;
+}
+.lime_carpet {
+    background-position: -884px -953px;
+    height: 15px;
+}
+.magenta_carpet {
+    background-position: -918px -953px;
+    height: 15px;
+}
+.oak_pressure_plate {
+    background-position: -952px -953px;
+    height: 15px;
+}
+.orange_carpet {
+    background-position: -986px 0;
+    height: 15px;
+}
+.pink_carpet {
+    background-position: -986px -19px;
+    height: 15px;
+}
+.powered_rail {
+    background-position: -986px -38px;
+    height: 15px;
+}
+.purple_carpet {
+    background-position: -986px -57px;
+    height: 15px;
+}
+.rail {
+    background-position: -986px -76px;
+    height: 15px;
+}
+.red_carpet {
+    background-position: -986px -95px;
+    height: 15px;
+}
+.redstone_wire {
+    background-position: -986px -114px;
+    height: 15px;
+}
+.spruce_pressure_plate {
+    background-position: -986px -133px;
+    height: 15px;
+}
+.stone_pressure_plate {
+    background-position: -986px -152px;
+    height: 15px;
+}
+.tripwire {
+    background-position: -986px -171px;
+    height: 15px;
+}
+.tube_coral_fan {
+    background-position: -986px -190px;
+    height: 15px;
+}
+.tube_coral_wall_fan {
+    background-position: -986px -209px;
+    height: 15px;
+}
+.warped_pressure_plate {
+    background-position: -986px -228px;
+    height: 15px;
+}
+.white_carpet {
+    background-position: -986px -247px;
+    height: 15px;
+}
+.yellow_carpet {
+    background-position: -986px -266px;
+    height: 15px;
+}
+.large_fern {
+    background-position: -986px -285px;
+    width: 15px;
+    height: 26px;
+}
+.lilac {
+    background-position: -986px -315px;
+    width: 15px;
+    height: 26px;
+}
+.peony {
+    background-position: -986px -345px;
+    width: 15px;
+    height: 26px;
+}
+.rose_bush {
+    background-position: -986px -375px;
+    width: 15px;
+    height: 26px;
+}
+.sunflower {
+    background-position: -986px -405px;
+    width: 15px;
+    height: 26px;
+}
+.tall_grass {
+    background-position: -986px -435px;
+    width: 15px;
+    height: 26px;
+}
+.black_banner {
+    background-position: -1005px -285px;
+    width: 10px;
+    height: 25px;
+}
+.black_wall_banner {
+    background-position: -1005px -315px;
+    width: 10px;
+    height: 25px;
+}
+.blue_banner {
+    background-position: -1005px -345px;
+    width: 10px;
+    height: 25px;
+}
+.blue_wall_banner {
+    background-position: -1005px -375px;
+    width: 10px;
+    height: 25px;
+}
+.brown_banner {
+    background-position: -1005px -405px;
+    width: 10px;
+    height: 25px;
+}
+.brown_wall_banner {
+    background-position: -1005px -435px;
+    width: 10px;
+    height: 25px;
+}
+.cyan_banner {
+    background-position: -986px -465px;
+    width: 10px;
+    height: 25px;
+}
+.cyan_wall_banner {
+    background-position: -1000px -465px;
+    width: 10px;
+    height: 25px;
+}
+.gray_banner {
+    background-position: -986px -494px;
+    width: 10px;
+    height: 25px;
+}
+.gray_wall_banner {
+    background-position: -1000px -494px;
+    width: 10px;
+    height: 25px;
+}
+.green_banner {
+    background-position: -986px -523px;
+    width: 10px;
+    height: 25px;
+}
+.green_wall_banner {
+    background-position: -1000px -523px;
+    width: 10px;
+    height: 25px;
+}
+.light_blue_banner {
+    background-position: -986px -552px;
+    width: 10px;
+    height: 25px;
+}
+.light_blue_wall_banner {
+    background-position: -1000px -552px;
+    width: 10px;
+    height: 25px;
+}
+.light_gray_banner {
+    background-position: -986px -581px;
+    width: 10px;
+    height: 25px;
+}
+.light_gray_wall_banner {
+    background-position: -1000px -581px;
+    width: 10px;
+    height: 25px;
+}
+.lime_banner {
+    background-position: -986px -610px;
+    width: 10px;
+    height: 25px;
+}
+.lime_wall_banner {
+    background-position: -1000px -610px;
+    width: 10px;
+    height: 25px;
+}
+.magenta_banner {
+    background-position: -986px -639px;
+    width: 10px;
+    height: 25px;
+}
+.magenta_wall_banner {
+    background-position: -1000px -639px;
+    width: 10px;
+    height: 25px;
+}
+.orange_banner {
+    background-position: -986px -668px;
+    width: 10px;
+    height: 25px;
+}
+.orange_wall_banner {
+    background-position: -1000px -668px;
+    width: 10px;
+    height: 25px;
+}
+.pink_banner {
+    background-position: -986px -697px;
+    width: 10px;
+    height: 25px;
+}
+.pink_wall_banner {
+    background-position: -1000px -697px;
+    width: 10px;
+    height: 25px;
+}
+.purple_banner {
+    background-position: -986px -726px;
+    width: 10px;
+    height: 25px;
+}
+.purple_wall_banner {
+    background-position: -1000px -726px;
+    width: 10px;
+    height: 25px;
+}
+.red_banner {
+    background-position: -986px -755px;
+    width: 10px;
+    height: 25px;
+}
+.red_wall_banner {
+    background-position: -1000px -755px;
+    width: 10px;
+    height: 25px;
+}
+.white_banner {
+    background-position: -986px -784px;
+    width: 10px;
+    height: 25px;
+}
+.white_wall_banner {
+    background-position: -1000px -784px;
+    width: 10px;
+    height: 25px;
+}
+.yellow_banner {
+    background-position: -986px -813px;
+    width: 10px;
+    height: 25px;
+}
+.yellow_wall_banner {
+    background-position: -1000px -813px;
+    width: 10px;
+    height: 25px;
+}

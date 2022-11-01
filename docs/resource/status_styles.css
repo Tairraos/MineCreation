@@ -1,0 +1,268 @@
+.sprite-status {
+    display: inline-block;
+    vertical-align: middle;
+    width: 18px;
+    height: 18px;
+}
+.first {
+    margin-left: 8px;
+}
+.second {
+    margin-right: 8px;
+}
+
+.effect-speed {
+    background: url("status_sprites.png") -54px -90px;
+}
+
+.particle-speed {
+    background: url("status_sprites.png") -144px -0px;
+}
+
+.effect-slowness {
+    background: url("status_sprites.png") -36px -90px;
+}
+
+.particle-slowness {
+    background: url("status_sprites.png") -162px -0px;
+}
+
+.effect-haste {
+    background: url("status_sprites.png") -90px -72px;
+}
+
+.particle-haste {
+    background: url("status_sprites.png") -180px -0px;
+}
+
+.effect-mining_fatigue {
+    background: url("status_sprites.png") -216px -72px;
+}
+
+.particle-mining_fatigue {
+    background: url("status_sprites.png") -198px -0px;
+}
+
+.effect-strength {
+    background: url("status_sprites.png") -72px -90px;
+}
+
+.particle-strength {
+    background: url("status_sprites.png") -216px -0px;
+}
+
+.effect-instant_health {
+    background: url("status_sprites.png") -198px -90px;
+}
+
+.particle-instant_health {
+    background: url("status_sprites.png") -234px -270px;
+}
+
+.effect-instant_damage {
+    background: url("status_sprites.png") -216px -54px;
+}
+
+.particle-instant_damage {
+    background: url("status_sprites.png") -252px -270px;
+}
+
+.effect-jump_boost {
+    background: url("status_sprites.png") -162px -72px;
+}
+
+.particle-jump_boost {
+    background: url("status_sprites.png") -180px -18px;
+}
+
+.effect-nausea {
+    background: url("status_sprites.png") -234px -72px;
+}
+
+.particle-nausea {
+    background: url("status_sprites.png") -198px -18px;
+}
+
+.effect-regeneration {
+    background: url("status_sprites.png") -270px -72px;
+}
+
+.particle-regeneration {
+    background: url("status_sprites.png") -270px -0px;
+}
+
+.effect-resistance {
+    background: url("status_sprites.png") -0px -90px;
+}
+
+.particle-resistance {
+    background: url("status_sprites.png") -252px -18px;
+}
+
+.effect-fire_resistance {
+    background: url("status_sprites.png") -54px -72px;
+}
+
+.particle-fire_resistance {
+    background: url("status_sprites.png") -270px -18px;
+}
+
+.effect-water_breathing {
+    background: url("status_sprites.png") -90px -90px;
+}
+
+.particle-water_breathing {
+    background: url("status_sprites.png") -144px -36px;
+}
+
+.effect-invisibility {
+    background: url("status_sprites.png") -144px -72px;
+}
+
+.particle-invisibility {
+    background: url("status_sprites.png") -144px -18px;
+}
+
+.effect-blindness {
+    background: url("status_sprites.png") -18px -72px;
+}
+
+.particle-blindness {
+    background: url("status_sprites.png") -234px -18px;
+}
+
+.effect-night_vision {
+    background: url("status_sprites.png") -252px -72px;
+}
+
+.particle-night_vision {
+    background: url("status_sprites.png") -216px -18px;
+}
+
+.effect-hunger {
+    background: url("status_sprites.png") -126px -72px;
+}
+
+.particle-hunger {
+    background: url("status_sprites.png") -162px -18px;
+}
+
+.effect-weakness {
+    background: url("status_sprites.png") -108px -90px;
+}
+
+.particle-weakness {
+    background: url("status_sprites.png") -234px -0px;
+}
+
+.effect-poison {
+    background: url("status_sprites.png") -36px -72px;
+}
+
+.particle-poison {
+    background: url("status_sprites.png") -252px -0px;
+}
+
+.effect-wither {
+    background: url("status_sprites.png") -126px -90px;
+}
+
+.particle-wither {
+    background: url("status_sprites.png") -162px -36px;
+}
+
+.effect-health_boost {
+    background: url("status_sprites.png") -108px -72px;
+}
+
+.particle-health_boost {
+    background: url("status_sprites.png") -180px -36px;
+}
+
+.effect-absorption {
+    background: url("status_sprites.png") -270px -54px;
+}
+
+.particle-absorption {
+    background: url("status_sprites.png") -198px -36px;
+}
+
+.effect-saturation {
+    background: url("status_sprites.png") -216px -90px;
+}
+
+.particle-saturation {
+    background: url("status_sprites.png") -216px -36px;
+}
+
+.effect-glowing {
+    background: url("status_sprites.png") -72px -72px;
+}
+
+.particle-glowing {
+    background: url("status_sprites.png") -234px -36px;
+}
+
+.effect-levitation {
+    background: url("status_sprites.png") -180px -72px;
+}
+
+.particle-levitation {
+    background: url("status_sprites.png") -252px -36px;
+}
+
+.effect-luck {
+    background: url("status_sprites.png") -198px -72px;
+}
+
+.particle-luck {
+    background: url("status_sprites.png") -270px -36px;
+}
+
+.effect-unluck {
+    background: url("status_sprites.png") -0px -72px;
+}
+
+.particle-unluck {
+    background: url("status_sprites.png") -144px -54px;
+}
+
+.effect-slow_falling {
+    background: url("status_sprites.png") -126px -54px;
+}
+
+.particle-slow_falling {
+    background: url("status_sprites.png") -90px -108px;
+}
+
+.effect-conduit_power {
+    background: url("status_sprites.png") -108px -54px;
+}
+
+.particle-conduit_power {
+    background: url("status_sprites.png") -180px -54px;
+}
+
+.effect-dolphins_grace {
+    background: url("status_sprites.png") -162px -54px;
+}
+
+.particle-dolphins_grace {
+    background: url("status_sprites.png") -198px -54px;
+}
+
+.effect-bad_omen {
+    background: url("status_sprites.png") -252px -54px;
+}
+
+.particle-bad_omen {
+    background: url("status_sprites.png") -18px -90px;
+}
+
+.effect-hero_of_the_village {
+    background: url("status_sprites.png") -144px -90px;
+}
+
+.particle-hero_of_the_village {
+    background: url("status_sprites.png") -162px -90px;
+}

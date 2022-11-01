@@ -1,0 +1,1033 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="数据及图片来源：https://wiki.biligame.com/mc">
+    <link rel="stylesheet" href="./resource/base.css">
+    <link rel="stylesheet" href="./resource/block_styles.css">
+    <title>方块名称对照表</title>
+</head>
+<body>
+    <p>
+        以下 id 都是省略了命名空间 <code>minecraft:</code> 的 id，点击红色的 id 即可拷贝入剪贴板使用。<br/>
+        注：<span class=grayb>带灰色背景的方块没有物品形式。</span><span class=pinkb>粉色背景的为物品变种，生长阶段变种，放置方式变种，叠加状态变种。</span>
+    </p>
+    <div class="options">
+        <div><label for="optfilter">快速过滤</label> ：<input id="optfilter" name="optfilter" type="text"></div>
+        <div><label for="optid">复制类型</label> ：<input type="radio" id="optid" name="opttype" value="optid" checked><label for="optid">id</label><input type="radio" id="optcmd" name="opttype" value="optcmd"><label for="optcmd">command</label></div>
+        <div><label for="optjump">快速跳转</label> ：<select id="optjump" name="optjump"><option value="">快速跳转</option></select></div>
+    </div>
+
+    <div class="title"><a name="材料.压缩方块"></a></div>
+    <div class="item"><span class="sprite-block iron_block" title="Block of Iron"></span><span class="name">铁块</span><span class="code"><code>iron_block</code></span></div>
+    <div class="item"><span class="sprite-block copper_block" title="Copper Block"></span><span class="name">铜块</span><span class="code"><code>copper_block</code></span></div>
+    <div class="item"><span class="sprite-block gold_block" title="Block of Gold"></span><span class="name">金块</span><span class="code"><code>gold_block</code></span></div>
+    <div class="item"><span class="sprite-block emerald_block" title="Block of Emerald"></span><span class="name">绿宝石块</span><span class="code"><code>emerald_block</code></span></div>
+    <div class="item"><span class="sprite-block hay_block" title="Hay Bale"></span><span class="name">干草块</span><span class="code"><code>hay_block</code></span></div>
+    <div class="item"><span class="sprite-block redstone_block" title="Block of Redstone"></span><span class="name">红石块</span><span class="code"><code>redstone_block</code></span></div>
+    <div class="item"><span class="sprite-block clay" title="Clay"></span><span class="name">黏土块</span><span class="code"><code>clay</code></span></div>
+    <div class="item"><span class="sprite-block bone_block" title="Bone Block"></span><span class="name">骨块</span><span class="code"><code>bone_block</code></span></div>
+    <div class="item"><span class="sprite-block dried_kelp_block" title="Dried Kelp Block"></span><span class="name">干海带块</span><span class="code"><code>dried_kelp_block</code></span></div>
+    <div class="item"><span class="sprite-block honey_block" title="Honey Block"></span><span class="name">蜂蜜块</span><span class="code"><code>honey_block</code></span></div>
+    <div class="item"><span class="sprite-block honeycomb_block" title="Honeycomb Block"></span><span class="name">蜜脾块</span><span class="code"><code>honeycomb_block</code></span></div>
+    <div class="item"><span class="sprite-block magma_block" title="Magma Block"></span><span class="name">岩浆块</span><span class="code"><code>magma_block</code></span></div>
+    <div class="item"><span class="sprite-block moss_block" title="Moss Block"></span><span class="name">苔藓块</span><span class="code"><code>moss_block</code></span></div>
+    <div class="item"><span class="sprite-block purpur_block" title="Purpur Block"></span><span class="name">紫珀块</span><span class="code"><code>purpur_block</code></span></div>
+    <div class="item"><span class="sprite-block slime_block" title="Slime Block"></span><span class="name">黏液块</span><span class="code"><code>slime_block</code></span></div>
+    <div class="item"><span class="sprite-block snow_block" title="Snow Block"></span><span class="name">雪块</span><span class="code"><code>snow_block</code></span></div>
+    <div class="item"><span class="sprite-block netherite_block" title="Block of Netherite"></span><span class="name">下界合金块</span><span class="code"><code>netherite_block</code></span></div>
+    <div class="item"><span class="sprite-block diamond_block" title="Block of Diamond"></span><span class="name">钻石块</span><span class="code"><code>diamond_block</code></span></div>
+    <div class="item"><span class="sprite-block lapis_block" title="Block of Lapis Lazuli"></span><span class="name">青金石块</span><span class="code"><code>lapis_block</code></span></div>
+    <div class="item"><span class="sprite-block coal_block" title="Block of Coal"></span><span class="name">煤炭块</span><span class="code"><code>coal_block</code></span></div>
+
+    <div class="title"><a name="环境.元素"></a></div>
+    <div class="item pinkb"><span class="sprite-block empty" title="Air"></span><span class="name">空气</span><span class="code"><code>air</code></span></div>
+    <div class="item grayb"><span class="sprite-block empty" title="Cave Air"></span><span class="name">洞穴空气</span><span class="code"><code>cave_air</code></span></div>
+    <div class="item grayb"><span class="sprite-block empty" title="Void Air"></span><span class="name">虚空空气</span><span class="code"><code>void_air</code></span></div>
+    <div class="item"><span class="sprite-block water" title="Water"></span><span class="name">水</span><span class="code"><code>water</code></span></div>
+    <div class="item"><span class="sprite-block ice" title="Ice"></span><span class="name">冰</span><span class="code"><code>ice</code></span></div>
+    <div class="item"><span class="sprite-block blue_ice" title="Blue Ice"></span><span class="name">蓝冰</span><span class="code"><code>blue_ice</code></span></div>
+    <div class="item grayb"><span class="sprite-block frosted_ice" title="Frosted ice1"></span><span class="name">霜冰</span><span class="code"><code>frosted_ice</code></span></div>
+    <div class="item"><span class="sprite-block packed_ice" title="Packed Ice"></span><span class="name">浮冰</span><span class="code"><code>packed_ice</code></span></div>
+    <div class="item"><span class="sprite-block snow" title="Snow"></span><span class="name">雪</span><span class="code"><code>snow</code></span></div>
+    <div class="item"><span class="sprite-block powder_snow" title="Powder Snow"></span><span class="name">细雪</span><span class="code"><code>powder_snow</code></span></div>
+    <div class="item grayb"><span class="sprite-block fire" title="Fire"></span><span class="name">火</span><span class="code"><code>fire</code></span></div>
+    <div class="item grayb"><span class="sprite-block soul_fire" title="Soul Fire"></span><span class="name">灵魂火</span><span class="code"><code>soul_fire</code></span></div>
+    <div class="item"><span class="sprite-block lava" title="Lava"></span><span class="name">熔岩</span><span class="code"><code>lava</code></span></div>
+
+    <div class="title"><a name="环境.系统"></a></div>
+    <div class="item"><span class="sprite-block light" title="Light"></span><span class="name">光</span><span class="code"><code>light</code></span></div>
+    <div class="item"><span class="sprite-block barrier" title="Barrier"></span><span class="name">屏障</span><span class="code"><code>barrier</code></span></div>
+    <div class="item"><span class="sprite-block respawn_anchor" title="Respawn Anchor"></span><span class="name">重生锚</span><span class="code"><code>respawn_anchor</code></span></div>
+    <div class="item"><span class="sprite-block spawner" title="Spawner"></span><span class="name">刷怪笼</span><span class="code"><code>spawner</code></span></div>
+    <div class="item"><span class="sprite-block structure_void" title="Structure Void"></span><span class="name">结构空位</span><span class="code"><code>structure_void</code></span></div>
+    <div class="item"><span class="sprite-block jigsaw" title="Jigsaw Block"></span><span class="name">拼图方块</span><span class="code"><code>jigsaw</code></span></div>
+    <div class="item grayb"><span class="sprite-block bubble_column" title="Bubble Column"></span><span class="name">气泡柱</span><span class="code"><code>bubble_column</code></span></div>
+
+    <div class="title"><a name="环境.基础方块"></a></div>
+    <div class="item"><span class="sprite-block grass_block" title="Grass Block"></span><span class="name">草方块</span><span class="code"><code>grass_block</code></span></div>
+    <div class="item"><span class="sprite-block dirt" title="Dirt"></span><span class="name">泥土</span><span class="code"><code>dirt</code></span></div>
+    <div class="item"><span class="sprite-block farmland" title="Farmland"></span><span class="name">耕地</span><span class="code"><code>farmland</code></span></div>
+    <div class="item"><span class="sprite-block dirt_path" title="Dirt Path"></span><span class="name">土径</span><span class="code"><code>dirt_path</code></span></div>
+    <div class="item"><span class="sprite-block coarse_dirt" title="Coarse Dirt"></span><span class="name">砂土</span><span class="code"><code>coarse_dirt</code></span></div>
+    <div class="item"><span class="sprite-block gravel" title="Gravel"></span><span class="name">沙砾</span><span class="code"><code>gravel</code></span></div>
+    <div class="item"><span class="sprite-block podzol" title="Podzol"></span><span class="name">灰化土</span><span class="code"><code>podzol</code></span></div>
+    <div class="item"><span class="sprite-block rooted_dirt" title="Rooted Dirt"></span><span class="name">缠根泥土</span><span class="code"><code>rooted_dirt</code></span></div>
+    <div class="item"><span class="sprite-block soul_soil" title="Soul Soil"></span><span class="name">灵魂土</span><span class="code"><code>soul_soil</code></span></div>
+    <div class="item"><span class="sprite-block sponge" title="Sponge"></span><span class="name">海绵</span><span class="code"><code>sponge</code></span></div>
+    <div class="item"><span class="sprite-block wet_sponge" title="Wet Sponge"></span><span class="name">湿海绵</span><span class="code"><code>wet_sponge</code></span></div>
+
+
+    <div class="title"><a name="环境.生物"></a></div>
+    <div class="item"><span class="sprite-block bee_nest" title="Bee Nest"></span><span class="name">蜂巢</span><span class="code"><code>bee_nest</code></span></div>
+    <div class="item"><span class="sprite-block beehive" title="Beehive"></span><span class="name">蜂箱</span><span class="code"><code>beehive</code></span></div>
+    <div class="item"><span class="sprite-block cobweb" title="Cobweb"></span><span class="name">蜘蛛网</span><span class="code"><code>cobweb</code></span></div>
+    <div class="item"><span class="sprite-block dragon_egg" title="Dragon Egg"></span><span class="name">龙蛋</span><span class="code"><code>dragon_egg</code></span></div>
+    <div class="item"><span class="sprite-block turtle_egg" title="Turtle Egg4"></span><span class="name">海龟蛋</span><span class="code"><code>turtle_egg</code></span></div>
+
+    <div class="title"><a name="建造.原木"></a></div>
+    <div class="item"><span class="sprite-block acacia_log" title="Acacia Log"></span><span class="name">金合欢原木</span><span class="code"><code>acacia_log</code></span></div>
+    <div class="item"><span class="sprite-block birch_log" title="Birch Log"></span><span class="name">白桦原木</span><span class="code"><code>birch_log</code></span></div>
+    <div class="item"><span class="sprite-block dark_oak_log" title="Dark Oak Log"></span><span class="name">深色橡木原木</span><span class="code"><code>dark_oak_log</code></span></div>
+    <div class="item"><span class="sprite-block jungle_log" title="Jungle Log"></span><span class="name">丛林原木</span><span class="code"><code>jungle_log</code></span></div>
+    <div class="item"><span class="sprite-block oak_log" title="Oak Log"></span><span class="name">橡木原木</span><span class="code"><code>oak_log</code></span></div>
+    <div class="item"><span class="sprite-block spruce_log" title="Spruce Log"></span><span class="name">云杉原木</span><span class="code"><code>spruce_log</code></span></div>
+    <div class="item"><span class="sprite-block stripped_acacia_log" title="Stripped Acacia Log"></span><span class="name">去皮金合欢原木</span><span class="code"><code>stripped_acacia_log</code></span></div>
+    <div class="item"><span class="sprite-block stripped_birch_log" title="Stripped Birch Log"></span><span class="name">去皮白桦原木</span><span class="code"><code>stripped_birch_log</code></span></div>
+    <div class="item"><span class="sprite-block stripped_dark_oak_log" title="Stripped Dark Oak Log"></span><span class="name">去皮深色橡木原木</span><span class="code"><code>stripped_dark_oak_log</code></span></div>
+    <div class="item"><span class="sprite-block stripped_jungle_log" title="Stripped Jungle Log"></span><span class="name">去皮丛林原木</span><span class="code"><code>stripped_jungle_log</code></span></div>
+    <div class="item"><span class="sprite-block stripped_oak_log" title="Stripped Oak Log"></span><span class="name">去皮橡木原木</span><span class="code"><code>stripped_oak_log</code></span></div>
+    <div class="item"><span class="sprite-block stripped_spruce_log" title="Stripped Spruce Log"></span><span class="name">去皮云杉原木</span><span class="code"><code>stripped_spruce_log</code></span></div>
+
+    <div class="title"><a name="建造.沙子"></a></div>
+    <div class="item"><span class="sprite-block sand" title="Sand"></span><span class="name">沙子</span><span class="code"><code>sand</code></span></div>
+    <div class="item"><span class="sprite-block red_sand" title="Red Sand"></span><span class="name">红沙</span><span class="code"><code>red_sand</code></span></div>
+    <div class="item"><span class="sprite-block soul_sand" title="Soul Sand"></span><span class="name">灵魂沙</span><span class="code"><code>soul_sand</code></span></div>
+
+    <div class="title"><a name="建造.木材"></a></div>
+    <div class="item"><span class="sprite-block acacia_wood" title="Acacia Wood"></span><span class="name">金合欢木</span><span class="code"><code>acacia_wood</code></span></div>
+    <div class="item"><span class="sprite-block birch_wood" title="Birch Wood"></span><span class="name">白桦木</span><span class="code"><code>birch_wood</code></span></div>
+    <div class="item"><span class="sprite-block dark_oak_wood" title="Dark Oak Wood"></span><span class="name">深色橡木</span><span class="code"><code>dark_oak_wood</code></span></div>
+    <div class="item"><span class="sprite-block jungle_wood" title="Jungle Wood"></span><span class="name">丛林木</span><span class="code"><code>jungle_wood</code></span></div>
+    <div class="item"><span class="sprite-block oak_wood" title="Oak Wood"></span><span class="name">橡木</span><span class="code"><code>oak_wood</code></span></div>
+    <div class="item"><span class="sprite-block spruce_wood" title="Spruce Wood"></span><span class="name">云杉木</span><span class="code"><code>spruce_wood</code></span></div>
+    <div class="item"><span class="sprite-block stripped_acacia_wood" title="Stripped Acacia Wood"></span><span class="name">去皮金合欢木</span><span class="code"><code>stripped_acacia_wood</code></span></div>
+    <div class="item"><span class="sprite-block stripped_birch_wood" title="Stripped Birch Wood"></span><span class="name">去皮白桦木</span><span class="code"><code>stripped_birch_wood</code></span></div>
+    <div class="item"><span class="sprite-block stripped_dark_oak_wood" title="Stripped Dark Oak Wood"></span><span class="name">去皮深色橡木</span><span class="code"><code>stripped_dark_oak_wood</code></span></div>
+    <div class="item"><span class="sprite-block stripped_jungle_wood" title="Stripped Jungle Wood"></span><span class="name">去皮丛林木</span><span class="code"><code>stripped_jungle_wood</code></span></div>
+    <div class="item"><span class="sprite-block stripped_oak_wood" title="Stripped Oak Wood"></span><span class="name">去皮橡木</span><span class="code"><code>stripped_oak_wood</code></span></div>
+    <div class="item"><span class="sprite-block stripped_spruce_wood" title="Stripped Spruce Wood"></span><span class="name">去皮云杉木</span><span class="code"><code>stripped_spruce_wood</code></span></div>
+
+    <div class="title"><a name="建造.混凝土"></a></div>
+    <div class="item"><span class="sprite-block black_concrete" title="Black Concrete"></span><span class="name">黑色混凝土</span><span class="code"><code>black_concrete</code></span></div>
+    <div class="item"><span class="sprite-block blue_concrete" title="Blue Concrete"></span><span class="name">蓝色混凝土</span><span class="code"><code>blue_concrete</code></span></div>
+    <div class="item"><span class="sprite-block brown_concrete" title="Brown Concrete"></span><span class="name">棕色混凝土</span><span class="code"><code>brown_concrete</code></span></div>
+    <div class="item"><span class="sprite-block cyan_concrete" title="Cyan Concrete"></span><span class="name">青色混凝土</span><span class="code"><code>cyan_concrete</code></span></div>
+    <div class="item"><span class="sprite-block gray_concrete" title="Gray Concrete"></span><span class="name">灰色混凝土</span><span class="code"><code>gray_concrete</code></span></div>
+    <div class="item"><span class="sprite-block green_concrete" title="Green Concrete"></span><span class="name">绿色混凝土</span><span class="code"><code>green_concrete</code></span></div>
+    <div class="item"><span class="sprite-block light_blue_concrete" title="Light Blue Concrete"></span><span class="name">淡蓝色混凝土</span><span class="code"><code>light_blue_concrete</code></span></div>
+    <div class="item"><span class="sprite-block light_gray_concrete" title="Light Gray Concrete"></span><span class="name">淡灰色混凝土</span><span class="code"><code>light_gray_concrete</code></span></div>
+    <div class="item"><span class="sprite-block lime_concrete" title="Lime Concrete"></span><span class="name">黄绿色混凝土</span><span class="code"><code>lime_concrete</code></span></div>
+    <div class="item"><span class="sprite-block magenta_concrete" title="Magenta Concrete"></span><span class="name">品红色混凝土</span><span class="code"><code>magenta_concrete</code></span></div>
+    <div class="item"><span class="sprite-block orange_concrete" title="Orange Concrete"></span><span class="name">橙色混凝土</span><span class="code"><code>orange_concrete</code></span></div>
+    <div class="item"><span class="sprite-block pink_concrete" title="Pink Concrete"></span><span class="name">粉红色混凝土</span><span class="code"><code>pink_concrete</code></span></div>
+    <div class="item"><span class="sprite-block purple_concrete" title="Purple Concrete"></span><span class="name">紫色混凝土</span><span class="code"><code>purple_concrete</code></span></div>
+    <div class="item"><span class="sprite-block red_concrete" title="Red Concrete"></span><span class="name">红色混凝土</span><span class="code"><code>red_concrete</code></span></div>
+    <div class="item"><span class="sprite-block white_concrete" title="White Concrete"></span><span class="name">白色混凝土</span><span class="code"><code>white_concrete</code></span></div>
+    <div class="item"><span class="sprite-block yellow_concrete" title="Yellow Concrete"></span><span class="name">黄色混凝土</span><span class="code"><code>yellow_concrete</code></span></div>
+
+    <div class="title"><a name="建造.混凝土粉末"></a></div>
+    <div class="item"><span class="sprite-block black_concrete_powder" title="Black Concrete Powder"></span><span class="name">黑色混凝土粉末</span><span class="code"><code>black_concrete_powder</code></span></div>
+    <div class="item"><span class="sprite-block blue_concrete_powder" title="Blue Concrete Powder"></span><span class="name">蓝色混凝土粉末</span><span class="code"><code>blue_concrete_powder</code></span></div>
+    <div class="item"><span class="sprite-block brown_concrete_powder" title="Brown Concrete Powder"></span><span class="name">棕色混凝土粉末</span><span class="code"><code>brown_concrete_powder</code></span></div>
+    <div class="item"><span class="sprite-block cyan_concrete_powder" title="Cyan Concrete Powder"></span><span class="name">青色混凝土粉末</span><span class="code"><code>cyan_concrete_powder</code></span></div>
+    <div class="item"><span class="sprite-block gray_concrete_powder" title="Gray Concrete Powder"></span><span class="name">灰色混凝土粉末</span><span class="code"><code>gray_concrete_powder</code></span></div>
+    <div class="item"><span class="sprite-block green_concrete_powder" title="Green Concrete Powder"></span><span class="name">绿色混凝土粉末</span><span class="code"><code>green_concrete_powder</code></span></div>
+    <div class="item"><span class="sprite-block light_blue_concrete_powder" title="Light Blue Concrete Powder"></span><span class="name">淡蓝色混凝土粉末</span><span class="code"><code>light_blue_concrete_powder</code></span></div>
+    <div class="item"><span class="sprite-block light_gray_concrete_powder" title="Light Gray Concrete Powder"></span><span class="name">淡灰色混凝土粉末</span><span class="code"><code>light_gray_concrete_powder</code></span></div>
+    <div class="item"><span class="sprite-block lime_concrete_powder" title="Lime Concrete Powder"></span><span class="name">黄绿色混凝土粉末</span><span class="code"><code>lime_concrete_powder</code></span></div>
+    <div class="item"><span class="sprite-block magenta_concrete_powder" title="Magenta Concrete Powder"></span><span class="name">品红色混凝土粉末</span><span class="code"><code>magenta_concrete_powder</code></span></div>
+    <div class="item"><span class="sprite-block orange_concrete_powder" title="Orange Concrete Powder"></span><span class="name">橙色混凝土粉末</span><span class="code"><code>orange_concrete_powder</code></span></div>
+    <div class="item"><span class="sprite-block pink_concrete_powder" title="Pink Concrete Powder"></span><span class="name">粉红色混凝土粉末</span><span class="code"><code>pink_concrete_powder</code></span></div>
+    <div class="item"><span class="sprite-block purple_concrete_powder" title="Purple Concrete Powder"></span><span class="name">紫色混凝土粉末</span><span class="code"><code>purple_concrete_powder</code></span></div>
+    <div class="item"><span class="sprite-block red_concrete_powder" title="Red Concrete Powder"></span><span class="name">红色混凝土粉末</span><span class="code"><code>red_concrete_powder</code></span></div>
+    <div class="item"><span class="sprite-block white_concrete_powder" title="White Concrete Powder"></span><span class="name">白色混凝土粉末</span><span class="code"><code>white_concrete_powder</code></span></div>
+    <div class="item"><span class="sprite-block yellow_concrete_powder" title="Yellow Concrete Powder"></span><span class="name">黄色混凝土粉末</span><span class="code"><code>yellow_concrete_powder</code></span></div>
+
+    <div class="title"><a name="建造.玻璃块"></a></div>
+    <div class="item"><span class="sprite-block glass" title="Glass"></span><span class="name">玻璃</span><span class="code"><code>glass</code></span></div>
+    <div class="item"><span class="sprite-block black_stained_glass" title="Black Stained Glass"></span><span class="name">黑色染色玻璃</span><span class="code"><code>black_stained_glass</code></span></div>
+    <div class="item"><span class="sprite-block blue_stained_glass" title="Blue Stained Glass"></span><span class="name">蓝色染色玻璃</span><span class="code"><code>blue_stained_glass</code></span></div>
+    <div class="item"><span class="sprite-block brown_stained_glass" title="Brown Stained Glass"></span><span class="name">棕色染色玻璃</span><span class="code"><code>brown_stained_glass</code></span></div>
+    <div class="item"><span class="sprite-block cyan_stained_glass" title="Cyan Stained Glass"></span><span class="name">青色染色玻璃</span><span class="code"><code>cyan_stained_glass</code></span></div>
+    <div class="item"><span class="sprite-block gray_stained_glass" title="Gray Stained Glass"></span><span class="name">灰色染色玻璃</span><span class="code"><code>gray_stained_glass</code></span></div>
+    <div class="item"><span class="sprite-block green_stained_glass" title="Green Stained Glass"></span><span class="name">绿色染色玻璃</span><span class="code"><code>green_stained_glass</code></span></div>
+    <div class="item"><span class="sprite-block light_blue_stained_glass" title="Light Blue Stained Glass"></span><span class="name">淡蓝色染色玻璃</span><span class="code"><code>light_blue_stained_glass</code></span></div>
+    <div class="item"><span class="sprite-block light_gray_stained_glass" title="Light Gray Stained Glass"></span><span class="name">淡灰色染色玻璃</span><span class="code"><code>light_gray_stained_glass</code></span></div>
+    <div class="item"><span class="sprite-block lime_stained_glass" title="Lime Stained Glass"></span><span class="name">黄绿色染色玻璃</span><span class="code"><code>lime_stained_glass</code></span></div>
+    <div class="item"><span class="sprite-block magenta_stained_glass" title="Magenta Stained Glass"></span><span class="name">品红色染色玻璃</span><span class="code"><code>magenta_stained_glass</code></span></div>
+    <div class="item"><span class="sprite-block orange_stained_glass" title="Orange Stained Glass"></span><span class="name">橙色染色玻璃</span><span class="code"><code>orange_stained_glass</code></span></div>
+    <div class="item"><span class="sprite-block pink_stained_glass" title="Pink Stained Glass"></span><span class="name">粉红色染色玻璃</span><span class="code"><code>pink_stained_glass</code></span></div>
+    <div class="item"><span class="sprite-block purple_stained_glass" title="Purple Stained Glass"></span><span class="name">紫色染色玻璃</span><span class="code"><code>purple_stained_glass</code></span></div>
+    <div class="item"><span class="sprite-block red_stained_glass" title="Red Stained Glass"></span><span class="name">红色染色玻璃</span><span class="code"><code>red_stained_glass</code></span></div>
+    <div class="item"><span class="sprite-block tinted_glass" title="Tinted Glass"></span><span class="name">遮光玻璃</span><span class="code"><code>tinted_glass</code></span></div>
+    <div class="item"><span class="sprite-block white_stained_glass" title="White Stained Glass"></span><span class="name">白色染色玻璃</span><span class="code"><code>white_stained_glass</code></span></div>
+    <div class="item"><span class="sprite-block yellow_stained_glass" title="Yellow Stained Glass"></span><span class="name">黄色染色玻璃</span><span class="code"><code>yellow_stained_glass</code></span></div>
+
+    <div class="title"><a name="建造.玻璃板"></a></div>
+    <div class="item"><span class="sprite-block glass_pane" title="Glass Pane"></span><span class="name">玻璃板</span><span class="code"><code>glass_pane</code></span></div>
+    <div class="item"><span class="sprite-block black_stained_glass_pane" title="Black Stained Glass Pane"></span><span class="name">黑色染色玻璃板</span><span class="code"><code>black_stained_glass_pane</code></span></div>
+    <div class="item"><span class="sprite-block blue_stained_glass_pane" title="Blue Stained Glass Pane"></span><span class="name">蓝色染色玻璃板</span><span class="code"><code>blue_stained_glass_pane</code></span></div>
+    <div class="item"><span class="sprite-block brown_stained_glass_pane" title="Brown Stained Glass Pane"></span><span class="name">棕色染色玻璃板</span><span class="code"><code>brown_stained_glass_pane</code></span></div>
+    <div class="item"><span class="sprite-block cyan_stained_glass_pane" title="Cyan Stained Glass Pane"></span><span class="name">青色染色玻璃板</span><span class="code"><code>cyan_stained_glass_pane</code></span></div>
+    <div class="item"><span class="sprite-block gray_stained_glass_pane" title="Gray Stained Glass Pane"></span><span class="name">灰色染色玻璃板</span><span class="code"><code>gray_stained_glass_pane</code></span></div>
+    <div class="item"><span class="sprite-block green_stained_glass_pane" title="Green Stained Glass Pane"></span><span class="name">绿色染色玻璃板</span><span class="code"><code>green_stained_glass_pane</code></span></div>
+    <div class="item"><span class="sprite-block light_blue_stained_glass_pane" title="Light Blue Stained Glass Pane"></span><span class="name">淡蓝色染色玻璃板</span><span class="code"><code>light_blue_stained_glass_pane</code></span></div>
+    <div class="item"><span class="sprite-block light_gray_stained_glass_pane" title="Light Gray Stained Glass Pane"></span><span class="name">淡灰色染色玻璃板</span><span class="code"><code>light_gray_stained_glass_pane</code></span></div>
+    <div class="item"><span class="sprite-block lime_stained_glass_pane" title="Lime Stained Glass Pane"></span><span class="name">黄绿色染色玻璃板</span><span class="code"><code>lime_stained_glass_pane</code></span></div>
+    <div class="item"><span class="sprite-block magenta_stained_glass_pane" title="Magenta Stained Glass Pane"></span><span class="name">品红色染色玻璃板</span><span class="code"><code>magenta_stained_glass_pane</code></span></div>
+    <div class="item"><span class="sprite-block orange_stained_glass_pane" title="Orange Stained Glass Pane"></span><span class="name">橙色染色玻璃板</span><span class="code"><code>orange_stained_glass_pane</code></span></div>
+    <div class="item"><span class="sprite-block pink_stained_glass_pane" title="Pink Stained Glass Pane"></span><span class="name">粉红色染色玻璃板</span><span class="code"><code>pink_stained_glass_pane</code></span></div>
+    <div class="item"><span class="sprite-block purple_stained_glass_pane" title="Purple Stained Glass Pane"></span><span class="name">紫色染色玻璃板</span><span class="code"><code>purple_stained_glass_pane</code></span></div>
+    <div class="item"><span class="sprite-block red_stained_glass_pane" title="Red Stained Glass Pane"></span><span class="name">红色染色玻璃板</span><span class="code"><code>red_stained_glass_pane</code></span></div>
+    <div class="item"><span class="sprite-block white_stained_glass_pane" title="White Stained Glass Pane"></span><span class="name">白色染色玻璃板</span><span class="code"><code>white_stained_glass_pane</code></span></div>
+    <div class="item"><span class="sprite-block yellow_stained_glass_pane" title="Yellow Stained Glass Pane"></span><span class="name">黄色染色玻璃板</span><span class="code"><code>yellow_stained_glass_pane</code></span></div>
+
+    <div class="title"><a name="建造.石料"></a></div>
+    <div class="item"><span class="sprite-block stone" title="Stone"></span><span class="name">石头</span><span class="code"><code>stone</code></span></div>
+    <div class="item"><span class="sprite-block infested_stone" title="Stone"></span><span class="name">被虫蚀的石头</span><span class="code"><code>infested_stone</code></span></div>
+    <div class="item"><span class="sprite-block quartz_block" title="Block of Quartz"></span><span class="name">石英块</span><span class="code"><code>quartz_block</code></span></div>
+    <div class="item"><span class="sprite-block andesite" title="Andesite"></span><span class="name">安山岩</span><span class="code"><code>andesite</code></span></div>
+    <div class="item"><span class="sprite-block basalt" title="Basalt"></span><span class="name">玄武岩</span><span class="code"><code>basalt</code></span></div>
+    <div class="item"><span class="sprite-block bedrock" title="Bedrock"></span><span class="name">基岩</span><span class="code"><code>bedrock</code></span></div>
+    <div class="item"><span class="sprite-block blackstone" title="Blackstone"></span><span class="name">黑石</span><span class="code"><code>blackstone</code></span></div>
+    <div class="item"><span class="sprite-block calcite" title="Calcite"></span><span class="name">方解石</span><span class="code"><code>calcite</code></span></div>
+    <div class="item"><span class="sprite-block cobbled_deepslate" title="Cobbled Deepslate"></span><span class="name">深板岩圆石</span><span class="code"><code>cobbled_deepslate</code></span></div>
+    <div class="item"><span class="sprite-block cobblestone" title="Cobblestone"></span><span class="name">圆石</span><span class="code"><code>cobblestone</code></span></div>
+    <div class="item"><span class="sprite-block infested_cobblestone" title="Cobblestone"></span><span class="name">被虫蚀的圆石</span><span class="code"><code>infested_cobblestone</code></span></div>
+    <div class="item"><span class="sprite-block crying_obsidian" title="Crying Obsidian"></span><span class="name">哭泣的黑曜石</span><span class="code"><code>crying_obsidian</code></span></div>
+    <div class="item"><span class="sprite-block dark_prismarine" title="Dark Prismarine"></span><span class="name">暗海晶石</span><span class="code"><code>dark_prismarine</code></span></div>
+    <div class="item"><span class="sprite-block deepslate" title="Deepslate"></span><span class="name">深板岩</span><span class="code"><code>deepslate</code></span></div>
+    <div class="item"><span class="sprite-block cracked_deepslate_tiles" title="Cracked Deepslate Tiles"></span><span class="name">裂纹深板岩瓦</span><span class="code"><code>cracked_deepslate_tiles</code></span></div>
+    <div class="item"><span class="sprite-block infested_deepslate" title="Deepslate"></span><span class="name">被虫蚀的深板岩</span><span class="code"><code>infested_deepslate</code></span></div>
+    <div class="item"><span class="sprite-block diorite" title="Diorite"></span><span class="name">闪长岩</span><span class="code"><code>diorite</code></span></div>
+    <div class="item"><span class="sprite-block glowstone" title="Glowstone"></span><span class="name">荧石</span><span class="code"><code>glowstone</code></span></div>
+    <div class="item"><span class="sprite-block granite" title="Granite"></span><span class="name">花岗岩</span><span class="code"><code>granite</code></span></div>
+    <div class="item"><span class="sprite-block lodestone" title="Lodestone"></span><span class="name">磁石</span><span class="code"><code>lodestone</code></span></div>
+    <div class="item"><span class="sprite-block mossy_cobblestone" title="Mossy Cobblestone"></span><span class="name">苔石</span><span class="code"><code>mossy_cobblestone</code></span></div>
+    <div class="item"><span class="sprite-block netherrack" title="Netherrack"></span><span class="name">下界岩</span><span class="code"><code>netherrack</code></span></div>
+    <div class="item"><span class="sprite-block obsidian" title="Obsidian"></span><span class="name">黑曜石</span><span class="code"><code>obsidian</code></span></div>
+    <div class="item"><span class="sprite-block prismarine" title="Prismarine"></span><span class="name">海晶石</span><span class="code"><code>prismarine</code></span></div>
+    <div class="item"><span class="sprite-block tuff" title="Tuff"></span><span class="name">凝灰岩</span><span class="code"><code>tuff</code></span></div>
+    <div class="item"><span class="sprite-block end_stone" title="End Stone"></span><span class="name">末地石</span><span class="code"><code>end_stone</code></span></div>
+
+    <div class="title"><a name="建造.加工石料"></a></div>
+    <div class="item"><span class="sprite-block smooth_basalt" title="Smooth Basalt"></span><span class="name">平滑玄武岩</span><span class="code"><code>smooth_basalt</code></span></div>
+    <div class="item"><span class="sprite-block smooth_quartz" title="Smooth Quartz Block"></span><span class="name">平滑石英块</span><span class="code"><code>smooth_quartz</code></span></div>
+    <div class="item"><span class="sprite-block smooth_stone" title="Smooth Stone"></span><span class="name">平滑石头</span><span class="code"><code>smooth_stone</code></span></div>
+    <div class="item"><span class="sprite-block chiseled_quartz_block" title="Chiseled Quartz Block"></span><span class="name">錾制石英块</span><span class="code"><code>chiseled_quartz_block</code></span></div>
+    <div class="item"><span class="sprite-block chiseled_deepslate" title="Chiseled Deepslate"></span><span class="name">錾制深板岩</span><span class="code"><code>chiseled_deepslate</code></span></div>
+    <div class="item"><span class="sprite-block chiseled_polished_blackstone" title="Chiseled Polished Blackstone"></span><span class="name">錾制磨制黑石</span><span class="code"><code>chiseled_polished_blackstone</code></span></div>
+    <div class="item"><span class="sprite-block gilded_blackstone" title="Gilded Blackstone"></span><span class="name">镶金黑石</span><span class="code"><code>gilded_blackstone</code></span></div>
+    <div class="item"><span class="sprite-block polished_andesite" title="Polished Andesite"></span><span class="name">磨制安山岩</span><span class="code"><code>polished_andesite</code></span></div>
+    <div class="item"><span class="sprite-block polished_basalt" title="Polished Basalt"></span><span class="name">磨制玄武岩</span><span class="code"><code>polished_basalt</code></span></div>
+    <div class="item"><span class="sprite-block polished_blackstone" title="Polished Blackstone"></span><span class="name">磨制黑石</span><span class="code"><code>polished_blackstone</code></span></div>
+    <div class="item"><span class="sprite-block polished_deepslate" title="Polished Deepslate"></span><span class="name">磨制深板岩</span><span class="code"><code>polished_deepslate</code></span></div>
+    <div class="item"><span class="sprite-block polished_diorite" title="Polished Diorite"></span><span class="name">磨制闪长岩</span><span class="code"><code>polished_diorite</code></span></div>
+    <div class="item"><span class="sprite-block polished_granite" title="Polished Granite"></span><span class="name">磨制花岗岩</span><span class="code"><code>polished_granite</code></span></div>
+
+    <div class="title"><a name="建造.砂岩"></a></div>
+    <div class="item"><span class="sprite-block sandstone" title="Sandstone"></span><span class="name">砂岩</span><span class="code"><code>sandstone</code></span></div>
+    <div class="item"><span class="sprite-block chiseled_red_sandstone" title="Chiseled Red Sandstone"></span><span class="name">錾制红砂岩</span><span class="code"><code>chiseled_red_sandstone</code></span></div>
+    <div class="item"><span class="sprite-block chiseled_sandstone" title="Chiseled Sandstone"></span><span class="name">錾制砂岩</span><span class="code"><code>chiseled_sandstone</code></span></div>
+    <div class="item"><span class="sprite-block cut_red_sandstone" title="Cut Red Sandstone"></span><span class="name">切制红砂岩</span><span class="code"><code>cut_red_sandstone</code></span></div>
+    <div class="item"><span class="sprite-block cut_sandstone" title="Cut Sandstone"></span><span class="name">切制砂岩</span><span class="code"><code>cut_sandstone</code></span></div>
+    <div class="item"><span class="sprite-block red_sandstone" title="Red Sandstone"></span><span class="name">红砂岩</span><span class="code"><code>red_sandstone</code></span></div>
+    <div class="item"><span class="sprite-block smooth_red_sandstone" title="Smooth Red Sandstone"></span><span class="name">平滑红砂岩</span><span class="code"><code>smooth_red_sandstone</code></span></div>
+    <div class="item"><span class="sprite-block smooth_sandstone" title="Smooth Sandstone"></span><span class="name">平滑砂岩</span><span class="code"><code>smooth_sandstone</code></span></div>
+
+    <div class="title"><a name="建造.砖"></a></div>
+    <div class="item"><span class="sprite-block bricks" title="Bricks"></span><span class="name">砖块</span><span class="code"><code>bricks</code></span></div>
+    <div class="item"><span class="sprite-block stone_bricks" title="Stone Bricks"></span><span class="name">石砖</span><span class="code"><code>stone_bricks</code></span></div>
+    <div class="item"><span class="sprite-block chiseled_nether_bricks" title="Chiseled Nether Bricks"></span><span class="name">錾制下界砖块</span><span class="code"><code>chiseled_nether_bricks</code></span></div>
+    <div class="item"><span class="sprite-block chiseled_stone_bricks" title="Chiseled Stone Bricks"></span><span class="name">錾制石砖</span><span class="code"><code>chiseled_stone_bricks</code></span></div>
+    <div class="item"><span class="sprite-block cracked_deepslate_bricks" title="Cracked Deepslate Bricks"></span><span class="name">裂纹深板岩砖</span><span class="code"><code>cracked_deepslate_bricks</code></span></div>
+    <div class="item"><span class="sprite-block cracked_nether_bricks" title="Cracked Nether Bricks"></span><span class="name">裂纹下界砖块</span><span class="code"><code>cracked_nether_bricks</code></span></div>
+    <div class="item"><span class="sprite-block cracked_polished_blackstone_bricks" title="Cracked Polished Blackstone Bricks"></span><span class="name">裂纹磨制黑石砖</span><span class="code"><code>cracked_polished_blackstone_bricks</code></span></div>
+    <div class="item"><span class="sprite-block cracked_stone_bricks" title="Cracked Stone Bricks"></span><span class="name">裂纹石砖</span><span class="code"><code>cracked_stone_bricks</code></span></div>
+    <div class="item"><span class="sprite-block deepslate_bricks" title="Deepslate Bricks"></span><span class="name">深板岩砖</span><span class="code"><code>deepslate_bricks</code></span></div>
+    <div class="item"><span class="sprite-block end_stone_bricks" title="End Stone Bricks"></span><span class="name">末地石砖</span><span class="code"><code>end_stone_bricks</code></span></div>
+    <div class="item"><span class="sprite-block infested_chiseled_stone_bricks" title="Chiseled Stone Bricks"></span><span class="name">被虫蚀的錾制石砖</span><span class="code"><code>infested_chiseled_stone_bricks</code></span></div>
+    <div class="item"><span class="sprite-block infested_cracked_stone_bricks" title="Cracked Stone Bricks"></span><span class="name">被虫蚀的裂纹石砖</span><span class="code"><code>infested_cracked_stone_bricks</code></span></div>
+    <div class="item"><span class="sprite-block infested_mossy_stone_bricks" title="Mossy Stone Bricks"></span><span class="name">被虫蚀的苔石砖</span><span class="code"><code>infested_mossy_stone_bricks</code></span></div>
+    <div class="item"><span class="sprite-block infested_stone_bricks" title="Stone Bricks"></span><span class="name">被虫蚀的石砖</span><span class="code"><code>infested_stone_bricks</code></span></div>
+    <div class="item"><span class="sprite-block mossy_stone_bricks" title="Mossy Stone Bricks"></span><span class="name">苔石砖</span><span class="code"><code>mossy_stone_bricks</code></span></div>
+    <div class="item"><span class="sprite-block nether_bricks" title="Nether Bricks"></span><span class="name">下界砖块</span><span class="code"><code>nether_bricks</code></span></div>
+    <div class="item"><span class="sprite-block polished_blackstone_bricks" title="Polished Blackstone Bricks"></span><span class="name">磨制黑石砖</span><span class="code"><code>polished_blackstone_bricks</code></span></div>
+    <div class="item"><span class="sprite-block prismarine_bricks" title="Prismarine Bricks"></span><span class="name">海晶石砖</span><span class="code"><code>prismarine_bricks</code></span></div>
+    <div class="item"><span class="sprite-block quartz_bricks" title="Quartz Bricks"></span><span class="name">石英砖</span><span class="code"><code>quartz_bricks</code></span></div>
+    <div class="item"><span class="sprite-block red_nether_bricks" title="Red Nether Bricks"></span><span class="name">红色下界砖块</span><span class="code"><code>red_nether_bricks</code></span></div>
+
+    <div class="title"><a name="建造.陶瓦"></a></div>
+    <div class="item"><span class="sprite-block terracotta" title="Terracotta"></span><span class="name">陶瓦</span><span class="code"><code>terracotta</code></span></div>
+    <div class="item"><span class="sprite-block black_terracotta" title="Black Terracotta"></span><span class="name">黑色陶瓦</span><span class="code"><code>black_terracotta</code></span></div>
+    <div class="item"><span class="sprite-block blue_terracotta" title="Blue Terracotta"></span><span class="name">蓝色陶瓦</span><span class="code"><code>blue_terracotta</code></span></div>
+    <div class="item"><span class="sprite-block brown_terracotta" title="Brown Terracotta"></span><span class="name">棕色陶瓦</span><span class="code"><code>brown_terracotta</code></span></div>
+    <div class="item"><span class="sprite-block cyan_terracotta" title="Cyan Terracotta"></span><span class="name">青色陶瓦</span><span class="code"><code>cyan_terracotta</code></span></div>
+    <div class="item"><span class="sprite-block gray_terracotta" title="Gray Terracotta"></span><span class="name">灰色陶瓦</span><span class="code"><code>gray_terracotta</code></span></div>
+    <div class="item"><span class="sprite-block green_terracotta" title="Green Terracotta"></span><span class="name">绿色陶瓦</span><span class="code"><code>green_terracotta</code></span></div>
+    <div class="item"><span class="sprite-block light_blue_terracotta" title="Light Blue Terracotta"></span><span class="name">淡蓝色陶瓦</span><span class="code"><code>light_blue_terracotta</code></span></div>
+    <div class="item"><span class="sprite-block light_gray_terracotta" title="Light Gray Terracotta"></span><span class="name">淡灰色陶瓦</span><span class="code"><code>light_gray_terracotta</code></span></div>
+    <div class="item"><span class="sprite-block lime_terracotta" title="Lime Terracotta"></span><span class="name">黄绿色陶瓦</span><span class="code"><code>lime_terracotta</code></span></div>
+    <div class="item"><span class="sprite-block magenta_terracotta" title="Magenta Terracotta"></span><span class="name">品红色陶瓦</span><span class="code"><code>magenta_terracotta</code></span></div>
+    <div class="item"><span class="sprite-block orange_terracotta" title="Orange Terracotta"></span><span class="name">橙色陶瓦</span><span class="code"><code>orange_terracotta</code></span></div>
+    <div class="item"><span class="sprite-block pink_terracotta" title="Pink Terracotta"></span><span class="name">粉红色陶瓦</span><span class="code"><code>pink_terracotta</code></span></div>
+    <div class="item"><span class="sprite-block purple_terracotta" title="Purple Terracotta"></span><span class="name">紫色陶瓦</span><span class="code"><code>purple_terracotta</code></span></div>
+    <div class="item"><span class="sprite-block red_terracotta" title="Red Terracotta"></span><span class="name">红色陶瓦</span><span class="code"><code>red_terracotta</code></span></div>
+    <div class="item"><span class="sprite-block white_terracotta" title="White Terracotta"></span><span class="name">白色陶瓦</span><span class="code"><code>white_terracotta</code></span></div>
+    <div class="item"><span class="sprite-block yellow_terracotta" title="Yellow Terracotta"></span><span class="name">黄色陶瓦</span><span class="code"><code>yellow_terracotta</code></span></div>
+
+    <div class="title"><a name="建造.带釉陶瓦"></a></div>
+    <div class="item"><span class="sprite-block black_glazed_terracotta" title="Black Glazed Terracotta"></span><span class="name">黑色带釉陶瓦</span><span class="code"><code>black_glazed_terracotta</code></span></div>
+    <div class="item"><span class="sprite-block blue_glazed_terracotta" title="Blue Glazed Terracotta"></span><span class="name">蓝色带釉陶瓦</span><span class="code"><code>blue_glazed_terracotta</code></span></div>
+    <div class="item"><span class="sprite-block brown_glazed_terracotta" title="Brown Glazed Terracotta"></span><span class="name">棕色带釉陶瓦</span><span class="code"><code>brown_glazed_terracotta</code></span></div>
+    <div class="item"><span class="sprite-block cyan_glazed_terracotta" title="Cyan Glazed Terracotta"></span><span class="name">青色带釉陶瓦</span><span class="code"><code>cyan_glazed_terracotta</code></span></div>
+    <div class="item"><span class="sprite-block gray_glazed_terracotta" title="Gray Glazed Terracotta"></span><span class="name">灰色带釉陶瓦</span><span class="code"><code>gray_glazed_terracotta</code></span></div>
+    <div class="item"><span class="sprite-block green_glazed_terracotta" title="Green Glazed Terracotta"></span><span class="name">绿色带釉陶瓦</span><span class="code"><code>green_glazed_terracotta</code></span></div>
+    <div class="item"><span class="sprite-block light_blue_glazed_terracotta" title="Light Blue Glazed Terracotta"></span><span class="name">淡蓝色带釉陶瓦</span><span class="code"><code>light_blue_glazed_terracotta</code></span></div>
+    <div class="item"><span class="sprite-block light_gray_glazed_terracotta" title="Light Gray Glazed Terracotta"></span><span class="name">淡灰色带釉陶瓦</span><span class="code"><code>light_gray_glazed_terracotta</code></span></div>
+    <div class="item"><span class="sprite-block lime_glazed_terracotta" title="Lime Glazed Terracotta"></span><span class="name">黄绿色带釉陶瓦</span><span class="code"><code>lime_glazed_terracotta</code></span></div>
+    <div class="item"><span class="sprite-block magenta_glazed_terracotta" title="Magenta Glazed Terracotta"></span><span class="name">品红色带釉陶瓦</span><span class="code"><code>magenta_glazed_terracotta</code></span></div>
+    <div class="item"><span class="sprite-block orange_glazed_terracotta" title="Orange Glazed Terracotta"></span><span class="name">橙色带釉陶瓦</span><span class="code"><code>orange_glazed_terracotta</code></span></div>
+    <div class="item"><span class="sprite-block pink_glazed_terracotta" title="Pink Glazed Terracotta"></span><span class="name">粉红色带釉陶瓦</span><span class="code"><code>pink_glazed_terracotta</code></span></div>
+    <div class="item"><span class="sprite-block purple_glazed_terracotta" title="Purple Glazed Terracotta"></span><span class="name">紫色带釉陶瓦</span><span class="code"><code>purple_glazed_terracotta</code></span></div>
+    <div class="item"><span class="sprite-block red_glazed_terracotta" title="Red Glazed Terracotta"></span><span class="name">红色带釉陶瓦</span><span class="code"><code>red_glazed_terracotta</code></span></div>
+    <div class="item"><span class="sprite-block white_glazed_terracotta" title="White Glazed Terracotta"></span><span class="name">白色带釉陶瓦</span><span class="code"><code>white_glazed_terracotta</code></span></div>
+    <div class="item"><span class="sprite-block yellow_glazed_terracotta" title="Yellow Glazed Terracotta"></span><span class="name">黄色带釉陶瓦</span><span class="code"><code>yellow_glazed_terracotta</code></span></div>
+
+    <div class="title"><a name="建造.羊毛"></a></div>
+    <div class="item"><span class="sprite-block black_wool" title="Black Wool"></span><span class="name">黑色羊毛</span><span class="code"><code>black_wool</code></span></div>
+    <div class="item"><span class="sprite-block blue_wool" title="Blue Wool"></span><span class="name">蓝色羊毛</span><span class="code"><code>blue_wool</code></span></div>
+    <div class="item"><span class="sprite-block brown_wool" title="Brown Wool"></span><span class="name">棕色羊毛</span><span class="code"><code>brown_wool</code></span></div>
+    <div class="item"><span class="sprite-block cyan_wool" title="Cyan Wool"></span><span class="name">青色羊毛</span><span class="code"><code>cyan_wool</code></span></div>
+    <div class="item"><span class="sprite-block gray_wool" title="Gray Wool"></span><span class="name">灰色羊毛</span><span class="code"><code>gray_wool</code></span></div>
+    <div class="item"><span class="sprite-block green_wool" title="Green Wool"></span><span class="name">绿色羊毛</span><span class="code"><code>green_wool</code></span></div>
+    <div class="item"><span class="sprite-block light_blue_wool" title="Light Blue Wool"></span><span class="name">淡蓝色羊毛</span><span class="code"><code>light_blue_wool</code></span></div>
+    <div class="item"><span class="sprite-block light_gray_wool" title="Light Gray Wool"></span><span class="name">淡灰色羊毛</span><span class="code"><code>light_gray_wool</code></span></div>
+    <div class="item"><span class="sprite-block lime_wool" title="Lime Wool"></span><span class="name">黄绿色羊毛</span><span class="code"><code>lime_wool</code></span></div>
+    <div class="item"><span class="sprite-block magenta_wool" title="Magenta Wool"></span><span class="name">品红色羊毛</span><span class="code"><code>magenta_wool</code></span></div>
+    <div class="item"><span class="sprite-block orange_wool" title="Orange Wool"></span><span class="name">橙色羊毛</span><span class="code"><code>orange_wool</code></span></div>
+    <div class="item"><span class="sprite-block pink_wool" title="Pink Wool"></span><span class="name">粉红色羊毛</span><span class="code"><code>pink_wool</code></span></div>
+    <div class="item"><span class="sprite-block purple_wool" title="Purple Wool"></span><span class="name">紫色羊毛</span><span class="code"><code>purple_wool</code></span></div>
+    <div class="item"><span class="sprite-block red_wool" title="Red Wool"></span><span class="name">红色羊毛</span><span class="code"><code>red_wool</code></span></div>
+    <div class="item"><span class="sprite-block white_wool" title="White Wool"></span><span class="name">白色羊毛</span><span class="code"><code>white_wool</code></span></div>
+    <div class="item"><span class="sprite-block yellow_wool" title="Yellow Wool"></span><span class="name">黄色羊毛</span><span class="code"><code>yellow_wool</code></span></div>
+
+    <div class="title"><a name="建造.金属块"></a></div>
+    <div class="item"><span class="sprite-block cut_copper" title="Cut Copper"></span><span class="name">切制铜块</span><span class="code"><code>cut_copper</code></span></div>
+    <div class="item"><span class="sprite-block exposed_copper" title="Exposed Copper Block"></span><span class="name">斑驳的铜块</span><span class="code"><code>exposed_copper</code></span></div>
+    <div class="item"><span class="sprite-block exposed_cut_copper" title="Exposed Cut Copper"></span><span class="name">斑驳的切制铜块</span><span class="code"><code>exposed_cut_copper</code></span></div>
+    <div class="item"><span class="sprite-block oxidized_copper" title="Oxidized Copper Block"></span><span class="name">氧化的铜块</span><span class="code"><code>oxidized_copper</code></span></div>
+    <div class="item"><span class="sprite-block oxidized_cut_copper" title="Oxidized Cut Copper"></span><span class="name">氧化的切制铜块</span><span class="code"><code>oxidized_cut_copper</code></span></div>
+    <div class="item"><span class="sprite-block waxed_cut_copper" title="Cut Copper"></span><span class="name">涂蜡切制铜块</span><span class="code"><code>waxed_cut_copper</code></span></div>
+    <div class="item"><span class="sprite-block waxed_exposed_copper" title="Exposed Copper Block"></span><span class="name">斑驳的涂蜡铜块</span><span class="code"><code>waxed_exposed_copper</code></span></div>
+    <div class="item"><span class="sprite-block waxed_exposed_cut_copper" title="Exposed Cut Copper"></span><span class="name">斑驳的涂蜡切制铜块</span><span class="code"><code>waxed_exposed_cut_copper</code></span></div>
+    <div class="item"><span class="sprite-block waxed_oxidized_copper" title="Oxidized Copper Block"></span><span class="name">氧化的涂蜡铜块</span><span class="code"><code>waxed_oxidized_copper</code></span></div>
+    <div class="item"><span class="sprite-block waxed_oxidized_cut_copper" title="Oxidized Cut Copper"></span><span class="name">氧化的涂蜡切制铜块</span><span class="code"><code>waxed_oxidized_cut_copper</code></span></div>
+    <div class="item"><span class="sprite-block waxed_weathered_copper" title="Weathered Copper Block"></span><span class="name">锈蚀的涂蜡铜块</span><span class="code"><code>waxed_weathered_copper</code></span></div>
+    <div class="item"><span class="sprite-block waxed_weathered_cut_copper" title="Weathered Cut Copper"></span><span class="name">锈蚀的涂蜡切制铜块</span><span class="code"><code>waxed_weathered_cut_copper</code></span></div>
+    <div class="item"><span class="sprite-block weathered_copper" title="Weathered Copper Block"></span><span class="name">锈蚀的铜块</span><span class="code"><code>weathered_copper</code></span></div>
+    <div class="item"><span class="sprite-block weathered_cut_copper" title="Weathered Cut Copper"></span><span class="name">锈蚀的切制铜块</span><span class="code"><code>weathered_cut_copper</code></span></div>
+    <div class="item"><span class="sprite-block waxed_copper_block" title="Copper Block"></span><span class="name">涂蜡铜块</span><span class="code"><code>waxed_copper_block</code></span></div>
+
+    <div class="title"><a name="建造.门"></a></div>
+    <div class="item"><span class="sprite-block acacia_door" title="Acacia Door"></span><span class="name">金合欢木门</span><span class="code"><code>acacia_door</code></span></div>
+    <div class="item"><span class="sprite-block birch_door" title="Birch Door"></span><span class="name">白桦木门</span><span class="code"><code>birch_door</code></span></div>
+    <div class="item"><span class="sprite-block crimson_door" title="Crimson Door"></span><span class="name">绯红木门</span><span class="code"><code>crimson_door</code></span></div>
+    <div class="item"><span class="sprite-block dark_oak_door" title="Dark Oak Door"></span><span class="name">深色橡木门</span><span class="code"><code>dark_oak_door</code></span></div>
+    <div class="item"><span class="sprite-block iron_door" title="Iron Door"></span><span class="name">铁门</span><span class="code"><code>iron_door</code></span></div>
+    <div class="item"><span class="sprite-block jungle_door" title="Jungle Door"></span><span class="name">丛林木门</span><span class="code"><code>jungle_door</code></span></div>
+    <div class="item"><span class="sprite-block oak_door" title="Oak Door"></span><span class="name">橡木门</span><span class="code"><code>oak_door</code></span></div>
+    <div class="item"><span class="sprite-block spruce_door" title="Spruce Door"></span><span class="name">云杉木门</span><span class="code"><code>spruce_door</code></span></div>
+    <div class="item"><span class="sprite-block warped_door" title="Warped Door"></span><span class="name">诡异木门</span><span class="code"><code>warped_door</code></span></div>
+
+    <div class="title"><a name="建造.栅栏"></a></div>
+    <div class="item"><span class="sprite-block acacia_fence" title="Acacia Fence"></span><span class="name">金合欢木栅栏</span><span class="code"><code>acacia_fence</code></span></div>
+    <div class="item"><span class="sprite-block birch_fence" title="Birch Fence"></span><span class="name">白桦木栅栏</span><span class="code"><code>birch_fence</code></span></div>
+    <div class="item"><span class="sprite-block crimson_fence" title="Crimson Fence"></span><span class="name">绯红木栅栏</span><span class="code"><code>crimson_fence</code></span></div>
+    <div class="item"><span class="sprite-block dark_oak_fence" title="Dark Oak Fence"></span><span class="name">深色橡木栅栏</span><span class="code"><code>dark_oak_fence</code></span></div>
+    <div class="item"><span class="sprite-block jungle_fence" title="Jungle Fence"></span><span class="name">丛林木栅栏</span><span class="code"><code>jungle_fence</code></span></div>
+    <div class="item"><span class="sprite-block nether_brick_fence" title="Nether Brick Fence"></span><span class="name">下界砖栅栏</span><span class="code"><code>nether_brick_fence</code></span></div>
+    <div class="item"><span class="sprite-block oak_fence" title="Oak Fence"></span><span class="name">橡木栅栏</span><span class="code"><code>oak_fence</code></span></div>
+    <div class="item"><span class="sprite-block spruce_fence" title="Spruce Fence"></span><span class="name">云杉木栅栏</span><span class="code"><code>spruce_fence</code></span></div>
+    <div class="item"><span class="sprite-block warped_fence" title="Warped Fence"></span><span class="name">诡异木栅栏</span><span class="code"><code>warped_fence</code></span></div>
+
+    <div class="title"><a name="建造.栅栏门"></a></div>
+    <div class="item"><span class="sprite-block acacia_fence_gate" title="Acacia Fence Gate"></span><span class="name">金合欢木栅栏门</span><span class="code"><code>acacia_fence_gate</code></span></div>
+    <div class="item"><span class="sprite-block birch_fence_gate" title="Birch Fence Gate"></span><span class="name">白桦木栅栏门</span><span class="code"><code>birch_fence_gate</code></span></div>
+    <div class="item"><span class="sprite-block crimson_fence_gate" title="Crimson Fence Gate"></span><span class="name">绯红木栅栏门</span><span class="code"><code>crimson_fence_gate</code></span></div>
+    <div class="item"><span class="sprite-block dark_oak_fence_gate" title="Dark Oak Fence Gate"></span><span class="name">深色橡木栅栏门</span><span class="code"><code>dark_oak_fence_gate</code></span></div>
+    <div class="item"><span class="sprite-block jungle_fence_gate" title="Jungle Fence Gate"></span><span class="name">丛林木栅栏门</span><span class="code"><code>jungle_fence_gate</code></span></div>
+    <div class="item"><span class="sprite-block oak_fence_gate" title="Oak Fence Gate"></span><span class="name">橡木栅栏门</span><span class="code"><code>oak_fence_gate</code></span></div>
+    <div class="item"><span class="sprite-block spruce_fence_gate" title="Spruce Fence Gate"></span><span class="name">云杉木栅栏门</span><span class="code"><code>spruce_fence_gate</code></span></div>
+    <div class="item"><span class="sprite-block warped_fence_gate" title="Warped Fence Gate"></span><span class="name">诡异木栅栏门</span><span class="code"><code>warped_fence_gate</code></span></div>
+
+    <div class="title"><a name="建造.楼梯"></a></div>
+    <div class="item"><span class="sprite-block acacia_stairs" title="Acacia Stairs"></span><span class="name">金合欢木楼梯</span><span class="code"><code>acacia_stairs</code></span></div>
+    <div class="item"><span class="sprite-block andesite_stairs" title="Andesite Stairs"></span><span class="name">安山岩楼梯</span><span class="code"><code>andesite_stairs</code></span></div>
+    <div class="item"><span class="sprite-block birch_stairs" title="Birch Stairs"></span><span class="name">白桦木楼梯</span><span class="code"><code>birch_stairs</code></span></div>
+    <div class="item"><span class="sprite-block blackstone_stairs" title="Blackstone Stairs"></span><span class="name">黑石楼梯</span><span class="code"><code>blackstone_stairs</code></span></div>
+    <div class="item"><span class="sprite-block brick_stairs" title="Brick Stairs"></span><span class="name">砖楼梯</span><span class="code"><code>brick_stairs</code></span></div>
+    <div class="item"><span class="sprite-block cobbled_deepslate_stairs" title="Cobbled Deepslate Stairs"></span><span class="name">深板岩圆石楼梯</span><span class="code"><code>cobbled_deepslate_stairs</code></span></div>
+    <div class="item"><span class="sprite-block cobblestone_stairs" title="Cobblestone Stairs"></span><span class="name">圆石楼梯</span><span class="code"><code>cobblestone_stairs</code></span></div>
+    <div class="item"><span class="sprite-block crimson_stairs" title="Crimson Stairs"></span><span class="name">绯红木楼梯</span><span class="code"><code>crimson_stairs</code></span></div>
+    <div class="item"><span class="sprite-block cut_copper_stairs" title="Cut Copper Stairs"></span><span class="name">切制铜楼梯</span><span class="code"><code>cut_copper_stairs</code></span></div>
+    <div class="item"><span class="sprite-block dark_oak_stairs" title="Dark Oak Stairs"></span><span class="name">深色橡木楼梯</span><span class="code"><code>dark_oak_stairs</code></span></div>
+    <div class="item"><span class="sprite-block dark_prismarine_stairs" title="Dark Prismarine Stairs"></span><span class="name">暗海晶石楼梯</span><span class="code"><code>dark_prismarine_stairs</code></span></div>
+    <div class="item"><span class="sprite-block deepslate_brick_stairs" title="Deepslate Brick Stairs"></span><span class="name">深板岩砖楼梯</span><span class="code"><code>deepslate_brick_stairs</code></span></div>
+    <div class="item"><span class="sprite-block diorite_stairs" title="Diorite Stairs"></span><span class="name">闪长岩楼梯</span><span class="code"><code>diorite_stairs</code></span></div>
+    <div class="item"><span class="sprite-block end_stone_brick_stairs" title="End Stone Brick Stairs"></span><span class="name">末地石砖楼梯</span><span class="code"><code>end_stone_brick_stairs</code></span></div>
+    <div class="item"><span class="sprite-block exposed_cut_copper_stairs" title="Exposed Cut Copper Stairs"></span><span class="name">斑驳的切制铜楼梯</span><span class="code"><code>exposed_cut_copper_stairs</code></span></div>
+    <div class="item"><span class="sprite-block granite_stairs" title="Granite Stairs"></span><span class="name">花岗岩楼梯</span><span class="code"><code>granite_stairs</code></span></div>
+    <div class="item"><span class="sprite-block jungle_stairs" title="Jungle Stairs"></span><span class="name">丛林木楼梯</span><span class="code"><code>jungle_stairs</code></span></div>
+    <div class="item"><span class="sprite-block mossy_cobblestone_stairs" title="Mossy Cobblestone Stairs"></span><span class="name">苔石楼梯</span><span class="code"><code>mossy_cobblestone_stairs</code></span></div>
+    <div class="item"><span class="sprite-block mossy_stone_brick_stairs" title="Mossy Stone Brick Stairs"></span><span class="name">苔石砖楼梯</span><span class="code"><code>mossy_stone_brick_stairs</code></span></div>
+    <div class="item"><span class="sprite-block nether_brick_stairs" title="Nether Brick Stairs"></span><span class="name">下界砖楼梯</span><span class="code"><code>nether_brick_stairs</code></span></div>
+    <div class="item"><span class="sprite-block oak_stairs" title="Oak Stairs"></span><span class="name">橡木楼梯</span><span class="code"><code>oak_stairs</code></span></div>
+    <div class="item"><span class="sprite-block oxidized_cut_copper_stairs" title="Oxidized Cut Copper Stairs"></span><span class="name">氧化的切制铜楼梯</span><span class="code"><code>oxidized_cut_copper_stairs</code></span></div>
+    <div class="item"><span class="sprite-block polished_andesite_stairs" title="Polished Andesite Stairs"></span><span class="name">磨制安山岩楼梯</span><span class="code"><code>polished_andesite_stairs</code></span></div>
+    <div class="item"><span class="sprite-block polished_blackstone_brick_stairs" title="Polished Blackstone Brick Stairs"></span><span class="name">磨制黑石砖楼梯</span><span class="code"><code>polished_blackstone_brick_stairs</code></span></div>
+    <div class="item"><span class="sprite-block polished_blackstone_stairs" title="Polished Blackstone Stairs"></span><span class="name">磨制黑石楼梯</span><span class="code"><code>polished_blackstone_stairs</code></span></div>
+    <div class="item"><span class="sprite-block polished_deepslate_stairs" title="Polished Deepslate Stairs"></span><span class="name">磨制深板岩楼梯</span><span class="code"><code>polished_deepslate_stairs</code></span></div>
+    <div class="item"><span class="sprite-block polished_diorite_stairs" title="Polished Diorite Stairs"></span><span class="name">磨制闪长岩楼梯</span><span class="code"><code>polished_diorite_stairs</code></span></div>
+    <div class="item"><span class="sprite-block polished_granite_stairs" title="Polished Granite Stairs"></span><span class="name">磨制花岗岩楼梯</span><span class="code"><code>polished_granite_stairs</code></span></div>
+    <div class="item"><span class="sprite-block prismarine_brick_stairs" title="Prismarine Brick Stairs"></span><span class="name">海晶石砖楼梯</span><span class="code"><code>prismarine_brick_stairs</code></span></div>
+    <div class="item"><span class="sprite-block prismarine_stairs" title="Prismarine Stairs"></span><span class="name">海晶石楼梯</span><span class="code"><code>prismarine_stairs</code></span></div>
+    <div class="item"><span class="sprite-block purpur_stairs" title="Purpur Stairs"></span><span class="name">紫珀楼梯</span><span class="code"><code>purpur_stairs</code></span></div>
+    <div class="item"><span class="sprite-block quartz_stairs" title="Quartz Stairs"></span><span class="name">石英楼梯</span><span class="code"><code>quartz_stairs</code></span></div>
+    <div class="item"><span class="sprite-block red_nether_brick_stairs" title="Red Nether Brick Stairs"></span><span class="name">红色下界砖楼梯</span><span class="code"><code>red_nether_brick_stairs</code></span></div>
+    <div class="item"><span class="sprite-block red_sandstone_stairs" title="Red Sandstone Stairs"></span><span class="name">红砂岩楼梯</span><span class="code"><code>red_sandstone_stairs</code></span></div>
+    <div class="item"><span class="sprite-block sandstone_stairs" title="Sandstone Stairs"></span><span class="name">砂岩楼梯</span><span class="code"><code>sandstone_stairs</code></span></div>
+    <div class="item"><span class="sprite-block smooth_quartz_stairs" title="Smooth Quartz Stairs"></span><span class="name">平滑石英楼梯</span><span class="code"><code>smooth_quartz_stairs</code></span></div>
+    <div class="item"><span class="sprite-block smooth_red_sandstone_stairs" title="Smooth Red Sandstone Stairs"></span><span class="name">平滑红砂岩楼梯</span><span class="code"><code>smooth_red_sandstone_stairs</code></span></div>
+    <div class="item"><span class="sprite-block smooth_sandstone_stairs" title="Smooth Sandstone Stairs"></span><span class="name">平滑砂岩楼梯</span><span class="code"><code>smooth_sandstone_stairs</code></span></div>
+    <div class="item"><span class="sprite-block spruce_stairs" title="Spruce Stairs"></span><span class="name">云杉木楼梯</span><span class="code"><code>spruce_stairs</code></span></div>
+    <div class="item"><span class="sprite-block stone_brick_stairs" title="Stone Brick Stairs"></span><span class="name">石砖楼梯</span><span class="code"><code>stone_brick_stairs</code></span></div>
+    <div class="item"><span class="sprite-block stone_stairs" title="Stone Stairs"></span><span class="name">石头楼梯</span><span class="code"><code>stone_stairs</code></span></div>
+    <div class="item"><span class="sprite-block warped_stairs" title="Warped Stairs"></span><span class="name">诡异木楼梯</span><span class="code"><code>warped_stairs</code></span></div>
+    <div class="item"><span class="sprite-block waxed_cut_copper_stairs" title="Cut Copper Stairs"></span><span class="name">涂蜡切制铜楼梯</span><span class="code"><code>waxed_cut_copper_stairs</code></span></div>
+    <div class="item"><span class="sprite-block waxed_exposed_cut_copper_stairs" title="Exposed Cut Copper Stairs"></span><span class="name">斑驳的涂蜡切制铜楼梯</span><span class="code"><code>waxed_exposed_cut_copper_stairs</code></span></div>
+    <div class="item"><span class="sprite-block waxed_oxidized_cut_copper_stairs" title="Oxidized Cut Copper Stairs"></span><span class="name">氧化的涂蜡切制铜楼梯</span><span class="code"><code>waxed_oxidized_cut_copper_stairs</code></span></div>
+    <div class="item"><span class="sprite-block waxed_weathered_cut_copper_stairs" title="Weathered Cut Copper Stairs"></span><span class="name">锈蚀的涂蜡切制铜楼梯</span><span class="code"><code>waxed_weathered_cut_copper_stairs</code></span></div>
+    <div class="item"><span class="sprite-block weathered_cut_copper_stairs" title="Weathered Cut Copper Stairs"></span><span class="name">锈蚀的切制铜楼梯</span><span class="code"><code>weathered_cut_copper_stairs</code></span></div>
+
+    <div class="title"><a name="建造.台阶"></a></div>
+    <div class="item"><span class="sprite-block acacia_slab" title="Acacia Slab"></span><span class="name">金合欢木台阶</span><span class="code"><code>acacia_slab</code></span></div>
+    <div class="item"><span class="sprite-block andesite_slab" title="Andesite Slab"></span><span class="name">安山岩台阶</span><span class="code"><code>andesite_slab</code></span></div>
+    <div class="item"><span class="sprite-block birch_slab" title="Birch Slab"></span><span class="name">白桦木台阶</span><span class="code"><code>birch_slab</code></span></div>
+    <div class="item"><span class="sprite-block blackstone_slab" title="Blackstone Slab"></span><span class="name">黑石台阶</span><span class="code"><code>blackstone_slab</code></span></div>
+    <div class="item"><span class="sprite-block brick_slab" title="Brick Slab"></span><span class="name">砖台阶</span><span class="code"><code>brick_slab</code></span></div>
+    <div class="item"><span class="sprite-block cobbled_deepslate_slab" title="Cobbled Deepslate Slab"></span><span class="name">深板岩圆石台阶</span><span class="code"><code>cobbled_deepslate_slab</code></span></div>
+    <div class="item"><span class="sprite-block cobblestone_slab" title="Cobblestone Slab"></span><span class="name">圆石台阶</span><span class="code"><code>cobblestone_slab</code></span></div>
+    <div class="item"><span class="sprite-block crimson_slab" title="Crimson Slab"></span><span class="name">绯红木台阶</span><span class="code"><code>crimson_slab</code></span></div>
+    <div class="item"><span class="sprite-block cut_copper_slab" title="Cut Copper Slab"></span><span class="name">切制铜台阶</span><span class="code"><code>cut_copper_slab</code></span></div>
+    <div class="item"><span class="sprite-block cut_red_sandstone_slab" title="Cut Red Sandstone Slab"></span><span class="name">切制红砂岩台阶</span><span class="code"><code>cut_red_sandstone_slab</code></span></div>
+    <div class="item"><span class="sprite-block cut_sandstone_slab" title="Cut Sandstone Slab"></span><span class="name">切制砂岩台阶</span><span class="code"><code>cut_sandstone_slab</code></span></div>
+    <div class="item"><span class="sprite-block dark_oak_slab" title="Dark Oak Slab"></span><span class="name">深色橡木台阶</span><span class="code"><code>dark_oak_slab</code></span></div>
+    <div class="item"><span class="sprite-block dark_prismarine_slab" title="Dark Prismarine Slab"></span><span class="name">暗海晶石台阶</span><span class="code"><code>dark_prismarine_slab</code></span></div>
+    <div class="item"><span class="sprite-block deepslate_brick_slab" title="Deepslate Brick Slab"></span><span class="name">深板岩砖台阶</span><span class="code"><code>deepslate_brick_slab</code></span></div>
+    <div class="item"><span class="sprite-block diorite_slab" title="Diorite Slab"></span><span class="name">闪长岩台阶</span><span class="code"><code>diorite_slab</code></span></div>
+    <div class="item"><span class="sprite-block end_stone_brick_slab" title="End Stone Brick Slab"></span><span class="name">末地石砖台阶</span><span class="code"><code>end_stone_brick_slab</code></span></div>
+    <div class="item"><span class="sprite-block exposed_cut_copper_slab" title="Exposed Cut Copper Slab"></span><span class="name">斑驳的切制铜台阶</span><span class="code"><code>exposed_cut_copper_slab</code></span></div>
+    <div class="item"><span class="sprite-block granite_slab" title="Granite Slab"></span><span class="name">花岗岩台阶</span><span class="code"><code>granite_slab</code></span></div>
+    <div class="item"><span class="sprite-block jungle_slab" title="Jungle Slab"></span><span class="name">丛林木台阶</span><span class="code"><code>jungle_slab</code></span></div>
+    <div class="item"><span class="sprite-block mossy_cobblestone_slab" title="Mossy Cobblestone Slab"></span><span class="name">苔石台阶</span><span class="code"><code>mossy_cobblestone_slab</code></span></div>
+    <div class="item"><span class="sprite-block mossy_stone_brick_slab" title="Mossy Stone Brick Slab"></span><span class="name">苔石砖台阶</span><span class="code"><code>mossy_stone_brick_slab</code></span></div>
+    <div class="item"><span class="sprite-block nether_brick_slab" title="Nether Brick Slab"></span><span class="name">下界砖台阶</span><span class="code"><code>nether_brick_slab</code></span></div>
+    <div class="item"><span class="sprite-block oak_slab" title="Oak Slab"></span><span class="name">橡木台阶</span><span class="code"><code>oak_slab</code></span></div>
+    <div class="item"><span class="sprite-block oxidized_cut_copper_slab" title="Oxidized Cut Copper Slab"></span><span class="name">氧化的切制铜台阶</span><span class="code"><code>oxidized_cut_copper_slab</code></span></div>
+    <div class="item"><span class="sprite-block petrified_oak_slab" title="Oak Slab"></span><span class="name">石化橡木台阶</span><span class="code"><code>petrified_oak_slab</code></span></div>
+    <div class="item"><span class="sprite-block polished_andesite_slab" title="Polished Andesite Slab"></span><span class="name">磨制安山岩台阶</span><span class="code"><code>polished_andesite_slab</code></span></div>
+    <div class="item"><span class="sprite-block polished_blackstone_brick_slab" title="Polished Blackstone Brick Slab"></span><span class="name">磨制黑石砖台阶</span><span class="code"><code>polished_blackstone_brick_slab</code></span></div>
+    <div class="item"><span class="sprite-block polished_blackstone_slab" title="Polished Blackstone Slab"></span><span class="name">磨制黑石台阶</span><span class="code"><code>polished_blackstone_slab</code></span></div>
+    <div class="item"><span class="sprite-block polished_deepslate_slab" title="Polished Deepslate Slab"></span><span class="name">磨制深板岩台阶</span><span class="code"><code>polished_deepslate_slab</code></span></div>
+    <div class="item"><span class="sprite-block polished_diorite_slab" title="Polished Diorite Slab"></span><span class="name">磨制闪长岩台阶</span><span class="code"><code>polished_diorite_slab</code></span></div>
+    <div class="item"><span class="sprite-block polished_granite_slab" title="Polished Granite Slab"></span><span class="name">磨制花岗岩台阶</span><span class="code"><code>polished_granite_slab</code></span></div>
+    <div class="item"><span class="sprite-block prismarine_brick_slab" title="Prismarine Brick Slab"></span><span class="name">海晶石砖台阶</span><span class="code"><code>prismarine_brick_slab</code></span></div>
+    <div class="item"><span class="sprite-block prismarine_slab" title="Prismarine Slab"></span><span class="name">海晶石台阶</span><span class="code"><code>prismarine_slab</code></span></div>
+    <div class="item"><span class="sprite-block purpur_slab" title="Purpur Slab"></span><span class="name">紫珀台阶</span><span class="code"><code>purpur_slab</code></span></div>
+    <div class="item"><span class="sprite-block quartz_slab" title="Quartz Slab"></span><span class="name">石英台阶</span><span class="code"><code>quartz_slab</code></span></div>
+    <div class="item"><span class="sprite-block red_nether_brick_slab" title="Red Nether Brick Slab"></span><span class="name">红色下界砖台阶</span><span class="code"><code>red_nether_brick_slab</code></span></div>
+    <div class="item"><span class="sprite-block red_sandstone_slab" title="Red Sandstone Slab"></span><span class="name">红砂岩台阶</span><span class="code"><code>red_sandstone_slab</code></span></div>
+    <div class="item"><span class="sprite-block sandstone_slab" title="Sandstone Slab"></span><span class="name">砂岩台阶</span><span class="code"><code>sandstone_slab</code></span></div>
+    <div class="item"><span class="sprite-block smooth_quartz_slab" title="Smooth Quartz Slab"></span><span class="name">平滑石英台阶</span><span class="code"><code>smooth_quartz_slab</code></span></div>
+    <div class="item"><span class="sprite-block smooth_red_sandstone_slab" title="Smooth Red Sandstone Slab"></span><span class="name">平滑红砂岩台阶</span><span class="code"><code>smooth_red_sandstone_slab</code></span></div>
+    <div class="item"><span class="sprite-block smooth_sandstone_slab" title="Smooth Sandstone Slab"></span><span class="name">平滑砂岩台阶</span><span class="code"><code>smooth_sandstone_slab</code></span></div>
+    <div class="item"><span class="sprite-block smooth_stone_slab" title="Smooth Stone Slab"></span><span class="name">平滑石头台阶</span><span class="code"><code>smooth_stone_slab</code></span></div>
+    <div class="item"><span class="sprite-block spruce_slab" title="Spruce Slab"></span><span class="name">云杉木台阶</span><span class="code"><code>spruce_slab</code></span></div>
+    <div class="item"><span class="sprite-block stone_brick_slab" title="Stone Brick Slab"></span><span class="name">石砖台阶</span><span class="code"><code>stone_brick_slab</code></span></div>
+    <div class="item"><span class="sprite-block stone_slab" title="Stone Slab"></span><span class="name">石头台阶</span><span class="code"><code>stone_slab</code></span></div>
+    <div class="item"><span class="sprite-block warped_slab" title="Warped Slab"></span><span class="name">诡异木台阶</span><span class="code"><code>warped_slab</code></span></div>
+    <div class="item"><span class="sprite-block waxed_cut_copper_slab" title="Cut Copper Slab"></span><span class="name">涂蜡切制铜台阶</span><span class="code"><code>waxed_cut_copper_slab</code></span></div>
+    <div class="item"><span class="sprite-block waxed_exposed_cut_copper_slab" title="Exposed Cut Copper Slab"></span><span class="name">斑驳的涂蜡切制铜台阶</span><span class="code"><code>waxed_exposed_cut_copper_slab</code></span></div>
+    <div class="item"><span class="sprite-block waxed_oxidized_cut_copper_slab" title="Oxidized Cut Copper Slab"></span><span class="name">氧化的涂蜡切制铜台阶</span><span class="code"><code>waxed_oxidized_cut_copper_slab</code></span></div>
+    <div class="item"><span class="sprite-block waxed_weathered_cut_copper_slab" title="Weathered Cut Copper Slab"></span><span class="name">锈蚀的涂蜡切制铜台阶</span><span class="code"><code>waxed_weathered_cut_copper_slab</code></span></div>
+    <div class="item"><span class="sprite-block weathered_cut_copper_slab" title="Weathered Cut Copper Slab"></span><span class="name">锈蚀的切制铜台阶</span><span class="code"><code>weathered_cut_copper_slab</code></span></div>
+
+    <div class="title"><a name="建造.墙"></a></div>
+    <div class="item"><span class="sprite-block andesite_wall" title="Andesite Wall"></span><span class="name">安山岩墙</span><span class="code"><code>andesite_wall</code></span></div>
+    <div class="item"><span class="sprite-block blackstone_wall" title="Blackstone Wall"></span><span class="name">黑石墙</span><span class="code"><code>blackstone_wall</code></span></div>
+    <div class="item"><span class="sprite-block brick_wall" title="Brick Wall"></span><span class="name">砖块墙</span><span class="code"><code>brick_wall</code></span></div>
+    <div class="item"><span class="sprite-block cobbled_deepslate_wall" title="Cobbled Deepslate Wall"></span><span class="name">深板岩圆石墙</span><span class="code"><code>cobbled_deepslate_wall</code></span></div>
+    <div class="item"><span class="sprite-block cobblestone_wall" title="Cobblestone Wall"></span><span class="name">圆石墙</span><span class="code"><code>cobblestone_wall</code></span></div>
+    <div class="item"><span class="sprite-block deepslate_brick_wall" title="Deepslate Brick Wall"></span><span class="name">深板岩砖墙</span><span class="code"><code>deepslate_brick_wall</code></span></div>
+    <div class="item"><span class="sprite-block diorite_wall" title="Diorite Wall"></span><span class="name">闪长岩墙</span><span class="code"><code>diorite_wall</code></span></div>
+    <div class="item"><span class="sprite-block end_stone_brick_wall" title="End Stone Brick Wall"></span><span class="name">末地石砖墙</span><span class="code"><code>end_stone_brick_wall</code></span></div>
+    <div class="item"><span class="sprite-block granite_wall" title="Granite Wall"></span><span class="name">花岗岩墙</span><span class="code"><code>granite_wall</code></span></div>
+    <div class="item"><span class="sprite-block mossy_cobblestone_wall" title="Mossy Cobblestone Wall"></span><span class="name">苔石墙</span><span class="code"><code>mossy_cobblestone_wall</code></span></div>
+    <div class="item"><span class="sprite-block mossy_stone_brick_wall" title="Mossy Stone Brick Wall"></span><span class="name">苔石砖墙</span><span class="code"><code>mossy_stone_brick_wall</code></span></div>
+    <div class="item"><span class="sprite-block nether_brick_wall" title="Nether Brick Wall"></span><span class="name">下界砖墙</span><span class="code"><code>nether_brick_wall</code></span></div>
+    <div class="item"><span class="sprite-block polished_blackstone_brick_wall" title="Polished Blackstone Brick Wall"></span><span class="name">磨制黑石砖墙</span><span class="code"><code>polished_blackstone_brick_wall</code></span></div>
+    <div class="item"><span class="sprite-block polished_blackstone_wall" title="Polished Blackstone Wall"></span><span class="name">磨制黑石墙</span><span class="code"><code>polished_blackstone_wall</code></span></div>
+    <div class="item"><span class="sprite-block polished_deepslate_wall" title="Polished Deepslate Wall"></span><span class="name">磨制深板岩墙</span><span class="code"><code>polished_deepslate_wall</code></span></div>
+    <div class="item"><span class="sprite-block prismarine_wall" title="Prismarine Wall"></span><span class="name">海晶石墙</span><span class="code"><code>prismarine_wall</code></span></div>
+    <div class="item"><span class="sprite-block red_nether_brick_wall" title="Red Nether Brick Wall"></span><span class="name">红色下界砖墙</span><span class="code"><code>red_nether_brick_wall</code></span></div>
+    <div class="item"><span class="sprite-block red_sandstone_wall" title="Red Sandstone Wall"></span><span class="name">红砂岩墙</span><span class="code"><code>red_sandstone_wall</code></span></div>
+    <div class="item"><span class="sprite-block sandstone_wall" title="Sandstone Wall"></span><span class="name">砂岩墙</span><span class="code"><code>sandstone_wall</code></span></div>
+    <div class="item"><span class="sprite-block stone_brick_wall" title="Stone Brick Wall"></span><span class="name">石砖墙</span><span class="code"><code>stone_brick_wall</code></span></div>
+
+    <div class="title"><a name="建造.木板"></a></div>
+    <div class="item"><span class="sprite-block acacia_planks" title="Acacia Planks"></span><span class="name">金合欢木板</span><span class="code"><code>acacia_planks</code></span></div>
+    <div class="item"><span class="sprite-block birch_planks" title="Birch Planks"></span><span class="name">白桦木板</span><span class="code"><code>birch_planks</code></span></div>
+    <div class="item"><span class="sprite-block crimson_planks" title="Crimson Planks"></span><span class="name">绯红木板</span><span class="code"><code>crimson_planks</code></span></div>
+    <div class="item"><span class="sprite-block dark_oak_planks" title="Dark Oak Planks"></span><span class="name">深色橡木木板</span><span class="code"><code>dark_oak_planks</code></span></div>
+    <div class="item"><span class="sprite-block jungle_planks" title="Jungle Planks"></span><span class="name">丛林木板</span><span class="code"><code>jungle_planks</code></span></div>
+    <div class="item"><span class="sprite-block oak_planks" title="Oak Planks"></span><span class="name">橡木木板</span><span class="code"><code>oak_planks</code></span></div>
+    <div class="item"><span class="sprite-block spruce_planks" title="Spruce Planks"></span><span class="name">云杉木板</span><span class="code"><code>spruce_planks</code></span></div>
+    <div class="item"><span class="sprite-block warped_planks" title="Warped Planks"></span><span class="name">诡异木板</span><span class="code"><code>warped_planks</code></span></div>
+
+    <div class="title"><a name="建造.柱子"></a></div>
+    <div class="item"><span class="sprite-block purpur_pillar" title="Purpur Pillar"></span><span class="name">紫珀柱</span><span class="code"><code>purpur_pillar</code></span></div>
+    <div class="item"><span class="sprite-block quartz_pillar" title="Quartz Pillar"></span><span class="name">石英柱</span><span class="code"><code>quartz_pillar</code></span></div>
+
+    <div class="title"><a name="建造.按钮"></a></div>
+    <div class="item"><span class="sprite-block acacia_button" title="Acacia Button"></span><span class="name">金合欢木按钮</span><span class="code"><code>acacia_button</code></span></div>
+    <div class="item"><span class="sprite-block birch_button" title="Birch Button"></span><span class="name">白桦木按钮</span><span class="code"><code>birch_button</code></span></div>
+    <div class="item"><span class="sprite-block crimson_button" title="Crimson Button"></span><span class="name">绯红木按钮</span><span class="code"><code>crimson_button</code></span></div>
+    <div class="item"><span class="sprite-block dark_oak_button" title="Dark Oak Button"></span><span class="name">深色橡木按钮</span><span class="code"><code>dark_oak_button</code></span></div>
+    <div class="item"><span class="sprite-block jungle_button" title="Jungle Button"></span><span class="name">丛林木按钮</span><span class="code"><code>jungle_button</code></span></div>
+    <div class="item"><span class="sprite-block oak_button" title="Oak Button"></span><span class="name">橡木按钮</span><span class="code"><code>oak_button</code></span></div>
+    <div class="item"><span class="sprite-block polished_blackstone_button" title="Polished Blackstone Button"></span><span class="name">磨制黑石按钮</span><span class="code"><code>polished_blackstone_button</code></span></div>
+    <div class="item"><span class="sprite-block spruce_button" title="Spruce Button"></span><span class="name">云杉木按钮</span><span class="code"><code>spruce_button</code></span></div>
+    <div class="item"><span class="sprite-block stone_button" title="Stone Button"></span><span class="name">石头按钮</span><span class="code"><code>stone_button</code></span></div>
+    <div class="item"><span class="sprite-block warped_button" title="Warped Button"></span><span class="name">诡异木按钮</span><span class="code"><code>warped_button</code></span></div>
+
+    <div class="title"><a name="建造.压力板"></a></div>
+    <div class="item"><span class="sprite-block acacia_pressure_plate" title="Acacia Pressure Plate"></span><span class="name">金合欢木压力板</span><span class="code"><code>acacia_pressure_plate</code></span></div>
+    <div class="item"><span class="sprite-block birch_pressure_plate" title="Birch Pressure Plate"></span><span class="name">白桦木压力板</span><span class="code"><code>birch_pressure_plate</code></span></div>
+    <div class="item"><span class="sprite-block crimson_pressure_plate" title="Crimson Pressure Plate"></span><span class="name">绯红木压力板</span><span class="code"><code>crimson_pressure_plate</code></span></div>
+    <div class="item"><span class="sprite-block dark_oak_pressure_plate" title="Dark Oak Pressure Plate"></span><span class="name">深色橡木压力板</span><span class="code"><code>dark_oak_pressure_plate</code></span></div>
+    <div class="item"><span class="sprite-block heavy_weighted_pressure_plate" title="Heavy Weighted Pressure Plate"></span><span class="name">重质测重压力板</span><span class="code"><code>heavy_weighted_pressure_plate</code></span></div>
+    <div class="item"><span class="sprite-block jungle_pressure_plate" title="Jungle Pressure Plate"></span><span class="name">丛林木压力板</span><span class="code"><code>jungle_pressure_plate</code></span></div>
+    <div class="item"><span class="sprite-block light_weighted_pressure_plate" title="Light Weighted Pressure Plate"></span><span class="name">轻质测重压力板</span><span class="code"><code>light_weighted_pressure_plate</code></span></div>
+    <div class="item"><span class="sprite-block oak_pressure_plate" title="Oak Pressure Plate"></span><span class="name">橡木压力板</span><span class="code"><code>oak_pressure_plate</code></span></div>
+    <div class="item"><span class="sprite-block polished_blackstone_pressure_plate" title="Polished Blackstone Pressure Plate"></span><span class="name">磨制黑石压力板</span><span class="code"><code>polished_blackstone_pressure_plate</code></span></div>
+    <div class="item"><span class="sprite-block spruce_pressure_plate" title="Spruce Pressure Plate"></span><span class="name">云杉木压力板</span><span class="code"><code>spruce_pressure_plate</code></span></div>
+    <div class="item"><span class="sprite-block stone_pressure_plate" title="Stone Pressure Plate"></span><span class="name">石头压力板</span><span class="code"><code>stone_pressure_plate</code></span></div>
+    <div class="item"><span class="sprite-block warped_pressure_plate" title="Warped Pressure Plate"></span><span class="name">诡异木压力板</span><span class="code"><code>warped_pressure_plate</code></span></div>
+
+    <div class="title"><a name="建造.活板门"></a></div>
+    <div class="item"><span class="sprite-block acacia_trapdoor" title="Acacia Trapdoor"></span><span class="name">金合欢木活板门</span><span class="code"><code>acacia_trapdoor</code></span></div>
+    <div class="item"><span class="sprite-block birch_trapdoor" title="Birch Trapdoor"></span><span class="name">白桦木活板门</span><span class="code"><code>birch_trapdoor</code></span></div>
+    <div class="item"><span class="sprite-block crimson_trapdoor" title="Crimson Trapdoor"></span><span class="name">绯红木活板门</span><span class="code"><code>crimson_trapdoor</code></span></div>
+    <div class="item"><span class="sprite-block dark_oak_trapdoor" title="Dark Oak Trapdoor"></span><span class="name">深色橡木活板门</span><span class="code"><code>dark_oak_trapdoor</code></span></div>
+    <div class="item"><span class="sprite-block iron_trapdoor" title="Iron Trapdoor"></span><span class="name">铁活板门</span><span class="code"><code>iron_trapdoor</code></span></div>
+    <div class="item"><span class="sprite-block jungle_trapdoor" title="Jungle Trapdoor"></span><span class="name">丛林木活板门</span><span class="code"><code>jungle_trapdoor</code></span></div>
+    <div class="item"><span class="sprite-block oak_trapdoor" title="Oak Trapdoor"></span><span class="name">橡木活板门</span><span class="code"><code>oak_trapdoor</code></span></div>
+    <div class="item"><span class="sprite-block spruce_trapdoor" title="Spruce Trapdoor"></span><span class="name">云杉木活板门</span><span class="code"><code>spruce_trapdoor</code></span></div>
+    <div class="item"><span class="sprite-block warped_trapdoor" title="Warped Trapdoor"></span><span class="name">诡异木活板门</span><span class="code"><code>warped_trapdoor</code></span></div>
+
+    <div class="title"><a name="建造.零件"></a></div>
+    <div class="item"><span class="sprite-block activator_rail" title="Activator Rail"></span><span class="name">激活铁轨</span><span class="code"><code>activator_rail</code></span></div>
+    <div class="item"><span class="sprite-block beacon" title="Beacon"></span><span class="name">信标</span><span class="code"><code>beacon</code></span></div>
+    <div class="item"><span class="sprite-block chain" title="Chain"></span><span class="name">锁链</span><span class="code"><code>chain</code></span></div>
+    <div class="item"><span class="sprite-block comparator" title="Redstone Comparator"></span><span class="name">红石比较器</span><span class="code"><code>comparator</code></span></div>
+    <div class="item"><span class="sprite-block conduit" title="Conduit"></span><span class="name">潮涌核心</span><span class="code"><code>conduit</code></span></div>
+    <div class="item"><span class="sprite-block daylight_detector" title="Daylight Detector"></span><span class="name">阳光探测器</span><span class="code"><code>daylight_detector</code></span></div>
+    <div class="item"><span class="sprite-block detector_rail" title="Detector Rail"></span><span class="name">探测铁轨</span><span class="code"><code>detector_rail</code></span></div>
+    <div class="item"><span class="sprite-block dispenser" title="Dispenser"></span><span class="name">发射器</span><span class="code"><code>dispenser</code></span></div>
+    <div class="item"><span class="sprite-block dropper" title="Dropper"></span><span class="name">投掷器</span><span class="code"><code>dropper</code></span></div>
+    <div class="item grayb"><span class="sprite-block end_gateway" title="End Gateway"></span><span class="name">末地折跃门</span><span class="code"><code>end_gateway</code></span></div>
+    <div class="item grayb"><span class="sprite-block end_portal" title="End Portal"></span><span class="name">末地传送门</span><span class="code"><code>end_portal</code></span></div>
+    <div class="item"><span class="sprite-block end_portal_frame" title="End Portal Frame"></span><span class="name">末地传送门框架</span><span class="code"><code>end_portal_frame</code></span></div>
+    <div class="item"><span class="sprite-block iron_bars" title="Iron Bars"></span><span class="name">铁栏杆</span><span class="code"><code>iron_bars</code></span></div>
+    <div class="item"><span class="sprite-block ladder" title="Ladder"></span><span class="name">梯子</span><span class="code"><code>ladder</code></span></div>
+    <div class="item"><span class="sprite-block lever" title="Lever"></span><span class="name">拉杆</span><span class="code"><code>lever</code></span></div>
+    <div class="item"><span class="sprite-block lightning_rod" title="Lightning Rod"></span><span class="name">避雷针</span><span class="code"><code>lightning_rod</code></span></div>
+    <div class="item grayb"><span class="sprite-block empty" title="Moving Piston"></span><span class="name">移动的活塞</span><span class="code"><code>moving_piston</code></span></div>
+    <div class="item grayb"><span class="sprite-block nether_portal" title="Nether Portal JE.gif"></span><span class="name">下界传送门</span><span class="code"><code>nether_portal</code></span></div>
+    <div class="item"><span class="sprite-block observer" title="Observer"></span><span class="name">侦测器</span><span class="code"><code>observer</code></span></div>
+    <div class="item"><span class="sprite-block piston" title="Piston"></span><span class="name">活塞</span><span class="code"><code>piston</code></span></div>
+    <div class="item grayb"><span class="sprite-block piston_head" title="Piston Head"></span><span class="name">活塞头</span><span class="code"><code>piston_head</code></span></div>
+    <div class="item"><span class="sprite-block powered_rail" title="Powered Rail"></span><span class="name">动力铁轨</span><span class="code"><code>powered_rail</code></span></div>
+    <div class="item"><span class="sprite-block rail" title="Rail"></span><span class="name">铁轨</span><span class="code"><code>rail</code></span></div>
+    <div class="item"><span class="sprite-block redstone_wire" title="Redstone Wire"></span><span class="name">红石线</span><span class="code"><code>redstone_wire</code></span></div>
+    <div class="item"><span class="sprite-block repeater" title="Redstone Repeater"></span><span class="name">红石中继器</span><span class="code"><code>repeater</code></span></div>
+    <div class="item"><span class="sprite-block scaffolding" title="Standing Scaffolding"></span><span class="name">脚手架</span><span class="code"><code>scaffolding</code></span></div>
+    <div class="item"><span class="sprite-block sculk_sensor" title="Sculk Sensor.gif"></span><span class="name">幽匿感测体</span><span class="code"><code>sculk_sensor</code></span></div>
+    <div class="item"><span class="sprite-block sticky_piston" title="Sticky Piston"></span><span class="name">黏性活塞</span><span class="code"><code>sticky_piston</code></span></div>
+    <div class="item"><span class="sprite-block target" title="Target"></span><span class="name">标靶</span><span class="code"><code>target</code></span></div>
+    <div class="item"><span class="sprite-block note_block" title="Note Block"></span><span class="name">音符盒</span><span class="code"><code>note_block</code></span></div>
+    <div class="item"><span class="sprite-block tnt" title="TNT"></span><span class="name">TNT</span><span class="code"><code>tnt</code></span></div>
+    <div class="item"><span class="sprite-block tripwire" title="Tripwire"></span><span class="name">绊线</span><span class="code"><code>tripwire</code></span></div>
+    <div class="item"><span class="sprite-block tripwire_hook" title="Tripwire Hook"></span><span class="name">绊线钩</span><span class="code"><code>tripwire_hook</code></span></div>
+    <div class="item"><span class="sprite-block structure_block" title="Structure Block"></span><span class="name">结构方块</span><span class="code"><code>structure_block</code></span></div>
+    <div class="item"><span class="sprite-block chain_command_block" title="Chain Command Block"></span><span class="name">连锁型命令方块</span><span class="code"><code>chain_command_block</code></span></div>
+    <div class="item"><span class="sprite-block command_block" title="Command Block"></span><span class="name">命令方块</span><span class="code"><code>command_block</code></span></div>
+    <div class="item"><span class="sprite-block repeating_command_block" title="Repeating Command Block"></span><span class="name">循环型命令方块</span><span class="code"><code>repeating_command_block</code></span></div>
+
+    <div class="title"><a name="照明"></a></div>
+    <div class="item"><span class="sprite-block torch" title="Torch"></span><span class="name">火把</span><span class="code"><code>torch</code></span></div>
+    <div class="item"><span class="sprite-block redstone_torch" title="Redstone Torch"></span><span class="name">红石火把</span><span class="code"><code>redstone_torch</code></span></div>
+    <div class="item pinkb"><span class="sprite-block redstone_wall_torch" title="Redstone Wall Torch"></span><span class="name">墙上的红石火把</span><span class="code"><code>redstone_wall_torch</code></span></div>
+    <div class="item"><span class="sprite-block soul_torch" title="Soul Torch"></span><span class="name">灵魂火把</span><span class="code"><code>soul_torch</code></span></div>
+    <div class="item pinkb"><span class="sprite-block soul_wall_torch" title="Soul Wall Torch"></span><span class="name">墙上的灵魂火把</span><span class="code"><code>soul_wall_torch</code></span></div>
+    <div class="item pinkb"><span class="sprite-block wall_torch" title="Wall Torch"></span><span class="name">墙上的火把</span><span class="code"><code>wall_torch</code></span></div>
+
+    <div class="title"><a name="照明.灯笼"></a></div>
+    <div class="item"><span class="sprite-block lantern" title="Lantern"></span><span class="name">灯笼</span><span class="code"><code>lantern</code></span></div>
+    <div class="item"><span class="sprite-block jack_o_lantern" title="Jack o'Lantern"></span><span class="name">南瓜灯</span><span class="code"><code>jack_o_lantern</code></span></div>
+    <div class="item"><span class="sprite-block redstone_lamp" title="Redstone Lamp"></span><span class="name">红石灯</span><span class="code"><code>redstone_lamp</code></span></div>
+    <div class="item"><span class="sprite-block sea_lantern" title="Sea Lantern"></span><span class="name">海晶灯</span><span class="code"><code>sea_lantern</code></span></div>
+    <div class="item"><span class="sprite-block soul_lantern" title="Soul Lantern"></span><span class="name">灵魂灯笼</span><span class="code"><code>soul_lantern</code></span></div>
+
+    <div class="title"><a name="照明.营火"></a></div>
+    <div class="item"><span class="sprite-block campfire" title="Campfire"></span><span class="name">营火</span><span class="code"><code>campfire</code></span></div>
+    <div class="item"><span class="sprite-block soul_campfire" title="Soul Campfire"></span><span class="name">灵魂营火</span><span class="code"><code>soul_campfire</code></span></div>
+
+    <div class="title"><a name="照明.花草"></a></div>
+    <div class="item"><span class="sprite-block glow_lichen" title="Glow Lichen"></span><span class="name">发光地衣</span><span class="code"><code>glow_lichen</code></span></div>
+    <div class="item"><span class="sprite-block sea_pickle" title="Sea Pickle"></span><span class="name">海泡菜</span><span class="code"><code>sea_pickle</code></span></div>
+    <div class="item"><span class="sprite-block shroomlight" title="Shroomlight"></span><span class="name">菌光体</span><span class="code"><code>shroomlight</code></span></div>
+
+    <div class="title"><a name="照明.蜡烛"></a></div>
+    <div class="item"><span class="sprite-block candle" title="Candle"></span><span class="name">蜡烛</span><span class="code"><code>candle</code></span></div>
+    <div class="item"><span class="sprite-block black_candle" title="Black Candle"></span><span class="name">黑色蜡烛</span><span class="code"><code>black_candle</code></span></div>
+    <div class="item"><span class="sprite-block blue_candle" title="Blue Candle"></span><span class="name">蓝色蜡烛</span><span class="code"><code>blue_candle</code></span></div>
+    <div class="item"><span class="sprite-block brown_candle" title="Brown Candle"></span><span class="name">棕色蜡烛</span><span class="code"><code>brown_candle</code></span></div>
+    <div class="item"><span class="sprite-block cyan_candle" title="Cyan Candle"></span><span class="name">青色蜡烛</span><span class="code"><code>cyan_candle</code></span></div>
+    <div class="item"><span class="sprite-block end_rod" title="End Rod"></span><span class="name">末地烛</span><span class="code"><code>end_rod</code></span></div>
+    <div class="item"><span class="sprite-block gray_candle" title="Gray Candle"></span><span class="name">灰色蜡烛</span><span class="code"><code>gray_candle</code></span></div>
+    <div class="item"><span class="sprite-block green_candle" title="Green Candle"></span><span class="name">绿色蜡烛</span><span class="code"><code>green_candle</code></span></div>
+    <div class="item"><span class="sprite-block light_blue_candle" title="Light Blue Candle"></span><span class="name">淡蓝色蜡烛</span><span class="code"><code>light_blue_candle</code></span></div>
+    <div class="item"><span class="sprite-block light_gray_candle" title="Light Gray Candle"></span><span class="name">淡灰色蜡烛</span><span class="code"><code>light_gray_candle</code></span></div>
+    <div class="item"><span class="sprite-block lime_candle" title="Lime Candle"></span><span class="name">黄绿色蜡烛</span><span class="code"><code>lime_candle</code></span></div>
+    <div class="item"><span class="sprite-block magenta_candle" title="Magenta Candle"></span><span class="name">品红色蜡烛</span><span class="code"><code>magenta_candle</code></span></div>
+    <div class="item"><span class="sprite-block orange_candle" title="Orange Candle"></span><span class="name">橙色蜡烛</span><span class="code"><code>orange_candle</code></span></div>
+    <div class="item"><span class="sprite-block pink_candle" title="Pink Candle"></span><span class="name">粉红色蜡烛</span><span class="code"><code>pink_candle</code></span></div>
+    <div class="item"><span class="sprite-block purple_candle" title="Purple Candle"></span><span class="name">紫色蜡烛</span><span class="code"><code>purple_candle</code></span></div>
+    <div class="item"><span class="sprite-block red_candle" title="Red Candle"></span><span class="name">红色蜡烛</span><span class="code"><code>red_candle</code></span></div>
+    <div class="item"><span class="sprite-block white_candle" title="White Candle"></span><span class="name">白色蜡烛</span><span class="code"><code>white_candle</code></span></div>
+    <div class="item"><span class="sprite-block yellow_candle" title="Yellow Candle"></span><span class="name">黄色蜡烛</span><span class="code"><code>yellow_candle</code></span></div>
+
+    <div class="title"><a name="植被.花草"></a></div>
+    <div class="item"><span class="sprite-block allium" title="Allium"></span><span class="name">绒球葱</span><span class="code"><code>allium</code></span></div>
+    <div class="item"><span class="sprite-block azalea" title="Azalea"></span><span class="name">杜鹃花丛</span><span class="code"><code>azalea</code></span></div>
+    <div class="item"><span class="sprite-block azure_bluet" title="Azure Bluet"></span><span class="name">蓝花美耳草</span><span class="code"><code>azure_bluet</code></span></div>
+    <div class="item"><span class="sprite-block bamboo" title="Big Leaves Bamboo"></span><span class="name">竹子</span><span class="code"><code>bamboo</code></span></div>
+    <div class="item"><span class="sprite-block beetroots" title="Beetroots"></span><span class="name">甜菜根</span><span class="code"><code>beetroots</code></span></div>
+    <div class="item"><span class="sprite-block blue_orchid" title="Blue Orchid"></span><span class="name">兰花</span><span class="code"><code>blue_orchid</code></span></div>
+    <div class="item"><span class="sprite-block cactus" title="Cactus"></span><span class="name">仙人掌</span><span class="code"><code>cactus</code></span></div>
+    <div class="item"><span class="sprite-block chorus_flower" title="Chorus Flower"></span><span class="name">紫颂花</span><span class="code"><code>chorus_flower</code></span></div>
+    <div class="item"><span class="sprite-block chorus_plant" title="Chorus Plant"></span><span class="name">紫颂植株</span><span class="code"><code>chorus_plant</code></span></div>
+    <div class="item"><span class="sprite-block cornflower" title="Cornflower"></span><span class="name">矢车菊</span><span class="code"><code>cornflower</code></span></div>
+    <div class="item"><span class="sprite-block dandelion" title="Dandelion"></span><span class="name">蒲公英</span><span class="code"><code>dandelion</code></span></div>
+    <div class="item"><span class="sprite-block big_dripleaf" title="Big Dripleaf"></span><span class="name">大型垂滴叶</span><span class="code"><code>big_dripleaf</code></span></div>
+    <div class="item grayb"><span class="sprite-block big_dripleaf_stem" title="Big Dripleaf Stem"></span><span class="name">大型垂滴叶茎</span><span class="code"><code>big_dripleaf_stem</code></span></div>
+    <div class="item"><span class="sprite-block small_dripleaf" title="Small Dripleaf"></span><span class="name">小型垂滴叶</span><span class="code"><code>small_dripleaf</code></span></div>
+    <div class="item"><span class="sprite-block dead_bush" title="Dead Bush"></span><span class="name">枯萎的灌木</span><span class="code"><code>dead_bush</code></span></div>
+    <div class="item"><span class="sprite-block fern" title="Fern"></span><span class="name">蕨</span><span class="code"><code>fern</code></span></div>
+    <div class="item"><span class="sprite-block flowering_azalea" title="Flowering Azalea"></span><span class="name">盛开的杜鹃花丛</span><span class="code"><code>flowering_azalea</code></span></div>
+    <div class="item"><span class="sprite-block grass" title="Grass"></span><span class="name">草</span><span class="code"><code>grass</code></span></div>
+    <div class="item"><span class="sprite-block hanging_roots" title="Hanging Roots"></span><span class="name">垂根</span><span class="code"><code>hanging_roots</code></span></div>
+    <div class="item"><span class="sprite-block kelp" title="Kelp.gif"></span><span class="name">海带</span><span class="code"><code>kelp</code></span></div>
+    <div class="item"><span class="sprite-block large_fern" title="Large Fern"></span><span class="name">大型蕨</span><span class="code"><code>large_fern</code></span></div>
+    <div class="item"><span class="sprite-block lilac" title="Lilac"></span><span class="name">丁香</span><span class="code"><code>lilac</code></span></div>
+    <div class="item"><span class="sprite-block lily_of_the_valley" title="Lily of the Valley"></span><span class="name">铃兰</span><span class="code"><code>lily_of_the_valley</code></span></div>
+    <div class="item"><span class="sprite-block lily_pad" title="Lily Pad"></span><span class="name">睡莲</span><span class="code"><code>lily_pad</code></span></div>
+    <div class="item"><span class="sprite-block nether_sprouts" title="Nether Sprouts"></span><span class="name">下界苗</span><span class="code"><code>nether_sprouts</code></span></div>
+    <div class="item"><span class="sprite-block oxeye_daisy" title="Oxeye Daisy"></span><span class="name">滨菊</span><span class="code"><code>oxeye_daisy</code></span></div>
+    <div class="item"><span class="sprite-block peony" title="Peony"></span><span class="name">牡丹</span><span class="code"><code>peony</code></span></div>
+    <div class="item"><span class="sprite-block poppy" title="Poppy"></span><span class="name">虞美人</span><span class="code"><code>poppy</code></span></div>
+    <div class="item"><span class="sprite-block rose_bush" title="Rose Bush"></span><span class="name">玫瑰丛</span><span class="code"><code>rose_bush</code></span></div>
+    <div class="item"><span class="sprite-block spore_blossom" title="Spore Blossom"></span><span class="name">孢子花</span><span class="code"><code>spore_blossom</code></span></div>
+    <div class="item"><span class="sprite-block sugar_cane" title="Sugar Cane"></span><span class="name">甘蔗</span><span class="code"><code>sugar_cane</code></span></div>
+    <div class="item"><span class="sprite-block sunflower" title="Sunflower"></span><span class="name">向日葵</span><span class="code"><code>sunflower</code></span></div>
+    <div class="item"><span class="sprite-block sweet_berry_bush" title="Sweet Berry Bush"></span><span class="name">甜浆果丛</span><span class="code"><code>sweet_berry_bush</code></span></div>
+    <div class="item"><span class="sprite-block tall_grass" title="Tall Grass"></span><span class="name">高草丛</span><span class="code"><code>tall_grass</code></span></div>
+    <div class="item"><span class="sprite-block orange_tulip" title="Orange Tulip"></span><span class="name">橙色郁金香</span><span class="code"><code>orange_tulip</code></span></div>
+    <div class="item"><span class="sprite-block pink_tulip" title="Pink Tulip"></span><span class="name">粉红色郁金香</span><span class="code"><code>pink_tulip</code></span></div>
+    <div class="item"><span class="sprite-block red_tulip" title="Red Tulip"></span><span class="name">红色郁金香</span><span class="code"><code>red_tulip</code></span></div>
+    <div class="item"><span class="sprite-block white_tulip" title="White Tulip"></span><span class="name">白色郁金香</span><span class="code"><code>white_tulip</code></span></div>
+    <div class="item pinkb"><span class="sprite-block twisting_vines_plant" title="Twisting Vines Plant"></span><span class="name">缠怨藤植株</span><span class="code"><code>twisting_vines_plant</code></span></div>
+    <div class="item"><span class="sprite-block cave_vines" title="Cave Vines"></span><span class="name">洞穴藤蔓</span><span class="code"><code>cave_vines</code></span></div>
+    <div class="item pinkb"><span class="sprite-block cave_vines_plant" title="Cave Vines Plant"></span><span class="name">洞穴藤蔓植株</span><span class="code"><code>cave_vines_plant</code></span></div>
+    <div class="item"><span class="sprite-block twisting_vines" title="Twisting Vines"></span><span class="name">缠怨藤</span><span class="code"><code>twisting_vines</code></span></div>
+    <div class="item"><span class="sprite-block vine" title="Vines"></span><span class="name">藤蔓</span><span class="code"><code>vine</code></span></div>
+    <div class="item"><span class="sprite-block weeping_vines" title="Weeping Vines"></span><span class="name">垂泪藤</span><span class="code"><code>weeping_vines</code></span></div>
+    <div class="item pinkb"><span class="sprite-block weeping_vines_plant" title="Weeping Vines Plant"></span><span class="name">垂泪藤植株</span><span class="code"><code>weeping_vines_plant</code></span></div>
+    <div class="item"><span class="sprite-block wither_rose" title="Wither Rose"></span><span class="name">凋零玫瑰</span><span class="code"><code>wither_rose</code></span></div>
+
+    <div class="title"><a name="植被.作物"></a></div>
+    <div class="item"><span class="sprite-block carrots" title="Carrots"></span><span class="name">胡萝卜</span><span class="code"><code>carrots</code></span></div>
+    <div class="item"><span class="sprite-block potatoes" title="Potatoes"></span><span class="name">马铃薯</span><span class="code"><code>potatoes</code></span></div>
+    <div class="item"><span class="sprite-block wheat" title="Wheat Crops"></span><span class="name">小麦</span><span class="code"><code>wheat</code></span></div>
+
+    <div class="title"><a name="植被.树苗"></a></div>
+    <div class="item"><span class="sprite-block acacia_sapling" title="Acacia Sapling"></span><span class="name">金合欢树苗</span><span class="code"><code>acacia_sapling</code></span></div>
+    <div class="item pinkb"><span class="sprite-block bamboo_sapling" title="Bamboo Shoot"></span><span class="name">竹笋</span><span class="code"><code>bamboo_sapling</code></span></div>
+    <div class="item"><span class="sprite-block birch_sapling" title="Birch Sapling"></span><span class="name">白桦树苗</span><span class="code"><code>birch_sapling</code></span></div>
+    <div class="item"><span class="sprite-block dark_oak_sapling" title="Dark Oak Sapling"></span><span class="name">深色橡树树苗</span><span class="code"><code>dark_oak_sapling</code></span></div>
+    <div class="item"><span class="sprite-block jungle_sapling" title="Jungle Sapling"></span><span class="name">丛林树苗</span><span class="code"><code>jungle_sapling</code></span></div>
+    <div class="item"><span class="sprite-block oak_sapling" title="Oak Sapling"></span><span class="name">橡树树苗</span><span class="code"><code>oak_sapling</code></span></div>
+    <div class="item"><span class="sprite-block spruce_sapling" title="Spruce Sapling"></span><span class="name">云杉树苗</span><span class="code"><code>spruce_sapling</code></span></div>
+
+    <div class="title"><a name="植被.水草"></a></div>
+    <div class="item pinkb"><span class="sprite-block kelp_plant" title="Kelp.gif"></span><span class="name">海带植株</span><span class="code"><code>kelp_plant</code></span></div>
+    <div class="item"><span class="sprite-block seagrass" title="Seagrass"></span><span class="name">海草</span><span class="code"><code>seagrass</code></span></div>
+    <div class="item grayb"><span class="sprite-block tall_seagrass" title="Tall Seagrass"></span><span class="name">高海草</span><span class="code"><code>tall_seagrass</code></span></div>
+
+    <div class="title"><a name="植被.珊瑚"></a></div>
+    <div class="item"><span class="sprite-block brain_coral" title="Brain Coral"></span><span class="name">脑纹珊瑚</span><span class="code"><code>brain_coral</code></span></div>
+    <div class="item"><span class="sprite-block dead_brain_coral" title="Dead Brain Coral"></span><span class="name">失活的脑纹珊瑚</span><span class="code"><code>dead_brain_coral</code></span></div>
+    <div class="item"><span class="sprite-block brain_coral_block" title="Brain Coral Block"></span><span class="name">脑纹珊瑚块</span><span class="code"><code>brain_coral_block</code></span></div>
+    <div class="item"><span class="sprite-block dead_brain_coral_block" title="Dead Brain Coral Block"></span><span class="name">失活的脑纹珊瑚块</span><span class="code"><code>dead_brain_coral_block</code></span></div>
+    <div class="item"><span class="sprite-block brain_coral_fan" title="Brain Coral Fan"></span><span class="name">脑纹珊瑚扇</span><span class="code"><code>brain_coral_fan</code></span></div>
+    <div class="item"><span class="sprite-block dead_brain_coral_fan" title="Dead Brain Coral Fan"></span><span class="name">失活的脑纹珊瑚扇</span><span class="code"><code>dead_brain_coral_fan</code></span></div>
+    <div class="item pinkb"><span class="sprite-block brain_coral_wall_fan" title="Brain Coral Wall Fan"></span><span class="name">墙上的脑纹珊瑚扇</span><span class="code"><code>brain_coral_wall_fan</code></span></div>
+    <div class="item pinkb"><span class="sprite-block dead_brain_coral_wall_fan" title="Dead Brain Coral Wall Fan"></span><span class="name">墙上的失活脑纹珊瑚扇</span><span class="code"><code>dead_brain_coral_wall_fan</code></span></div>
+
+    <div class="item"><span class="sprite-block bubble_coral" title="Bubble Coral"></span><span class="name">气泡珊瑚</span><span class="code"><code>bubble_coral</code></span></div>
+    <div class="item"><span class="sprite-block dead_bubble_coral" title="Dead Bubble Coral"></span><span class="name">失活的气泡珊瑚</span><span class="code"><code>dead_bubble_coral</code></span></div>
+    <div class="item"><span class="sprite-block bubble_coral_block" title="Bubble Coral Block"></span><span class="name">气泡珊瑚块</span><span class="code"><code>bubble_coral_block</code></span></div>
+    <div class="item"><span class="sprite-block dead_bubble_coral_block" title="Dead Bubble Coral Block"></span><span class="name">失活的气泡珊瑚块</span><span class="code"><code>dead_bubble_coral_block</code></span></div>
+    <div class="item"><span class="sprite-block bubble_coral_fan" title="Bubble Coral Fan"></span><span class="name">气泡珊瑚扇</span><span class="code"><code>bubble_coral_fan</code></span></div>
+    <div class="item"><span class="sprite-block dead_bubble_coral_fan" title="Dead Bubble Coral Fan"></span><span class="name">失活的气泡珊瑚扇</span><span class="code"><code>dead_bubble_coral_fan</code></span></div>
+    <div class="item pinkb"><span class="sprite-block bubble_coral_wall_fan" title="Bubble Coral Wall Fan"></span><span class="name">墙上的气泡珊瑚扇</span><span class="code"><code>bubble_coral_wall_fan</code></span></div>
+    <div class="item pinkb"><span class="sprite-block dead_bubble_coral_wall_fan" title="Dead Bubble Coral Wall Fan"></span><span class="name">墙上的失活气泡珊瑚扇</span><span class="code"><code>dead_bubble_coral_wall_fan</code></span></div>
+    <div class="item"><span class="sprite-block fire_coral" title="Fire Coral"></span><span class="name">火珊瑚</span><span class="code"><code>fire_coral</code></span></div>
+    <div class="item"><span class="sprite-block dead_fire_coral" title="Dead Fire Coral"></span><span class="name">失活的火珊瑚</span><span class="code"><code>dead_fire_coral</code></span></div>
+    <div class="item"><span class="sprite-block fire_coral_block" title="Fire Coral Block"></span><span class="name">火珊瑚块</span><span class="code"><code>fire_coral_block</code></span></div>
+    <div class="item"><span class="sprite-block dead_fire_coral_block" title="Dead Fire Coral Block"></span><span class="name">失活的火珊瑚块</span><span class="code"><code>dead_fire_coral_block</code></span></div>
+    <div class="item"><span class="sprite-block fire_coral_fan" title="Fire Coral Fan"></span><span class="name">火珊瑚扇</span><span class="code"><code>fire_coral_fan</code></span></div>
+    <div class="item pinkb"><span class="sprite-block fire_coral_wall_fan" title="Fire Coral Wall Fan"></span><span class="name">墙上的火珊瑚扇</span><span class="code"><code>fire_coral_wall_fan</code></span></div>
+    <div class="item"><span class="sprite-block dead_fire_coral_fan" title="Dead Fire Coral Fan"></span><span class="name">失活的火珊瑚扇</span><span class="code"><code>dead_fire_coral_fan</code></span></div>
+    <div class="item pinkb"><span class="sprite-block dead_fire_coral_wall_fan" title="Dead Fire Coral Wall Fan"></span><span class="name">墙上的失活火珊瑚扇</span><span class="code"><code>dead_fire_coral_wall_fan</code></span></div>
+    <div class="item"><span class="sprite-block horn_coral" title="Horn Coral"></span><span class="name">鹿角珊瑚</span><span class="code"><code>horn_coral</code></span></div>
+    <div class="item"><span class="sprite-block dead_horn_coral" title="Dead Horn Coral"></span><span class="name">失活的鹿角珊瑚</span><span class="code"><code>dead_horn_coral</code></span></div>
+    <div class="item"><span class="sprite-block horn_coral_block" title="Horn Coral Block"></span><span class="name">鹿角珊瑚块</span><span class="code"><code>horn_coral_block</code></span></div>
+    <div class="item"><span class="sprite-block dead_horn_coral_block" title="Dead Horn Coral Block"></span><span class="name">失活的鹿角珊瑚块</span><span class="code"><code>dead_horn_coral_block</code></span></div>
+    <div class="item"><span class="sprite-block horn_coral_fan" title="Horn Coral Fan"></span><span class="name">鹿角珊瑚扇</span><span class="code"><code>horn_coral_fan</code></span></div>
+    <div class="item"><span class="sprite-block dead_horn_coral_fan" title="Dead Horn Coral Fan"></span><span class="name">失活的鹿角珊瑚扇</span><span class="code"><code>dead_horn_coral_fan</code></span></div>
+    <div class="item pinkb"><span class="sprite-block horn_coral_wall_fan" title="Horn Coral Wall Fan"></span><span class="name">墙上的鹿角珊瑚扇</span><span class="code"><code>horn_coral_wall_fan</code></span></div>
+    <div class="item pinkb"><span class="sprite-block dead_horn_coral_wall_fan" title="Dead Horn Coral Wall Fan"></span><span class="name">墙上的失活鹿角珊瑚扇</span><span class="code"><code>dead_horn_coral_wall_fan</code></span></div>
+    <div class="item"><span class="sprite-block tube_coral" title="Tube Coral"></span><span class="name">管珊瑚</span><span class="code"><code>tube_coral</code></span></div>
+    <div class="item"><span class="sprite-block dead_tube_coral" title="Dead Tube Coral"></span><span class="name">失活的管珊瑚</span><span class="code"><code>dead_tube_coral</code></span></div>
+    <div class="item"><span class="sprite-block tube_coral_block" title="Tube Coral Block"></span><span class="name">管珊瑚块</span><span class="code"><code>tube_coral_block</code></span></div>
+    <div class="item"><span class="sprite-block dead_tube_coral_block" title="Dead Tube Coral Block"></span><span class="name">失活的管珊瑚块</span><span class="code"><code>dead_tube_coral_block</code></span></div>
+    <div class="item pinkb"><span class="sprite-block tube_coral_wall_fan" title="Tube Coral Wall Fan"></span><span class="name">墙上的管珊瑚扇</span><span class="code"><code>tube_coral_wall_fan</code></span></div>
+    <div class="item"><span class="sprite-block dead_tube_coral_fan" title="Dead Tube Coral Fan"></span><span class="name">失活的管珊瑚扇</span><span class="code"><code>dead_tube_coral_fan</code></span></div>
+    <div class="item"><span class="sprite-block tube_coral_fan" title="Tube Coral Fan"></span><span class="name">管珊瑚扇</span><span class="code"><code>tube_coral_fan</code></span></div>
+    <div class="item pinkb"><span class="sprite-block dead_tube_coral_wall_fan" title="Dead Tube Coral Wall Fan"></span><span class="name">墙上的失活管珊瑚扇</span><span class="code"><code>dead_tube_coral_wall_fan</code></span></div>
+
+    <div class="title"><a name="植被.瓜果"></a></div>
+    <div class="item"><span class="sprite-block cocoa" title="Cocoa"></span><span class="name">可可果</span><span class="code"><code>cocoa</code></span></div>
+    <div class="item pinkb"><span class="sprite-block attached_melon_stem" title="Attached Stem"></span><span class="name">结果的西瓜茎</span><span class="code"><code>attached_melon_stem</code></span></div>
+    <div class="item pinkb"><span class="sprite-block attached_pumpkin_stem" title="Attached Stem"></span><span class="name">结果的南瓜茎</span><span class="code"><code>attached_pumpkin_stem</code></span></div>
+    <div class="item"><span class="sprite-block melon" title="Melon"></span><span class="name">西瓜</span><span class="code"><code>melon</code></span></div>
+    <div class="item"><span class="sprite-block melon_stem" title="Attached Stem"></span><span class="name">西瓜茎</span><span class="code"><code>melon_stem</code></span></div>
+    <div class="item"><span class="sprite-block pumpkin" title="Pumpkin"></span><span class="name">南瓜</span><span class="code"><code>pumpkin</code></span></div>
+    <div class="item"><span class="sprite-block pumpkin_stem" title="Attached Stem"></span><span class="name">南瓜茎</span><span class="code"><code>pumpkin_stem</code></span></div>
+
+    <div class="title"><a name="植被.菌"></a></div>
+    <div class="item"><span class="sprite-block warped_fungus" title="Warped Fungus"></span><span class="name">诡异菌</span><span class="code"><code>warped_fungus</code></span></div>
+    <div class="item"><span class="sprite-block crimson_fungus" title="Crimson Fungus"></span><span class="name">绯红菌</span><span class="code"><code>crimson_fungus</code></span></div>
+    <div class="item"><span class="sprite-block mycelium" title="Mycelium"></span><span class="name">菌丝</span><span class="code"><code>mycelium</code></span></div>
+    <div class="item"><span class="sprite-block red_mushroom" title="Red Mushroom"></span><span class="name">红色蘑菇</span><span class="code"><code>red_mushroom</code></span></div>
+    <div class="item"><span class="sprite-block red_mushroom_block" title="Red Mushroom Block"></span><span class="name">红色蘑菇方块</span><span class="code"><code>red_mushroom_block</code></span></div>
+    <div class="item"><span class="sprite-block brown_mushroom_block" title="Brown Mushroom Block"></span><span class="name">棕色蘑菇方块</span><span class="code"><code>brown_mushroom_block</code></span></div>
+    <div class="item"><span class="sprite-block nether_wart" title="Nether Wart"></span><span class="name">下界疣</span><span class="code"><code>nether_wart</code></span></div>
+    <div class="item"><span class="sprite-block warped_wart_block" title="Warped Wart Block"></span><span class="name">诡异疣块</span><span class="code"><code>warped_wart_block</code></span></div>
+    <div class="item"><span class="sprite-block nether_wart_block" title="Nether Wart Block"></span><span class="name">下界疣块</span><span class="code"><code>nether_wart_block</code></span></div>
+    <div class="item"><span class="sprite-block mushroom_stem" title="Mushroom Stem"></span><span class="name">蘑菇柄</span><span class="code"><code>mushroom_stem</code></span></div>
+    <div class="item"><span class="sprite-block brown_mushroom" title="Brown Mushroom"></span><span class="name">棕色蘑菇</span><span class="code"><code>brown_mushroom</code></span></div>
+    <div class="item"><span class="sprite-block crimson_hyphae" title="Crimson Hyphae"></span><span class="name">绯红菌核</span><span class="code"><code>crimson_hyphae</code></span></div>
+    <div class="item"><span class="sprite-block crimson_roots" title="Crimson Roots"></span><span class="name">绯红菌索</span><span class="code"><code>crimson_roots</code></span></div>
+    <div class="item"><span class="sprite-block crimson_stem" title="Crimson Stem"></span><span class="name">绯红菌柄</span><span class="code"><code>crimson_stem</code></span></div>
+    <div class="item"><span class="sprite-block crimson_nylium" title="Crimson Nylium"></span><span class="name">绯红菌岩</span><span class="code"><code>crimson_nylium</code></span></div>
+    <div class="item"><span class="sprite-block stripped_crimson_hyphae" title="Stripped Crimson Hyphae"></span><span class="name">去皮绯红菌核</span><span class="code"><code>stripped_crimson_hyphae</code></span></div>
+    <div class="item"><span class="sprite-block stripped_crimson_stem" title="Stripped Crimson Stem"></span><span class="name">去皮绯红菌柄</span><span class="code"><code>stripped_crimson_stem</code></span></div>
+    <div class="item"><span class="sprite-block warped_hyphae" title="Warped Hyphae"></span><span class="name">诡异菌核</span><span class="code"><code>warped_hyphae</code></span></div>
+    <div class="item"><span class="sprite-block warped_roots" title="Warped Roots"></span><span class="name">诡异菌索</span><span class="code"><code>warped_roots</code></span></div>
+    <div class="item"><span class="sprite-block warped_stem" title="Warped Stem"></span><span class="name">诡异菌柄</span><span class="code"><code>warped_stem</code></span></div>
+    <div class="item"><span class="sprite-block warped_nylium" title="Warped Nylium"></span><span class="name">诡异菌岩</span><span class="code"><code>warped_nylium</code></span></div>
+    <div class="item"><span class="sprite-block stripped_warped_hyphae" title="Stripped Warped Hyphae"></span><span class="name">去皮诡异菌核</span><span class="code"><code>stripped_warped_hyphae</code></span></div>
+    <div class="item"><span class="sprite-block stripped_warped_stem" title="Stripped Warped Stem"></span><span class="name">去皮诡异菌柄</span><span class="code"><code>stripped_warped_stem</code></span></div>
+
+
+    <div class="title"><a name="装饰.告示牌"></a></div>
+    <div class="item"><span class="sprite-block acacia_sign" title="Acacia Standing Sign"></span><span class="name">金合欢木告示牌</span><span class="code"><code>acacia_sign</code></span></div>
+    <div class="item pinkb"><span class="sprite-block acacia_wall_sign" title="Acacia Wall Sign"></span><span class="name">墙上的金合欢木告示牌</span><span class="code"><code>acacia_wall_sign</code></span></div>
+    <div class="item"><span class="sprite-block birch_sign" title="Birch Standing Sign"></span><span class="name">白桦木告示牌</span><span class="code"><code>birch_sign</code></span></div>
+    <div class="item pinkb"><span class="sprite-block birch_wall_sign" title="Birch Wall Sign"></span><span class="name">墙上的白桦木告示牌</span><span class="code"><code>birch_wall_sign</code></span></div>
+    <div class="item"><span class="sprite-block crimson_sign" title="Crimson Standing Sign"></span><span class="name">绯红木告示牌</span><span class="code"><code>crimson_sign</code></span></div>
+    <div class="item pinkb"><span class="sprite-block crimson_wall_sign" title="Crimson Wall Sign"></span><span class="name">墙上的绯红木告示牌</span><span class="code"><code>crimson_wall_sign</code></span></div>
+    <div class="item"><span class="sprite-block dark_oak_sign" title="Dark Oak Standing Sign"></span><span class="name">深色橡木告示牌</span><span class="code"><code>dark_oak_sign</code></span></div>
+    <div class="item pinkb"><span class="sprite-block dark_oak_wall_sign" title="Dark Oak Wall Sign"></span><span class="name">墙上的深色橡木告示牌</span><span class="code"><code>dark_oak_wall_sign</code></span></div>
+    <div class="item"><span class="sprite-block jungle_sign" title="Jungle Standing Sign"></span><span class="name">丛林木告示牌</span><span class="code"><code>jungle_sign</code></span></div>
+    <div class="item pinkb"><span class="sprite-block jungle_wall_sign" title="Jungle Wall Sign"></span><span class="name">墙上的丛林木告示牌</span><span class="code"><code>jungle_wall_sign</code></span></div>
+    <div class="item"><span class="sprite-block oak_sign" title="Oak Standing Sign"></span><span class="name">橡木告示牌</span><span class="code"><code>oak_sign</code></span></div>
+    <div class="item pinkb"><span class="sprite-block oak_wall_sign" title="Oak Wall Sign"></span><span class="name">墙上的橡木告示牌</span><span class="code"><code>oak_wall_sign</code></span></div>
+    <div class="item"><span class="sprite-block spruce_sign" title="Spruce Standing Sign"></span><span class="name">云杉木告示牌</span><span class="code"><code>spruce_sign</code></span></div>
+    <div class="item pinkb"><span class="sprite-block spruce_wall_sign" title="Spruce Wall Sign"></span><span class="name">墙上的云杉木告示牌</span><span class="code"><code>spruce_wall_sign</code></span></div>
+    <div class="item"><span class="sprite-block warped_sign" title="Warped Standing Sign"></span><span class="name">诡异木告示牌</span><span class="code"><code>warped_sign</code></span></div>
+    <div class="item pinkb"><span class="sprite-block warped_wall_sign" title="Warped Wall Sign"></span><span class="name">墙上的诡异木告示牌</span><span class="code"><code>warped_wall_sign</code></span></div>
+
+    <div class="title"><a name="装饰.摆件"></a></div>
+    <div class="item"><span class="sprite-block creeper_head" title="Creeper Head"></span><span class="name">苦力怕的头</span><span class="code"><code>creeper_head</code></span></div>
+    <div class="item pinkb"><span class="sprite-block creeper_wall_head" title="Creeper Head"></span><span class="name">墙上的苦力怕头颅</span><span class="code"><code>creeper_wall_head</code></span></div>
+    <div class="item"><span class="sprite-block dragon_head" title="Dragon Head"></span><span class="name">龙首</span><span class="code"><code>dragon_head</code></span></div>
+    <div class="item pinkb"><span class="sprite-block dragon_wall_head" title="Dragon Head"></span><span class="name">墙上的龙首</span><span class="code"><code>dragon_wall_head</code></span></div>
+    <div class="item"><span class="sprite-block player_head" title="Player Head"></span><span class="name">玩家头颅</span><span class="code"><code>player_head</code></span></div>
+    <div class="item pinkb"><span class="sprite-block player_wall_head" title="Player Head"></span><span class="name">墙上的玩家头颅</span><span class="code"><code>player_wall_head</code></span></div>
+    <div class="item"><span class="sprite-block skeleton_skull" title="Skeleton Skull"></span><span class="name">骷髅头颅</span><span class="code"><code>skeleton_skull</code></span></div>
+    <div class="item pinkb"><span class="sprite-block skeleton_wall_skull" title="Skeleton Skull"></span><span class="name">墙上的骷髅头颅</span><span class="code"><code>skeleton_wall_skull</code></span></div>
+    <div class="item"><span class="sprite-block wither_skeleton_skull" title="Wither Skeleton Skull"></span><span class="name">凋灵骷髅头颅</span><span class="code"><code>wither_skeleton_skull</code></span></div>
+    <div class="item pinkb"><span class="sprite-block wither_skeleton_wall_skull" title="Wither Skeleton Skull"></span><span class="name">墙上的凋灵骷髅头颅</span><span class="code"><code>wither_skeleton_wall_skull</code></span></div>
+    <div class="item"><span class="sprite-block zombie_head" title="Zombie Head"></span><span class="name">僵尸的头</span><span class="code"><code>zombie_head</code></span></div>
+    <div class="item pinkb"><span class="sprite-block zombie_wall_head" title="Zombie Head"></span><span class="name">墙上的僵尸头颅</span><span class="code"><code>zombie_wall_head</code></span></div>
+    <div class="item"><span class="sprite-block carved_pumpkin" title="Carved Pumpkin"></span><span class="name">雕刻过的南瓜</span><span class="code"><code>carved_pumpkin</code></span></div>
+
+    <div class="title"><a name="装饰.旗帜"></a></div>
+    <div class="item"><span class="sprite-block black_banner" title="Black Banner"></span><span class="name">黑色旗帜</span><span class="code"><code>black_banner</code></span></div>
+    <div class="item pinkb"><span class="sprite-block black_wall_banner" title="Black Wall Banner"></span><span class="name">墙上的黑色旗帜</span><span class="code"><code>black_wall_banner</code></span></div>
+    <div class="item"><span class="sprite-block blue_banner" title="Blue Banner"></span><span class="name">蓝色旗帜</span><span class="code"><code>blue_banner</code></span></div>
+    <div class="item pinkb"><span class="sprite-block blue_wall_banner" title="Blue Wall Banner"></span><span class="name">墙上的蓝色旗帜</span><span class="code"><code>blue_wall_banner</code></span></div>
+    <div class="item"><span class="sprite-block brown_banner" title="Brown Banner"></span><span class="name">棕色旗帜</span><span class="code"><code>brown_banner</code></span></div>
+    <div class="item pinkb"><span class="sprite-block brown_wall_banner" title="Brown Wall Banner"></span><span class="name">墙上的棕色旗帜</span><span class="code"><code>brown_wall_banner</code></span></div>
+    <div class="item"><span class="sprite-block cyan_banner" title="Cyan Banner"></span><span class="name">青色旗帜</span><span class="code"><code>cyan_banner</code></span></div>
+    <div class="item pinkb"><span class="sprite-block cyan_wall_banner" title="Cyan Wall Banner"></span><span class="name">墙上的青色旗帜</span><span class="code"><code>cyan_wall_banner</code></span></div>
+    <div class="item"><span class="sprite-block gray_banner" title="Gray Banner"></span><span class="name">灰色旗帜</span><span class="code"><code>gray_banner</code></span></div>
+    <div class="item pinkb"><span class="sprite-block gray_wall_banner" title="Gray Wall Banner"></span><span class="name">墙上的灰色旗帜</span><span class="code"><code>gray_wall_banner</code></span></div>
+    <div class="item"><span class="sprite-block green_banner" title="Green Banner"></span><span class="name">绿色旗帜</span><span class="code"><code>green_banner</code></span></div>
+    <div class="item pinkb"><span class="sprite-block green_wall_banner" title="Green Wall Banner"></span><span class="name">墙上的绿色旗帜</span><span class="code"><code>green_wall_banner</code></span></div>
+    <div class="item"><span class="sprite-block light_blue_banner" title="Light Blue Banner"></span><span class="name">淡蓝色旗帜</span><span class="code"><code>light_blue_banner</code></span></div>
+    <div class="item pinkb"><span class="sprite-block light_blue_wall_banner" title="Light Blue Wall Banner"></span><span class="name">墙上的淡蓝色色旗帜</span><span class="code"><code>light_blue_wall_banner</code></span></div>
+    <div class="item"><span class="sprite-block light_gray_banner" title="Light Gray Banner"></span><span class="name">淡灰色旗帜</span><span class="code"><code>light_gray_banner</code></span></div>
+    <div class="item pinkb"><span class="sprite-block light_gray_wall_banner" title="Light Gray Wall Banner"></span><span class="name">墙上的淡灰色旗帜</span><span class="code"><code>light_gray_wall_banner</code></span></div>
+    <div class="item"><span class="sprite-block lime_banner" title="Lime Banner"></span><span class="name">黄绿色旗帜</span><span class="code"><code>lime_banner</code></span></div>
+    <div class="item pinkb"><span class="sprite-block lime_wall_banner" title="Lime Wall Banner"></span><span class="name">墙上的黄绿色旗帜</span><span class="code"><code>lime_wall_banner</code></span></div>
+    <div class="item"><span class="sprite-block magenta_banner" title="Magenta Banner"></span><span class="name">品红色旗帜</span><span class="code"><code>magenta_banner</code></span></div>
+    <div class="item pinkb"><span class="sprite-block magenta_wall_banner" title="Magenta Wall Banner"></span><span class="name">墙上的品红色旗帜</span><span class="code"><code>magenta_wall_banner</code></span></div>
+    <div class="item"><span class="sprite-block orange_banner" title="Orange Banner"></span><span class="name">橙色旗帜</span><span class="code"><code>orange_banner</code></span></div>
+    <div class="item pinkb"><span class="sprite-block orange_wall_banner" title="Orange Wall Banner"></span><span class="name">墙上的橙色旗帜</span><span class="code"><code>orange_wall_banner</code></span></div>
+    <div class="item"><span class="sprite-block pink_banner" title="Pink Banner"></span><span class="name">粉红色旗帜</span><span class="code"><code>pink_banner</code></span></div>
+    <div class="item pinkb"><span class="sprite-block pink_wall_banner" title="Pink Wall Banner"></span><span class="name">墙上的粉红色旗帜</span><span class="code"><code>pink_wall_banner</code></span></div>
+    <div class="item"><span class="sprite-block purple_banner" title="Purple Banner"></span><span class="name">紫色旗帜</span><span class="code"><code>purple_banner</code></span></div>
+    <div class="item pinkb"><span class="sprite-block purple_wall_banner" title="Purple Wall Banner"></span><span class="name">墙上的紫色旗帜</span><span class="code"><code>purple_wall_banner</code></span></div>
+    <div class="item"><span class="sprite-block red_banner" title="Red Banner"></span><span class="name">红色旗帜</span><span class="code"><code>red_banner</code></span></div>
+    <div class="item pinkb"><span class="sprite-block red_wall_banner" title="Red Wall Banner"></span><span class="name">墙上的红色旗帜</span><span class="code"><code>red_wall_banner</code></span></div>
+    <div class="item"><span class="sprite-block white_banner" title="White Banner"></span><span class="name">白色旗帜</span><span class="code"><code>white_banner</code></span></div>
+    <div class="item pinkb"><span class="sprite-block white_wall_banner" title="White Wall Banner"></span><span class="name">墙上的白色旗帜</span><span class="code"><code>white_wall_banner</code></span></div>
+    <div class="item"><span class="sprite-block yellow_banner" title="Yellow Banner"></span><span class="name">黄色旗帜</span><span class="code"><code>yellow_banner</code></span></div>
+    <div class="item pinkb"><span class="sprite-block yellow_wall_banner" title="Yellow Wall Banner"></span><span class="name">墙上的黄色旗帜</span><span class="code"><code>yellow_wall_banner</code></span></div>
+
+    <div class="title"><a name="装饰.蛋糕"></a></div>
+    <div class="item"><span class="sprite-block cake" title="Cake"></span><span class="name">蛋糕</span><span class="code"><code>cake</code></span></div>
+    <div class="item pinkb"><span class="sprite-block black_candle_cake" title="Black Candle Cake"></span><span class="name">插上黑色蜡烛的蛋糕</span><span class="code"><code>black_candle_cake</code></span></div>
+    <div class="item pinkb"><span class="sprite-block blue_candle_cake" title="Blue Candle Cake"></span><span class="name">插上蓝色蜡烛的蛋糕</span><span class="code"><code>blue_candle_cake</code></span></div>
+    <div class="item pinkb"><span class="sprite-block brown_candle_cake" title="Brown Candle Cake"></span><span class="name">插上棕色蜡烛的蛋糕</span><span class="code"><code>brown_candle_cake</code></span></div>
+    <div class="item pinkb"><span class="sprite-block candle_cake" title="Cake with Candle"></span><span class="name">插上蜡烛的蛋糕</span><span class="code"><code>candle_cake</code></span></div>
+    <div class="item pinkb"><span class="sprite-block cyan_candle_cake" title="Cyan Candle Cake"></span><span class="name">插上青色蜡烛的蛋糕</span><span class="code"><code>cyan_candle_cake</code></span></div>
+    <div class="item pinkb"><span class="sprite-block gray_candle_cake" title="Gray Candle Cake"></span><span class="name">插上灰色蜡烛的蛋糕</span><span class="code"><code>gray_candle_cake</code></span></div>
+    <div class="item pinkb"><span class="sprite-block green_candle_cake" title="Green Candle Cake"></span><span class="name">插上绿色蜡烛的蛋糕</span><span class="code"><code>green_candle_cake</code></span></div>
+    <div class="item pinkb"><span class="sprite-block light_blue_candle_cake" title="Light Blue Candle Cake"></span><span class="name">插上淡蓝色蜡烛的蛋糕</span><span class="code"><code>light_blue_candle_cake</code></span></div>
+    <div class="item pinkb"><span class="sprite-block light_gray_candle_cake" title="Light Gray Candle Cake"></span><span class="name">插上淡灰色蜡烛的蛋糕</span><span class="code"><code>light_gray_candle_cake</code></span></div>
+    <div class="item pinkb"><span class="sprite-block lime_candle_cake" title="Lime Candle Cake"></span><span class="name">插上黄绿色蜡烛的蛋糕</span><span class="code"><code>lime_candle_cake</code></span></div>
+    <div class="item pinkb"><span class="sprite-block magenta_candle_cake" title="Magenta Candle Cake"></span><span class="name">插上品红色蜡烛的蛋糕</span><span class="code"><code>magenta_candle_cake</code></span></div>
+    <div class="item pinkb"><span class="sprite-block orange_candle_cake" title="Orange Candle Cake"></span><span class="name">插上橙色蜡烛的蛋糕</span><span class="code"><code>orange_candle_cake</code></span></div>
+    <div class="item pinkb"><span class="sprite-block pink_candle_cake" title="Pink Candle Cake"></span><span class="name">插上粉红色蜡烛的蛋糕</span><span class="code"><code>pink_candle_cake</code></span></div>
+    <div class="item pinkb"><span class="sprite-block purple_candle_cake" title="Purple Candle Cake"></span><span class="name">插上紫色蜡烛的蛋糕</span><span class="code"><code>purple_candle_cake</code></span></div>
+    <div class="item pinkb"><span class="sprite-block red_candle_cake" title="Red Candle Cake"></span><span class="name">插上红色蜡烛的蛋糕</span><span class="code"><code>red_candle_cake</code></span></div>
+    <div class="item pinkb"><span class="sprite-block white_candle_cake" title="White Candle Cake"></span><span class="name">插上白色蜡烛的蛋糕</span><span class="code"><code>white_candle_cake</code></span></div>
+    <div class="item pinkb"><span class="sprite-block yellow_candle_cake" title="Yellow Candle Cake"></span><span class="name">插上黄色蜡烛的蛋糕</span><span class="code"><code>yellow_candle_cake</code></span></div>
+
+    <div class="title"><a name="家装.家具"></a></div>
+    <div class="item"><span class="sprite-block jukebox" title="Jukebox"></span><span class="name">唱片机</span><span class="code"><code>jukebox</code></span></div>
+    <div class="item"><span class="sprite-block barrel" title="Barrel"></span><span class="name">木桶</span><span class="code"><code>barrel</code></span></div>
+    <div class="item"><span class="sprite-block bell" title="Bell"></span><span class="name">钟</span><span class="code"><code>bell</code></span></div>
+    <div class="item"><span class="sprite-block bookshelf" title="Bookshelf"></span><span class="name">书架</span><span class="code"><code>bookshelf</code></span></div>
+    <div class="item"><span class="sprite-block flower_pot" title="Flower Pot"></span><span class="name">花盆</span><span class="code"><code>flower_pot</code></span></div>
+    <div class="item"><span class="sprite-block lectern" title="Lectern"></span><span class="name">讲台</span><span class="code"><code>lectern</code></span></div>
+
+    <div class="title"><a name="家装.床"></a></div>
+    <div class="item"><span class="sprite-block black_bed" title="Black Bed"></span><span class="name">黑色床</span><span class="code"><code>black_bed</code></span></div>
+    <div class="item"><span class="sprite-block blue_bed" title="Blue Bed"></span><span class="name">蓝色床</span><span class="code"><code>blue_bed</code></span></div>
+    <div class="item"><span class="sprite-block brown_bed" title="Brown Bed"></span><span class="name">棕色床</span><span class="code"><code>brown_bed</code></span></div>
+    <div class="item"><span class="sprite-block cyan_bed" title="Cyan Bed"></span><span class="name">青色床</span><span class="code"><code>cyan_bed</code></span></div>
+    <div class="item"><span class="sprite-block gray_bed" title="Gray Bed"></span><span class="name">灰色床</span><span class="code"><code>gray_bed</code></span></div>
+    <div class="item"><span class="sprite-block green_bed" title="Green Bed"></span><span class="name">绿色床</span><span class="code"><code>green_bed</code></span></div>
+    <div class="item"><span class="sprite-block light_blue_bed" title="Light Blue Bed"></span><span class="name">淡蓝色床</span><span class="code"><code>light_blue_bed</code></span></div>
+    <div class="item"><span class="sprite-block light_gray_bed" title="Light Gray Bed"></span><span class="name">淡灰色床</span><span class="code"><code>light_gray_bed</code></span></div>
+    <div class="item"><span class="sprite-block lime_bed" title="Lime Bed"></span><span class="name">黄绿色床</span><span class="code"><code>lime_bed</code></span></div>
+    <div class="item"><span class="sprite-block magenta_bed" title="Magenta Bed"></span><span class="name">品红色床</span><span class="code"><code>magenta_bed</code></span></div>
+    <div class="item"><span class="sprite-block orange_bed" title="Orange Bed"></span><span class="name">橙色床</span><span class="code"><code>orange_bed</code></span></div>
+    <div class="item"><span class="sprite-block pink_bed" title="Pink Bed"></span><span class="name">粉红色床</span><span class="code"><code>pink_bed</code></span></div>
+    <div class="item"><span class="sprite-block purple_bed" title="Purple Bed"></span><span class="name">紫色床</span><span class="code"><code>purple_bed</code></span></div>
+    <div class="item"><span class="sprite-block red_bed" title="Red Bed"></span><span class="name">红色床</span><span class="code"><code>red_bed</code></span></div>
+    <div class="item"><span class="sprite-block white_bed" title="White Bed"></span><span class="name">白色床</span><span class="code"><code>white_bed</code></span></div>
+    <div class="item"><span class="sprite-block yellow_bed" title="Yellow Bed"></span><span class="name">黄色床</span><span class="code"><code>yellow_bed</code></span></div>
+
+    <div class="title"><a name="家装.地毯"></a></div>
+    <div class="item"><span class="sprite-block black_carpet" title="Black Carpet"></span><span class="name">黑色地毯</span><span class="code"><code>black_carpet</code></span></div>
+    <div class="item"><span class="sprite-block blue_carpet" title="Blue Carpet"></span><span class="name">蓝色地毯</span><span class="code"><code>blue_carpet</code></span></div>
+    <div class="item"><span class="sprite-block brown_carpet" title="Brown Carpet"></span><span class="name">棕色地毯</span><span class="code"><code>brown_carpet</code></span></div>
+    <div class="item"><span class="sprite-block cyan_carpet" title="Cyan Carpet"></span><span class="name">青色地毯</span><span class="code"><code>cyan_carpet</code></span></div>
+    <div class="item"><span class="sprite-block gray_carpet" title="Gray Carpet"></span><span class="name">灰色地毯</span><span class="code"><code>gray_carpet</code></span></div>
+    <div class="item"><span class="sprite-block green_carpet" title="Green Carpet"></span><span class="name">绿色地毯</span><span class="code"><code>green_carpet</code></span></div>
+    <div class="item"><span class="sprite-block light_blue_carpet" title="Light Blue Carpet"></span><span class="name">淡蓝色地毯</span><span class="code"><code>light_blue_carpet</code></span></div>
+    <div class="item"><span class="sprite-block light_gray_carpet" title="Light Gray Carpet"></span><span class="name">淡灰色地毯</span><span class="code"><code>light_gray_carpet</code></span></div>
+    <div class="item"><span class="sprite-block lime_carpet" title="Lime Carpet"></span><span class="name">黄绿色地毯</span><span class="code"><code>lime_carpet</code></span></div>
+    <div class="item"><span class="sprite-block magenta_carpet" title="Magenta Carpet"></span><span class="name">品红色地毯</span><span class="code"><code>magenta_carpet</code></span></div>
+    <div class="item"><span class="sprite-block moss_carpet" title="Moss Carpet"></span><span class="name">苔藓地毯</span><span class="code"><code>moss_carpet</code></span></div>
+    <div class="item"><span class="sprite-block orange_carpet" title="Orange Carpet"></span><span class="name">橙色地毯</span><span class="code"><code>orange_carpet</code></span></div>
+    <div class="item"><span class="sprite-block pink_carpet" title="Pink Carpet"></span><span class="name">粉红色地毯</span><span class="code"><code>pink_carpet</code></span></div>
+    <div class="item"><span class="sprite-block purple_carpet" title="Purple Carpet"></span><span class="name">紫色地毯</span><span class="code"><code>purple_carpet</code></span></div>
+    <div class="item"><span class="sprite-block red_carpet" title="Red Carpet"></span><span class="name">红色地毯</span><span class="code"><code>red_carpet</code></span></div>
+    <div class="item"><span class="sprite-block white_carpet" title="White Carpet"></span><span class="name">白色地毯</span><span class="code"><code>white_carpet</code></span></div>
+    <div class="item"><span class="sprite-block yellow_carpet" title="Yellow Carpet"></span><span class="name">黄色地毯</span><span class="code"><code>yellow_carpet</code></span></div>
+
+    <div class="title"><a name="家装.盆栽"></a></div>
+    <div class="item pinkb"><span class="sprite-block potted_acacia_sapling" title="Potted Acacia Sapling"></span><span class="name">金合欢树苗盆栽</span><span class="code"><code>potted_acacia_sapling</code></span></div>
+    <div class="item pinkb"><span class="sprite-block potted_allium" title="Potted Allium"></span><span class="name">绒球葱盆栽</span><span class="code"><code>potted_allium</code></span></div>
+    <div class="item pinkb"><span class="sprite-block potted_azalea_bush" title="Potted Azalea"></span><span class="name">杜鹃花丛盆栽</span><span class="code"><code>potted_azalea_bush</code></span></div>
+    <div class="item pinkb"><span class="sprite-block potted_azure_bluet" title="Potted Azure Bluet"></span><span class="name">蓝花美耳草盆栽</span><span class="code"><code>potted_azure_bluet</code></span></div>
+    <div class="item pinkb"><span class="sprite-block potted_bamboo" title="Potted Bamboo"></span><span class="name">竹子盆栽</span><span class="code"><code>potted_bamboo</code></span></div>
+    <div class="item pinkb"><span class="sprite-block potted_birch_sapling" title="Potted Birch Sapling"></span><span class="name">白桦树苗盆栽</span><span class="code"><code>potted_birch_sapling</code></span></div>
+    <div class="item pinkb"><span class="sprite-block potted_blue_orchid" title="Potted Blue Orchid"></span><span class="name">兰花盆栽</span><span class="code"><code>potted_blue_orchid</code></span></div>
+    <div class="item pinkb"><span class="sprite-block potted_brown_mushroom" title="Potted Brown Mushroom"></span><span class="name">棕色蘑菇盆栽</span><span class="code"><code>potted_brown_mushroom</code></span></div>
+    <div class="item pinkb"><span class="sprite-block potted_cactus" title="Potted Cactus"></span><span class="name">仙人掌盆栽</span><span class="code"><code>potted_cactus</code></span></div>
+    <div class="item pinkb"><span class="sprite-block potted_cornflower" title="Potted Cornflower"></span><span class="name">矢车菊盆栽</span><span class="code"><code>potted_cornflower</code></span></div>
+    <div class="item pinkb"><span class="sprite-block potted_crimson_fungus" title="Potted Crimson Fungus"></span><span class="name">绯红菌盆栽</span><span class="code"><code>potted_crimson_fungus</code></span></div>
+    <div class="item pinkb"><span class="sprite-block potted_crimson_roots" title="Potted Crimson Roots"></span><span class="name">绯红菌索盆栽</span><span class="code"><code>potted_crimson_roots</code></span></div>
+    <div class="item pinkb"><span class="sprite-block potted_dandelion" title="Potted Dandelion"></span><span class="name">蒲公英盆栽</span><span class="code"><code>potted_dandelion</code></span></div>
+    <div class="item pinkb"><span class="sprite-block potted_dark_oak_sapling" title="Potted Dark Oak Sapling"></span><span class="name">深色橡树树苗盆栽</span><span class="code"><code>potted_dark_oak_sapling</code></span></div>
+    <div class="item pinkb"><span class="sprite-block potted_dead_bush" title="Potted Dead Bush"></span><span class="name">枯萎的灌木盆栽</span><span class="code"><code>potted_dead_bush</code></span></div>
+    <div class="item pinkb"><span class="sprite-block potted_fern" title="Potted Fern"></span><span class="name">蕨盆栽</span><span class="code"><code>potted_fern</code></span></div>
+    <div class="item pinkb"><span class="sprite-block potted_flowering_azalea_bush" title="Potted Flowering Azalea"></span><span class="name">盛开的杜鹃花丛盆栽</span><span class="code"><code>potted_flowering_azalea_bush</code></span></div>
+    <div class="item pinkb"><span class="sprite-block potted_jungle_sapling" title="Potted Jungle Sapling"></span><span class="name">丛林树苗盆栽</span><span class="code"><code>potted_jungle_sapling</code></span></div>
+    <div class="item pinkb"><span class="sprite-block potted_lily_of_the_valley" title="Potted Lily of the Valley"></span><span class="name">铃兰盆栽</span><span class="code"><code>potted_lily_of_the_valley</code></span></div>
+    <div class="item pinkb"><span class="sprite-block potted_oak_sapling" title="Potted Oak Sapling"></span><span class="name">橡树树苗盆栽</span><span class="code"><code>potted_oak_sapling</code></span></div>
+    <div class="item pinkb"><span class="sprite-block potted_orange_tulip" title="Potted Orange Tulip"></span><span class="name">橙色郁金香盆栽</span><span class="code"><code>potted_orange_tulip</code></span></div>
+    <div class="item pinkb"><span class="sprite-block potted_oxeye_daisy" title="Potted Oxeye Daisy"></span><span class="name">滨菊盆栽</span><span class="code"><code>potted_oxeye_daisy</code></span></div>
+    <div class="item pinkb"><span class="sprite-block potted_pink_tulip" title="Potted Pink Tulip"></span><span class="name">粉红色郁金香盆栽</span><span class="code"><code>potted_pink_tulip</code></span></div>
+    <div class="item pinkb"><span class="sprite-block potted_poppy" title="Potted Poppy"></span><span class="name">虞美人盆栽</span><span class="code"><code>potted_poppy</code></span></div>
+    <div class="item pinkb"><span class="sprite-block potted_red_mushroom" title="Potted Red Mushroom"></span><span class="name">红色蘑菇盆栽</span><span class="code"><code>potted_red_mushroom</code></span></div>
+    <div class="item pinkb"><span class="sprite-block potted_red_tulip" title="Potted Red Tulip"></span><span class="name">红色郁金香盆栽</span><span class="code"><code>potted_red_tulip</code></span></div>
+    <div class="item pinkb"><span class="sprite-block potted_spruce_sapling" title="Potted Spruce Sapling"></span><span class="name">云杉树苗盆栽</span><span class="code"><code>potted_spruce_sapling</code></span></div>
+    <div class="item pinkb"><span class="sprite-block potted_warped_fungus" title="Potted Warped Fungus"></span><span class="name">诡异菌盆栽</span><span class="code"><code>potted_warped_fungus</code></span></div>
+    <div class="item pinkb"><span class="sprite-block potted_warped_roots" title="Potted Warped Roots"></span><span class="name">诡异菌索盆栽</span><span class="code"><code>potted_warped_roots</code></span></div>
+    <div class="item pinkb"><span class="sprite-block potted_white_tulip" title="Potted White Tulip"></span><span class="name">白色郁金香盆栽</span><span class="code"><code>potted_white_tulip</code></span></div>
+    <div class="item pinkb"><span class="sprite-block potted_wither_rose" title="Potted Wither Rose"></span><span class="name">凋零玫瑰盆栽</span><span class="code"><code>potted_wither_rose</code></span></div>
+
+    <div class="title"><a name="家装.箱子"></a></div>
+    <div class="item"><span class="sprite-block chest" title="Chest"></span><span class="name">箱子</span><span class="code"><code>chest</code></span></div>
+    <div class="item"><span class="sprite-block ender_chest" title="Ender Chest"></span><span class="name">末影箱</span><span class="code"><code>ender_chest</code></span></div>
+    <div class="item"><span class="sprite-block trapped_chest" title="Trapped Chest"></span><span class="name">陷阱箱</span><span class="code"><code>trapped_chest</code></span></div>
+    <div class="item"><span class="sprite-block shulker_box" title="Shulker Box"></span><span class="name">潜影盒</span><span class="code"><code>shulker_box</code></span></div>
+    <div class="item"><span class="sprite-block black_shulker_box" title="Black Shulker Box"></span><span class="name">黑色潜影盒</span><span class="code"><code>black_shulker_box</code></span></div>
+    <div class="item"><span class="sprite-block blue_shulker_box" title="Blue Shulker Box"></span><span class="name">蓝色潜影盒</span><span class="code"><code>blue_shulker_box</code></span></div>
+    <div class="item"><span class="sprite-block brown_shulker_box" title="Brown Shulker Box"></span><span class="name">棕色潜影盒</span><span class="code"><code>brown_shulker_box</code></span></div>
+    <div class="item"><span class="sprite-block cyan_shulker_box" title="Cyan Shulker Box"></span><span class="name">青色潜影盒</span><span class="code"><code>cyan_shulker_box</code></span></div>
+    <div class="item"><span class="sprite-block gray_shulker_box" title="Gray Shulker Box"></span><span class="name">灰色潜影盒</span><span class="code"><code>gray_shulker_box</code></span></div>
+    <div class="item"><span class="sprite-block green_shulker_box" title="Green Shulker Box"></span><span class="name">绿色潜影盒</span><span class="code"><code>green_shulker_box</code></span></div>
+    <div class="item"><span class="sprite-block light_blue_shulker_box" title="Light Blue Shulker Box"></span><span class="name">淡蓝色潜影盒</span><span class="code"><code>light_blue_shulker_box</code></span></div>
+    <div class="item"><span class="sprite-block light_gray_shulker_box" title="Light Gray Shulker Box"></span><span class="name">淡灰色潜影盒</span><span class="code"><code>light_gray_shulker_box</code></span></div>
+    <div class="item"><span class="sprite-block lime_shulker_box" title="Lime Shulker Box"></span><span class="name">黄绿色潜影盒</span><span class="code"><code>lime_shulker_box</code></span></div>
+    <div class="item"><span class="sprite-block magenta_shulker_box" title="Magenta Shulker Box"></span><span class="name">品红色潜影盒</span><span class="code"><code>magenta_shulker_box</code></span></div>
+    <div class="item"><span class="sprite-block orange_shulker_box" title="Orange Shulker Box"></span><span class="name">橙色潜影盒</span><span class="code"><code>orange_shulker_box</code></span></div>
+    <div class="item"><span class="sprite-block pink_shulker_box" title="Pink Shulker Box"></span><span class="name">粉红色潜影盒</span><span class="code"><code>pink_shulker_box</code></span></div>
+    <div class="item"><span class="sprite-block purple_shulker_box" title="Purple Shulker Box"></span><span class="name">紫色潜影盒</span><span class="code"><code>purple_shulker_box</code></span></div>
+    <div class="item"><span class="sprite-block red_shulker_box" title="Red Shulker Box"></span><span class="name">红色潜影盒</span><span class="code"><code>red_shulker_box</code></span></div>
+    <div class="item"><span class="sprite-block white_shulker_box" title="White Shulker Box"></span><span class="name">白色潜影盒</span><span class="code"><code>white_shulker_box</code></span></div>
+    <div class="item"><span class="sprite-block yellow_shulker_box" title="Yellow Shulker Box"></span><span class="name">黄色潜影盒</span><span class="code"><code>yellow_shulker_box</code></span></div>
+
+    <div class="title"><a name="制造.工具"></a></div>
+    <div class="item"><span class="sprite-block crafting_table" title="Crafting Table"></span><span class="name">工作台</span><span class="code"><code>crafting_table</code></span></div>
+    <div class="item"><span class="sprite-block anvil" title="Anvil"></span><span class="name">铁砧</span><span class="code"><code>anvil</code></span></div>
+    <div class="item"><span class="sprite-block chipped_anvil" title="Chipped Anvil"></span><span class="name">开裂的铁砧</span><span class="code"><code>chipped_anvil</code></span></div>
+    <div class="item"><span class="sprite-block damaged_anvil" title="Damaged Anvil"></span><span class="name">损坏的铁砧</span><span class="code"><code>damaged_anvil</code></span></div>
+    <div class="item"><span class="sprite-block blast_furnace" title="Blast Furnace"></span><span class="name">高炉</span><span class="code"><code>blast_furnace</code></span></div>
+    <div class="item"><span class="sprite-block brewing_stand" title="Brewing Stand"></span><span class="name">酿造台</span><span class="code"><code>brewing_stand</code></span></div>
+    <div class="item"><span class="sprite-block composter" title="Composter"></span><span class="name">堆肥桶</span><span class="code"><code>composter</code></span></div>
+    <div class="item"><span class="sprite-block furnace" title="Furnace"></span><span class="name">熔炉</span><span class="code"><code>furnace</code></span></div>
+    <div class="item"><span class="sprite-block grindstone" title="Grindstone"></span><span class="name">砂轮</span><span class="code"><code>grindstone</code></span></div>
+    <div class="item"><span class="sprite-block hopper" title="Hopper"></span><span class="name">漏斗</span><span class="code"><code>hopper</code></span></div>
+    <div class="item"><span class="sprite-block loom" title="Loom"></span><span class="name">织布机</span><span class="code"><code>loom</code></span></div>
+    <div class="item"><span class="sprite-block smoker" title="Smoker"></span><span class="name">烟熏炉</span><span class="code"><code>smoker</code></span></div>
+    <div class="item"><span class="sprite-block stonecutter" title="Stonecutter"></span><span class="name">切石机</span><span class="code"><code>stonecutter</code></span></div>
+    <div class="item"><span class="sprite-block cartography_table" title="Cartography Table"></span><span class="name">制图台</span><span class="code"><code>cartography_table</code></span></div>
+    <div class="item"><span class="sprite-block enchanting_table" title="Enchanting Table"></span><span class="name">附魔台</span><span class="code"><code>enchanting_table</code></span></div>
+    <div class="item"><span class="sprite-block fletching_table" title="Fletching Table"></span><span class="name">制箭台</span><span class="code"><code>fletching_table</code></span></div>
+    <div class="item"><span class="sprite-block smithing_table" title="Smithing Table"></span><span class="name">锻造台</span><span class="code"><code>smithing_table</code></span></div>
+    <div class="item"><span class="sprite-block cauldron" title="Cauldron"></span><span class="name">炼药锅</span><span class="code"><code>cauldron</code></span></div>
+    <div class="item pinkb"><span class="sprite-block lava_cauldron" title="Lava Cauldron"></span><span class="name">装有熔岩的炼药锅</span><span class="code"><code>lava_cauldron</code></span></div>
+    <div class="item pinkb"><span class="sprite-block powder_snow_cauldron" title="Powder Snow Cauldron"></span><span class="name">装有细雪的炼药锅</span><span class="code"><code>powder_snow_cauldron</code></span></div>
+    <div class="item pinkb"><span class="sprite-block water_cauldron" title="Water Cauldron"></span><span class="name">装有水的炼药锅</span><span class="code"><code>water_cauldron</code></span></div>
+
+    <div class="title"><a name="材料.树叶"></a></div>
+    <div class="item"><span class="sprite-block acacia_leaves" title="Acacia Leaves"></span><span class="name">金合欢树叶</span><span class="code"><code>acacia_leaves</code></span></div>
+    <div class="item"><span class="sprite-block azalea_leaves" title="Azalea Leaves"></span><span class="name">杜鹃树叶</span><span class="code"><code>azalea_leaves</code></span></div>
+    <div class="item"><span class="sprite-block birch_leaves" title="Birch Leaves"></span><span class="name">白桦树叶</span><span class="code"><code>birch_leaves</code></span></div>
+    <div class="item"><span class="sprite-block dark_oak_leaves" title="Dark Oak Leaves"></span><span class="name">深色橡树树叶</span><span class="code"><code>dark_oak_leaves</code></span></div>
+    <div class="item"><span class="sprite-block flowering_azalea_leaves" title="Flowering Azalea Leaves"></span><span class="name">盛开的杜鹃树叶</span><span class="code"><code>flowering_azalea_leaves</code></span></div>
+    <div class="item"><span class="sprite-block jungle_leaves" title="Jungle Leaves"></span><span class="name">丛林树叶</span><span class="code"><code>jungle_leaves</code></span></div>
+    <div class="item"><span class="sprite-block oak_leaves" title="Oak Leaves"></span><span class="name">橡树树叶</span><span class="code"><code>oak_leaves</code></span></div>
+    <div class="item"><span class="sprite-block spruce_leaves" title="Spruce Leaves"></span><span class="name">云杉树叶</span><span class="code"><code>spruce_leaves</code></span></div>
+
+    <div class="title"><a name="材料.成长矿"></a></div>
+    <div class="item"><span class="sprite-block small_amethyst_bud" title="Small Amethyst Bud"></span><span class="name">小型紫晶芽</span><span class="code"><code>small_amethyst_bud</code></span></div>
+    <div class="item"><span class="sprite-block medium_amethyst_bud" title="Medium Amethyst Bud"></span><span class="name">中型紫晶芽</span><span class="code"><code>medium_amethyst_bud</code></span></div>
+    <div class="item"><span class="sprite-block large_amethyst_bud" title="Large Amethyst Bud"></span><span class="name">大型紫晶芽</span><span class="code"><code>large_amethyst_bud</code></span></div>
+    <div class="item"><span class="sprite-block amethyst_cluster" title="Amethyst Cluster"></span><span class="name">紫水晶簇</span><span class="code"><code>amethyst_cluster</code></span></div>
+    <div class="item"><span class="sprite-block amethyst_block" title="Block of Amethyst"></span><span class="name">紫水晶块</span><span class="code"><code>amethyst_block</code></span></div>
+    <div class="item"><span class="sprite-block budding_amethyst" title="Budding Amethyst"></span><span class="name">紫水晶母岩</span><span class="code"><code>budding_amethyst</code></span></div>
+    <div class="item"><span class="sprite-block dripstone_block" title="Dripstone Block"></span><span class="name">滴水石块</span><span class="code"><code>dripstone_block</code></span></div>
+    <div class="item"><span class="sprite-block pointed_dripstone" title="Pointed Dripstone"></span><span class="name">滴水石锥</span><span class="code"><code>pointed_dripstone</code></span></div>
+
+    <div class="title"><a name="材料.矿石"></a></div>
+    <div class="item"><span class="sprite-block raw_gold_block" title="Block of Raw Gold"></span><span class="name">粗金块</span><span class="code"><code>raw_gold_block</code></span></div>
+    <div class="item"><span class="sprite-block coal_ore" title="Coal Ore"></span><span class="name">煤矿石</span><span class="code"><code>coal_ore</code></span></div>
+    <div class="item"><span class="sprite-block copper_ore" title="Copper Ore"></span><span class="name">铜矿石</span><span class="code"><code>copper_ore</code></span></div>
+    <div class="item"><span class="sprite-block deepslate_coal_ore" title="Deepslate Coal Ore"></span><span class="name">深层煤矿石</span><span class="code"><code>deepslate_coal_ore</code></span></div>
+    <div class="item"><span class="sprite-block deepslate_copper_ore" title="Deepslate Copper Ore"></span><span class="name">深层铜矿石</span><span class="code"><code>deepslate_copper_ore</code></span></div>
+    <div class="item"><span class="sprite-block raw_copper_block" title="Block of Raw Copper"></span><span class="name">粗铜块</span><span class="code"><code>raw_copper_block</code></span></div>
+    <div class="item"><span class="sprite-block diamond_ore" title="Diamond Ore"></span><span class="name">钻石矿石</span><span class="code"><code>diamond_ore</code></span></div>
+    <div class="item"><span class="sprite-block deepslate_diamond_ore" title="Deepslate Diamond Ore"></span><span class="name">深层钻石矿石</span><span class="code"><code>deepslate_diamond_ore</code></span></div>
+    <div class="item"><span class="sprite-block emerald_ore" title="Emerald Ore"></span><span class="name">绿宝石矿石</span><span class="code"><code>emerald_ore</code></span></div>
+    <div class="item"><span class="sprite-block deepslate_emerald_ore" title="Deepslate Emerald Ore"></span><span class="name">深层绿宝石矿石</span><span class="code"><code>deepslate_emerald_ore</code></span></div>
+    <div class="item"><span class="sprite-block gold_ore" title="Gold Ore"></span><span class="name">金矿石</span><span class="code"><code>gold_ore</code></span></div>
+    <div class="item"><span class="sprite-block deepslate_gold_ore" title="Deepslate Gold Ore"></span><span class="name">深层金矿石</span><span class="code"><code>deepslate_gold_ore</code></span></div>
+    <div class="item"><span class="sprite-block iron_ore" title="Iron Ore"></span><span class="name">铁矿石</span><span class="code"><code>iron_ore</code></span></div>
+    <div class="item"><span class="sprite-block deepslate_iron_ore" title="Deepslate Iron Ore"></span><span class="name">深层铁矿石</span><span class="code"><code>deepslate_iron_ore</code></span></div>
+    <div class="item"><span class="sprite-block raw_iron_block" title="Block of Raw Iron"></span><span class="name">粗铁块</span><span class="code"><code>raw_iron_block</code></span></div>
+    <div class="item"><span class="sprite-block lapis_ore" title="Lapis Lazuli Ore"></span><span class="name">青金石矿石</span><span class="code"><code>lapis_ore</code></span></div>
+    <div class="item"><span class="sprite-block deepslate_lapis_ore" title="Deepslate Lapis Lazuli Ore"></span><span class="name">深层青金石矿石</span><span class="code"><code>deepslate_lapis_ore</code></span></div>
+    <div class="item"><span class="sprite-block nether_gold_ore" title="Nether Gold Ore"></span><span class="name">下界金矿石</span><span class="code"><code>nether_gold_ore</code></span></div>
+    <div class="item"><span class="sprite-block nether_quartz_ore" title="Nether Quartz Ore"></span><span class="name">下界石英矿石</span><span class="code"><code>nether_quartz_ore</code></span></div>
+    <div class="item"><span class="sprite-block redstone_ore" title="Redstone Ore"></span><span class="name">红石矿石</span><span class="code"><code>redstone_ore</code></span></div>
+    <div class="item"><span class="sprite-block deepslate_redstone_ore" title="Deepslate Redstone Ore"></span><span class="name">深层红石矿石</span><span class="code"><code>deepslate_redstone_ore</code></span></div>
+    <div class="item"><span class="sprite-block ancient_debris" title="Ancient Debris"></span><span class="name">远古残骸</span><span class="code"><code>ancient_debris</code></span></div>
+   
+</body>
+<script src="resource/function.js"></script>
+</html>

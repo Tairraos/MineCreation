@@ -1,0 +1,133 @@
+body {
+    background: #cce8cf;
+    overflow-y: scroll;
+    padding-bottom: 40px;
+}
+
+.item {
+    padding: 5px 3px;
+    display: inline-block;
+    min-width: 330px;
+    white-space: nowrap;
+    width: 330px;
+    margin: 4px 0;
+    overflow: hidden;
+}
+
+.grayb {
+    background-color: #a8a8a866;
+}
+
+.pinkb {
+    background-color: #ffa1a166;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #b40909;
+}
+
+.name {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.code {
+    color: #9c1e1e;
+    cursor: pointer;
+}
+
+code {
+    margin: 0 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.title::before {
+    content: "";
+    display: block;
+    margin: 0;
+    background: linear-gradient(90deg, #1c1818, transparent) -200px no-repeat;
+    margin-bottom: -25px;
+    height: 2px;
+}
+
+.title {
+    font-size: 25px;
+    letter-spacing: 5px;
+    margin: 50px 0 10px;
+    padding-right: 40px;
+    text-align: right;
+    z-index: 1;
+}
+
+.options {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    font-size: 15px;
+    font-family: verdana;
+    bottom: 0px;
+    background: #d8e1e2e0;
+    padding: 5px 0;
+    box-shadow: #0006 0 -2px 3px 0;
+}
+
+.options div {
+    display: inline-block;
+    padding: 2px 15px;
+}
+
+#optfilter,
+#optjump {
+    width: 120px;
+    height: 24px;
+    font-size: 14px;
+}
+
+.rule {
+    padding: 5px 10px;
+    margin: 2px 0 2px 10px;
+    display: inline-block;
+    width: 510px;
+    border: 1px solid #767676;
+    border-radius: 8px;
+}
+
+.rule-text {
+    width: 133px;
+    display: inline-block;
+}
+
+.rule-cmd {
+    color: #1672dd;
+    display: inline-block;
+    width: 240px;
+    font-weight: 900;
+    margin-left: 20px;
+}
+
+.rule-value {
+    display: inline-block;
+    min-width: 25px;
+    font-weight: 900;
+    color: #5e1010;
+    cursor: pointer;
+    margin: 0 5px;
+    text-align: center;
+}
+
+.enchant {
+    padding: 5px 10px;
+    margin: 2px 0 2px 10px;
+    display: inline-block;
+    width: 650px;
+    border: 1px solid #767676;
+    border-radius: 8px;
+}
+
+.enchant-text {
+    cursor: pointer;
+    color: #9d2b2b;
+}
